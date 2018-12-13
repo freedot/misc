@@ -1,0 +1,42 @@
+﻿<html>
+<head>
+    <title>jagile</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/comm.css"/>
+    <link rel="stylesheet" type="text/css" href="css/story.css"/>
+    <link rel="stylesheet" type="text/css" href="css/case.css"/>
+</head>
+<body>
+	<div id="g_root" class="g_root"></div>
+	
+	<script type="text/javascript" charset="utf-8" src="./js/lib/jclass.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/jutil.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/jui.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/jajax.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/jregister.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/rpc/json2.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/lib/rpc/serverStub.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/site-lib/markdownjs/markdown.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/site-lib/calendar/calendar.js"></script>
+	
+	<div id="g_log" class="log_panel"></div>
+	<script type="text/javascript">
+		var debug_flag = false;
+		if ( !debug_flag ) JUtil.hideElem(JUtil.getElemById('g_log'));
+		console = {
+			log : function(msg){
+				if ( !debug_flag ) return;
+				JUtil.getElemById('g_log').innerHTML += msg + '<br/>';
+			}
+		};
+	</script>
+	
+	<script type="text/javascript" charset="utf-8" src="./js/module/util.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/module/string_res.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/module/ui_res.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/module/initServerObjects.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/module/storys.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/module/cases.js"></script>
+
+</body>
+</html>

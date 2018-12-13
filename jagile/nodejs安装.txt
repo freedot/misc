@@ -1,0 +1,51 @@
+Installing from source.
+You will need to download the tar archive of the source code and unpack it into a suitable directory. We will create this directory in /usr/local/src. Note that you will have to use the sudo command in order to write to this directory.
+
+cd /usr/local/src
+sudo mkdir node
+cd node
+sudo wget http://nodejs.org/dist/v0.6.17/node-v0.6.17.tar.gz
+sudo tar -xzvf node-v0.6.17.tar.gz
+We now need to enter the extracted directory and configure the code. The configure script checks your system to see if the required dependencies are present. Since we have installed these earlier it should report that everything is ok. Note that by default the configure script will ensure that Node.js is installed globally for the whole system. If you wish to install it for use by a single user you can follow the extra instructions here.
+
+cd node-v0.6.17
+sudo ./configure
+The make command can now be used to compile and install Node.js.
+
+sudo make
+sudo make install
+This will result in the commands node and npm been installed into the /usr/local/bin directory. Now that Node.js has been installed you may wish to try the example application.
+
+Upgrading from source.
+To upgrade Node.js from source simply download the latest tar archive and repeat the above installation process. The updated version will overwrite the previous version.
+
+Installing with Git.
+The first step is to clone the repository into a suitable directory. For this guide we will use /usr/local/src. Note that you will have to use the sudo command in order to write to this directory.
+
+cd /usr/local/src
+sudo git clone git://github.com/joyent/node.git
+We can now enter the cloned repository and checkout the v0.6.17 branch.
+
+cd node
+sudo git checkout v0.6.17
+We now need to configure the source code by using the provided configure script. This checks your system to see if the required dependencies are present. Since we have installed these earlier it should report that everything is ok. Note that by default the configure script will ensure that Node.js is installed globally for the whole system. If you wish to install it for use by a single user you can follow the extra instructions here.
+
+sudo ./configure
+The make command can now be used to compile and install Node.js.
+
+sudo make
+sudo make install
+This will result in the commands node and npm been installed into the /usr/local/bin directory. Now that Node.js has been installed you may wish to try the example application.
+
+Upgrading via Git.
+To upgrade Node.js you need to go back into the cloned repository and pull down the latest source code.
+
+cd /usr/local/src/node
+sudo git checkout master
+sudo git pull origin master
+You can then checkout the version branch that you wish to upgrade to. To check which versions are available use the git tag command. The upgrade is then performed by using the normal install commands.
+
+sudo git checkout vx.x.x
+sudo ./configure
+sudo make
+sudo make install

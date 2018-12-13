@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 3595934757
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: tss/scripts.ab
+      Dependencies: {}
+    Info_1:
+      Name: ui/login.ab
+      Dependencies:
+        Dependency_0: ui/common/buttons.ab
+    Info_2:
+      Name: ui/common/buttons.ab
+      Dependencies: {}

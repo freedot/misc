@@ -1,0 +1,61 @@
+.g_root{font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',sans-serif;}
+
+.grayLbl1{position:absolute; font-size:12px; color:#a0a0a0;}
+.grayLbl2{position:absolute; font-size:12px; color:#808080;}
+
+.log_panel{overflow-x:hidden; overflow-y:scroll; position:absolute;border: 1px solid #a0a0a0; left:1050px; top:32px; width:600px; height:500px;}
+
+.storyListPanel{position:absolute;}
+.storyList {position:absolute; overflow-x:hidden; overflow-y:scroll; position:absolute;border: 1px solid #a0a0a0;}
+.storyList .item{position:absolute; background-image: url(../images/storyitembk.gif);}
+.storyList .item-hot{position:absolute; background-image: url(../images/storyitembk_hot.gif);}
+.storyList .story{position:absolute; font-size:18px;}
+.storyList .storyLbl{float:left; font-size:18px; color:#000000;}
+.storyList .storyInput{position:absolute; z-index:1; font-size:18px;}
+
+.storyList .toolbar{position:absolute; z-index:1; background-color: #fff;}
+
+.storyList .storyPoints{position:absolute; font-size:12px; color:#a0a0a0;}
+.storyList .storyPointsText{float:left; font-size:12px; color:#a0a0a0;}
+.storyList .storyPointsInput{position:absolute; z-index:1; font-size:12px;}
+
+.storyList .statelbl{position:absolute; left:828px; top:47px; width:40px; height:22px; font-size:12px; color:#c0c0c0;}
+
+.currentSprint{position:absolute;}
+.currentSprint .sprintTime{position:absolute; font-size:12px; color:#000000; border: 1px solid #a0a0a0;}
+.currentSprint .sprintTimeName{float:left; font-size:12px; color:#000000; line-height:20px;}
+.currentSprint .sprintTimeInput{position:absolute; z-index:1;}
+
+.storyEditDlg {}
+.storyEditDlg .commHeadLbl{position:absolute; line-height:20px; font-size:12px; color:#202020;text-align:center;background-color:#d0d0d0;border: solid 1px #fff;}
+.storyEditDlg .storyState{position:absolute;}
+
+.storyWaitingState{position:absolute; background-color:#a0a0a0; }
+.storyRuningState{position:absolute; background-color:#ffc80e;}
+.storyFinishedState{position:absolute; background-color:#00ff00;}
+.storyErrorState{position:absolute; background-color:#f00;}
+
+.storyEditDlg .bindWithTestCase{position:absolute; font-size:12px; color:#000000;}
+
+.storyEditDlg .testcaseList{overflow-x:hidden; overflow-y:scroll;  position:absolute; font-size:12px; color:#000000;  border: 1px solid #a0a0a0;}
+.storyEditDlg .testcaseList .item{position:absolute; background-image: url(../images/storyitembk.gif);}
+.storyEditDlg .testcaseList .item-hot{position:absolute; background-image: url(../images/storyitembk_hot.gif);}
+
+.storyEditDlg .taskList{overflow-x:hidden; overflow-y:scroll; position:absolute; font-size:12px; color:#000000; border: 1px solid #a0a0a0;}
+.storyEditDlg .taskList .item{position:absolute; background-image: url(../images/storyitembk.gif);}
+.storyEditDlg .taskList .item-hot{position:absolute; background-image: url(../images/storyitembk_hot.gif);}
+.storyEditDlg .taskList .taskName{position:absolute; font-size:12px; color:#000000;}
+.storyEditDlg .taskList .taskLabelName{float:left; font-size:12px; color:#000000;}
+.storyEditDlg .taskList .taskInput{position:absolute; z-index:1;}
+
+.storyEditDlg .testcaseList .caseName{position:absolute; font-size:12px; color:#000000;}
+.storyEditDlg .testcaseList .caseLabelName{float:left; font-size:12px; color:#000000;}
+.storyEditDlg .testcaseList .caseInput{position:absolute; z-index:1;}
+
+.caseNopassState{position:absolute; background-color:#f00}
+.casePassState{position:absolute;background-color:#0f0}
+
+.caseDlg{}
+.caseDlg .editor{position:absolute;}
+.caseDlg .preview_border{position:absolute; border: 1px solid #a0a0a0;}
+.caseDlg .preview_border .preview{overflow-x:hidden; overflow-y:scroll; position:absolute;}
