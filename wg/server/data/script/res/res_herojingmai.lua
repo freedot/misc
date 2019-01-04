@@ -1,0 +1,13 @@
+﻿res_herojingmai={{itemid=3000029,needitem=1,preif=50,maxif=90,addhurt={unit=VAL_UNIT.VAL,val=50},addmps={unit=VAL_UNIT.VAL,val=0},adddef={unit=VAL_UNIT.VAL,val=0},needtime=3600,prelevel=60,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=1,needmoney=10000,addhit={unit=VAL_UNIT.PER,val=1},maxLevel=80,id=1}
+,{itemid=3000029,needitem=2,preif=70,maxif=150,addhurt={unit=VAL_UNIT.VAL,val=100},addmps={unit=VAL_UNIT.VAL,val=0},adddef={unit=VAL_UNIT.VAL,val=0},needtime=7200,prelevel=80,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=1,needmoney=20000,addhit={unit=VAL_UNIT.PER,val=2},maxLevel=100,id=2}
+,{itemid=3000030,needitem=1,preif=100,maxif=210,addhurt={unit=VAL_UNIT.VAL,val=150},addmps={unit=VAL_UNIT.VAL,val=100},adddef={unit=VAL_UNIT.VAL,val=0},needtime=14400,prelevel=100,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=2,needmoney=40000,addhit={unit=VAL_UNIT.PER,val=3},maxLevel=110,id=3}
+,{itemid=3000030,needitem=2,preif=170,maxif=270,addhurt={unit=VAL_UNIT.VAL,val=200},addmps={unit=VAL_UNIT.VAL,val=200},adddef={unit=VAL_UNIT.VAL,val=0},needtime=28800,prelevel=110,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=3,needmoney=80000,addhit={unit=VAL_UNIT.PER,val=4},maxLevel=120,id=4}
+,{itemid=3000030,needitem=3,preif=220,maxif=330,addhurt={unit=VAL_UNIT.VAL,val=300},addmps={unit=VAL_UNIT.VAL,val=400},adddef={unit=VAL_UNIT.VAL,val=0},needtime=57600,prelevel=120,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=4,needmoney=160000,addhit={unit=VAL_UNIT.PER,val=5},maxLevel=130,id=5}
+,{itemid=3000031,needitem=1,preif=270,maxif=390,addhurt={unit=VAL_UNIT.VAL,val=450},addmps={unit=VAL_UNIT.VAL,val=600},adddef={unit=VAL_UNIT.VAL,val=0},needtime=115200,prelevel=130,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=6,needmoney=320000,addhit={unit=VAL_UNIT.PER,val=6},maxLevel=140,id=6}
+,{itemid=3000031,needitem=2,preif=320,maxif=450,addhurt={unit=VAL_UNIT.VAL,val=600},addmps={unit=VAL_UNIT.VAL,val=800},adddef={unit=VAL_UNIT.VAL,val=0},needtime=172800,prelevel=140,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=8,needmoney=480000,addhit={unit=VAL_UNIT.PER,val=7},maxLevel=150,id=7}
+,{itemid=3000031,needitem=3,preif=380,maxif=510,addhurt={unit=VAL_UNIT.VAL,val=800},addmps={unit=VAL_UNIT.VAL,val=1000},adddef={unit=VAL_UNIT.VAL,val=0},needtime=230400,prelevel=150,addes={unit=VAL_UNIT.PER,val=0},addber={unit=VAL_UNIT.PER,val=0},needchilindan=10,needmoney=640000,addhit={unit=VAL_UNIT.PER,val=8},maxLevel=150,id=8}
+}
+
+
+
+

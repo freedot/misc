@@ -1,0 +1,128 @@
+-------------------
+
+Error occured on Wednesday, September 9, 2015 at 15:45:19.
+
+E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe caused an Access Violation at location 00420A1A in module E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe Reading from location 00002054.
+
+Registers:
+eax=0027f529 ebx=aa034d83 ecx=646d637b edx=00002054 esi=1877576f edi=00000008
+eip=00420a1a esp=0026f45c ebp=0026f488 iopl=0         nv up ei pl nz ac pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010212
+
+AddrPC   Params
+00420A1A 0027F529 0000000A 0000204C  Connect_d.exe!Net::btea(int*, int, int*)  [E:\MyWork\TqGame\trunk\src\Net\Debug/../DataProcessor.cpp @ 30]
+00409A8D 00000000 0028F580 00000024  Connect_d.exe!Net::DataProcessor::Encrypt(unsigned char, unsigned char const*, int, unsigned char const*, unsigned char*, int*)  [E:\MyWork\TqGame\trunk\src\Net\Debug/../DataProcessor.cpp @ 89]
+00406C56 0028F580 0027F529 0028F52C  Connect_d.exe!ConnectHandler::EncryptPkg(char const*, char*, unsigned int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../ConnectHandler.cpp @ 238]
+00408459 0028F580 00000000 0028F56C  Connect_d.exe!User::SendCommMsg(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 197]
+004082B4 0028F580 00000080 0043CA04  Connect_d.exe!User::SendMsg(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 165]
+00407FAD 0028F6B1 00EBAC3C 0028F6A8  Connect_d.exe!User::SendUserIdAndCltKeyToClient()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 89]
+00407F17 00000005 0028F6A8 0028F590  Connect_d.exe!User::SetState(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 83]
+0040553F 00EBAC3C 0028F6B1 0028F6A8  Connect_d.exe!Connect::AssignHandler(User*, char*, int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 227]
+0040519D 00EBAC3C 0028F6B0 00000298  Connect_d.exe!Connect::HandleRecvData(User*, char*, int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 155]
+00405064 0445A75C 00EB646C 0028FB28  Connect_d.exe!Connect::HandleRecvData(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 129]
+00404D69 0445A75C 0028FE63 0028FB28  Connect_d.exe!Connect::OnRecvEvent(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 71]
+004247EA 0445A75C 0028FB4C 037F0C7F  Connect_d.exe!ServerApp::HandleNetIOEvents(Net::SEvent*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 1007]
+0042489C 00000001 0043B3C8 0028FB88  Connect_d.exe!ServerApp::HandleNetIOEvents(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 966]
+00424CB2 00EB536C 00C89FA8 0028FBD4  Connect_d.exe!ServerApp::Run()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 464]
+00405EA5 00EB536C 00EB1B88 0043BB10  Connect_d.exe!Connect::StartGame(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 398]
+0040608B 00C86A65 0028FE63 00000000  Connect_d.exe!main  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 421]
+00401413 00000001 00000000 00000000  Connect_d.exe!__mingw_CRTStartup  [e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crt1.c @ 254]
+00401585 7EFDE000 4E17753C 00000000  Connect_d.exe
+77949882 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+77949855 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+
+
+-------------------
+
+Error occured on Wednesday, September 9, 2015 at 15:47:50.
+
+E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe caused an Access Violation at location 75C243F9 in module C:\windows\syswow64\MSVCRT.dll Reading from location 00200000.
+
+Registers:
+eax=0028f570 ebx=00200000 ecx=00200000 edx=fffffffe esi=0043ca21 edi=00000073
+eip=75c243f9 esp=0028f48c ebp=0028f574 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+75C243F9 00D5AC3C 646D637B 752C353A  MSVCRT.dll!strlen
+00D5CC98 0028F6B1 00D5AC3C 0028F6A8
+00407F17 00000005 0028F6A8 0028F590  Connect_d.exe!User::SetState(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 83]
+0040553F 00D5AC3C 0028F6B1 0028F6A8  Connect_d.exe!Connect::AssignHandler(User*, char*, int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 227]
+0040519D 00D5AC3C 0028F6B0 00000298  Connect_d.exe!Connect::HandleRecvData(User*, char*, int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 155]
+00405064 044482FC 00D5646C 0028FB28  Connect_d.exe!Connect::HandleRecvData(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 129]
+00404D69 044482FC 0028FE63 0028FB28  Connect_d.exe!Connect::OnRecvEvent(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 71]
+004247EA 044482FC 0028FB4C 037F0C7F  Connect_d.exe!ServerApp::HandleNetIOEvents(Net::SEvent*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 1007]
+0042489C 00000001 0043B3C8 0028FB88  Connect_d.exe!ServerApp::HandleNetIOEvents(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 966]
+00424CB2 00D5536C 01049FA8 0028FBD4  Connect_d.exe!ServerApp::Run()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 464]
+00405EA5 00D5536C 00D51B88 0043BB10  Connect_d.exe!Connect::StartGame(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 398]
+0040608B 01046A65 0028FE63 00000000  Connect_d.exe!main  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 421]
+00401413 00000001 00000000 00000000  Connect_d.exe!__mingw_CRTStartup  [e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crt1.c @ 254]
+00401585 7EFDE000 4E2C4C64 00000000  Connect_d.exe
+77949882 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+77949855 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+
+
+-------------------
+
+Error occured on Wednesday, September 9, 2015 at 15:50:22.
+
+E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe caused an Access Violation at location 75C243F9 in module C:\windows\syswow64\MSVCRT.dll Reading from location 00200000.
+
+Registers:
+eax=0028f570 ebx=00200000 ecx=00200000 edx=fffffffe esi=0043ca21 edi=00000073
+eip=75c243f9 esp=0028f48c ebp=0028f574 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+75C243F9 00E6AC3C 646D637B 752C353A  MSVCRT.dll!strlen
+00E6CC98 0028F6B1 00E6AC3C 0028F6A8
+00407F17 00000005 0028F6A8 0028F590  Connect_d.exe!User::SetState(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 83]
+0040553F 00E6AC3C 0028F6B1 0028F6A8  Connect_d.exe!Connect::AssignHandler(User*, char*, int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 227]
+0040519D 00E6AC3C 0028F6B0 00000298  Connect_d.exe!Connect::HandleRecvData(User*, char*, int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 155]
+00405064 0452829C 00E6643C 0028FB28  Connect_d.exe!Connect::HandleRecvData(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 129]
+00404D69 0452829C 0028FE63 0028FB28  Connect_d.exe!Connect::OnRecvEvent(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 71]
+004247EA 0452829C 0028FB4C 037F0C7F  Connect_d.exe!ServerApp::HandleNetIOEvents(Net::SEvent*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 1007]
+0042489C 00000001 0043B3C8 0028FB88  Connect_d.exe!ServerApp::HandleNetIOEvents(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 966]
+00424CB2 00E6533C 00C89EB8 0028FBD4  Connect_d.exe!ServerApp::Run()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 464]
+00405EA5 00E6533C 00E61D00 0043BB10  Connect_d.exe!Connect::StartGame(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 398]
+0040608B 00C869C5 0028FE63 00000000  Connect_d.exe!main  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 421]
+00401413 00000001 00000000 00000000  Connect_d.exe!__mingw_CRTStartup  [e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crt1.c @ 254]
+00401585 7EFDE000 4E2FB2CC 00000000  Connect_d.exe
+77949882 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+77949855 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+
+
+-------------------
+
+Error occured on Wednesday, September 9, 2015 at 16:05:30.
+
+E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe caused an Access Violation at location 00420A1A in module E:\MyWork\TqGame\trunk\src\Connect\Debug\Connect_d.exe Reading from location 00002054.
+
+Registers:
+eax=0027f529 ebx=eb1b4c83 ecx=646d637b edx=00002054 esi=43a65b8f edi=00000008
+eip=00420a1a esp=0026f45c ebp=0026f488 iopl=0         nv up ei pl nz ac pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010212
+
+AddrPC   Params
+00420A1A 0027F529 0000000F 0000204C  Connect_d.exe!Net::btea(int*, int, int*)  [E:\MyWork\TqGame\trunk\src\Net\Debug/../DataProcessor.cpp @ 30]
+00409A8D 00000000 0028F580 00000036  Connect_d.exe!Net::DataProcessor::Encrypt(unsigned char, unsigned char const*, int, unsigned char const*, unsigned char*, int*)  [E:\MyWork\TqGame\trunk\src\Net\Debug/../DataProcessor.cpp @ 89]
+00406C56 0028F580 0027F529 0028F52C  Connect_d.exe!ConnectHandler::EncryptPkg(char const*, char*, unsigned int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../ConnectHandler.cpp @ 238]
+00408457 0028F580 00000000 0028F56C  Connect_d.exe!User::SendCommMsg(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 197]
+004082B2 0028F580 00000080 0043CA04  Connect_d.exe!User::SendMsg(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 165]
+00407FAB 0028F6B1 003DAC3C 0028F6A8  Connect_d.exe!User::SendUserIdAndCltKeyToClient()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 89]
+00407F17 00000005 0028F6A8 0028F590  Connect_d.exe!User::SetState(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../User.cpp @ 83]
+0040553F 003DAC3C 0028F6B1 0028F6A8  Connect_d.exe!Connect::AssignHandler(User*, char*, int&)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 227]
+0040519D 003DAC3C 0028F6B0 00000298  Connect_d.exe!Connect::HandleRecvData(User*, char*, int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 155]
+00405064 0445829C 003D643C 0028FB28  Connect_d.exe!Connect::HandleRecvData(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 129]
+00404D69 0445829C 0028FE63 0028FB28  Connect_d.exe!Connect::OnRecvEvent(Net::SEvent const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 71]
+004247EA 0445829C 0028FB4C 037F0C7F  Connect_d.exe!ServerApp::HandleNetIOEvents(Net::SEvent*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 1007]
+0042489C 00000001 0043B3C8 0028FB88  Connect_d.exe!ServerApp::HandleNetIOEvents(int)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 966]
+00424CB2 003D533C 00FC9EB8 0028FBD4  Connect_d.exe!ServerApp::Run()  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../../include/serverApp.h @ 464]
+00405EA5 003D533C 003D1D00 0043BB10  Connect_d.exe!Connect::StartGame(char const*)  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 398]
+0040608B 00FC69C5 0028FE63 00000000  Connect_d.exe!main  [E:\MyWork\TqGame\trunk\src\Connect\Debug/../Connect.cpp @ 421]
+00401413 00000001 00000000 00000000  Connect_d.exe!__mingw_CRTStartup  [e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crt1.c @ 254]
+00401585 7EFDE000 4E3C9C9E 00000000  Connect_d.exe
+77949882 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+77949855 00401570 7EFDE000 00000000  ntdll.dll!RtlInitializeExceptionChain
+
+

@@ -1,0 +1,5 @@
+msg_config.xml
+	是配置所有的gamesvr和httpsvr的共享通道
+
+gamesvr/sys_config.xml
+	

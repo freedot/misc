@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SysConfig>
+	<DynReg>
+		<Dyn regname="ILogSys" path="./libLogSys" uuid="{4312CD49-3210-4cd6-B83B-A7BA0530347C}"/>
+		<Dyn regname="IFileManager" path="./libFileSys" uuid="{6179660C-1AA3-49c2-BF70-3A7521CD5352}"/>
+		<Dyn regname="IEventSys" path="./libEventSys" uuid="{04E37DAE-9D02-40db-91CA-306D01AB624E}"/>
+		<Dyn regname="IUpdateSys" path="./libUpdateSys" uuid="{0E1694FD-2AA4-4d07-BCB7-1BECC71CB058}"/>
+		<Dyn regname="IScriptSys" path="./libScriptSys" uuid="{ECC0929B-11DC-4175-BCE9-E9AED369DBE1}"/>
+		<Dyn regname="ITime" path="./libTimeSys" uuid="{0206A677-529E-4264-9F07-F91C10AEBB87}"/>
+		<Dyn regname="ITimerQueue" path="./libTimeSys" uuid="{7292645E-9B07-4c76-926B-332D18F40577}"/>
+		<Dyn regname="ITimerQueueEx" path="./libTimeSys" uuid="{2292646E-1B07-4175-826C-222D18F40577}"/>
+		
+		<Dyn regname="" path="./libEventSys" uuid="{C962C784-4C24-45db-BE06-493EDF8FAA27}" desc="IUID_IEVENTHANDLER"/>
+	</DynReg>
+	
+	<ListenerReg>
+		<Event>
+		</Event>
+		
+		<Update>
+			<Listener name="IScriptSys"/>
+		</Update>
+		
+	</ListenerReg>
+	
+	<ScriptModuleReg>
+	</ScriptModuleReg>
+	
+</SysConfig>

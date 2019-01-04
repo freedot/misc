@@ -1,0 +1,8 @@
+[string "E:/MyWork/TqGame/trunk/data/script/root.lua"]:31: module 'res.res_string' not found:
+	no field package.preload['res.res_string']res.res_string
+	no file '.\res\res_string.dll'
+	no file 'E:\MyWork\TqGame\trunk\bin\res\res_string.dll'
+	no file 'E:\MyWork\TqGame\trunk\bin\loadall.dll'
+	no file '.\res.dll'
+	no file 'E:\MyWork\TqGame\trunk\bin\res.dll'
+	no file 'E:\MyWork\TqGame\trunk\bin\loadall.dll'

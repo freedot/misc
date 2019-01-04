@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone='no'?>
+<!-- 加密算法的类型 -->
+<EncryptType type="int" value="1" />
+<!-- db的主机ip -->
+<DBHostIp type="string" value="127.0.0.1" />
+<!-- db的主机port -->
+<DBHostPort type="int" value="3306" />
+<!-- 登录db的主机的用户名 -->
+<DBUsername type="string" value="root" />
+<!-- 登录db的主机的密码-->
+<DBPassword type="string" value="123" />
+<!-- db的库文件-->
+<Database type="string" value="32wan_zone00001" />
+<!-- db中的字符集 -->
+<DBCharacterSet type="string" value="utf8" />
+<!-- 线id -->
+<ZoneId type="int" value="1" />

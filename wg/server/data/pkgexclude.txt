@@ -1,0 +1,9 @@
+.dll$
+.dat$
+.ilk$
+.txt$
+.xml$
+.log$
+.svn$
+.project$
+^E:\MyWork\TqGame\trunk\data\config$

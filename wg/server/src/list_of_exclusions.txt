@@ -1,0 +1,8 @@
+.project
+.cproject
+.d
+.a
+.o
+.so
+.dll
+.exe

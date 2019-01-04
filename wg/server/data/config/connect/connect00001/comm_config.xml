@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 日志输出目录 -->
+<Log type="string" value="data/log/connect00001" />
+
+<!-- 该服务器节点当前的名称,该名称是当前服务器的唯一标识 -->
+<ServerName type="string" value="connect00001" />
+
+<!-- 设置等待IOEvent的最大个数 -->
+<IOEventMaxCount type="int" value="10" />
+
+<!-- 设置等待IOEvent的超时，单位是毫秒 -->
+<WaitIOEventTimeOutMs type="int" value="1" />
+
+<!-- 设置在单轮循环中可处理messager中包个数最大值 -->
+<MessagerMaxCount type="int" value="10" />
+
+<!-- 设置主socket的绑定端口 (8000 + zoneid) -->
+<HostBindPort type="int" value="8001" />
+
+<!-- 设置主socket的监听缓冲个数 -->
+<ListenNumber type="int" value="5" />
+
+<!-- 设置主socket的发送缓冲区最大长度 -->
+<HostSocketSendMaxLen type="int" value="1024" />
+
+<!-- 设置客户端socket的接收缓冲区最大长度 -->
+<ClientSocketRecvMaxLen type="int" value="10240" />
+
+<!-- 设置客户端socket的发送缓冲区最大长度 -->
+<ClientSocketSendMaxLen type="int" value="102400" />
+
+<!-- 设置接收messager的缓冲区最大长度 -->
+<MessageBufferMaxSize type="int" value="1024" />
+
+<!-- 容许连接的最大客户端数 -->
+<ClientMaxSocketCount type="int" value="100" />
+
+<!-- 该短连接的保持时长，单位是秒 -->
+<ClientActiveSec type="int" value="60" />
+
+<!-- 读取每次循环等待的时间间隔，单位微秒-->
+<SleepUs type="int" value="1000" />

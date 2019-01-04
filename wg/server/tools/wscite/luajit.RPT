@@ -1,0 +1,21 @@
+-------------------
+
+Error occured on Tuesday, February 16, 2016 at 20:28:39.
+
+E:\MyWork\TqGame\trunk\tools\wscite\luajit.exe caused an Access Violation at location 6EA0FE88 in module E:\MyWork\TqGame\trunk\bin\libGameScript.so Reading from location 00000007.
+
+Registers:
+eax=00201287 ebx=36ac9b8f ecx=ffffffff edx=0032c4a8 esi=0000000c edi=6ea2e307
+eip=6ea0fe88 esp=0028fbd0 ebp=fffffffb iopl=0         nv up ei ng nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010282
+
+AddrPC   Params
+6EA0FE88 003201C0 6EA2E307 0000000C  libGameScript.so!DestroyInterface
+6EA028EB 003201C0 6EA2E307 0028FC78  libGameScript.so!DestroyInterface
+6EA1EB93 00000000 003201C0 457D0265  libGameScript.so!DestroyInterface
+6EB03842 003201C0 0032C4B8 003201C0  luaut.dll!luaopen_luaut
+66D828CF 003201F0 00000000 009BEF80  lua51.dll
+00010661 00000000 009BEF80 009BEF88
+003201F0 009BEF80 009BEF88 009BF4C0
+
+

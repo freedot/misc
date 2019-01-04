@@ -1,0 +1,2 @@
+connect
+@debug E:\TqGame\src\tools\MatEditor\

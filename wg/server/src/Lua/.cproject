@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua_d" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}_d" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.lib.debug" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.debug.1552246126" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.debug.506930560" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.debug"/>
+							<builder buildPath="${workspace_loc:/Lua/Debug}" id="cdt.managedbuild.builder.gnu.cross.1979531124" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.534246296" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1544126622" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.804361993" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.1460743586" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug">
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level.1020146680" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level.600128685" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.1284641594" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.lib.debug.option.optimization.level.891728464" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.debug.option.debugging.level.1913095260" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.1922048190" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.1059390186" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1525499441" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1675584797" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.2141753880" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397" name="Release" parent="cdt.managedbuild.config.gnu.mingw.lib.release" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.release.255372824" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.release.945891442" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.release"/>
+							<builder buildPath="${workspace_loc:/Lua/Release}" id="cdt.managedbuild.builder.gnu.cross.748017611" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.262775124" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.360033434" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.1998021589" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.263044470" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release">
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.optimization.level.1638864160" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.debugging.level.68977250" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.685062649" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.lib.release.option.optimization.level.1550768753" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.release.option.debugging.level.611688931" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1979229807" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.465018914" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.260118546" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.732742111" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331" moduleId="org.eclipse.cdt.core.settings" name="Debug_luaexe">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Debug_luaexe"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="lua_d" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331" name="Debug_luaexe" parent="cdt.managedbuild.config.gnu.mingw.lib.debug" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.debug.124767728" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.debug.359419554" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.debug"/>
+							<builder buildPath="${workspace_loc:/Lua/Debug}" id="cdt.managedbuild.builder.gnu.cross.205836264" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.1517902257" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2089358720" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.1769983750" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1982367393" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.752468945" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug">
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level.1669856679" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level.1202126188" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " commandLinePattern="${COMMAND} -DLUA_EXE ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS} " id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.1857522770" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.lib.debug.option.optimization.level.792214536" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.debug.option.debugging.level.811964187" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.1260507289" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.2036718074" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.503497493" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.905253198" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option id="gnu.c.link.option.paths.1921426629" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../lib"/>
+								</option>
+								<option id="gnu.c.link.option.libs.1697551124" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.951319341" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.538576584" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594" moduleId="org.eclipse.cdt.core.settings" name="Release_luaexe">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Release_luaexe"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="lua" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594" name="Release_luaexe" parent="cdt.managedbuild.config.gnu.mingw.lib.release" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.release.29979786" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.release.177025017" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.release"/>
+							<builder buildPath="${workspace_loc:/Lua/Release}" id="cdt.managedbuild.builder.gnu.cross.121342097" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.1962753372" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1318964459" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.145908142" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1078986404" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.229910989" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release">
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.optimization.level.1864481938" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.debugging.level.675212357" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " commandLinePattern="${COMMAND} -DLUA_EXE ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.1597997209" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.lib.release.option.optimization.level.877921248" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.release.option.debugging.level.1276898872" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.64239632" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2055002086" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.445591686" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option id="gnu.c.link.option.paths.4570329" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../lib"/>
+								</option>
+								<option id="gnu.c.link.option.libs.2000894623" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.33741450" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.282306150" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331.1637318530">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331.1637318530" moduleId="org.eclipse.cdt.core.settings" name="Debug_luacexe">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Debug_luaexe"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="luac_d" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331.1637318530" name="Debug_luacexe" parent="cdt.managedbuild.config.gnu.mingw.lib.debug" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.240802331.1637318530." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.debug.1922593565" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.debug.1989703878" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.debug"/>
+							<builder buildPath="${workspace_loc:/Lua/Debug}" id="cdt.managedbuild.builder.gnu.cross.1459778406" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.147810561" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1677870525" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.1002483711" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.2025780887" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.1943942122" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug">
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level.525603290" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level.1685465886" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " commandLinePattern="${COMMAND} -DLUAC_EXE ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS} " id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.1379330765" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.lib.debug.option.optimization.level.841484320" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.debug.option.debugging.level.1540731535" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.1116425802" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.914582068" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1723134359" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.394532019" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option id="gnu.c.link.option.paths.1646121869" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../lib"/>
+								</option>
+								<option id="gnu.c.link.option.libs.327748060" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1766939444" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1664827500" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594.2120029588">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594.2120029588" moduleId="org.eclipse.cdt.core.settings" name="Release_luacexe">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Lua"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Lua/Release_luaexe"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="Lua" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="luac" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594.2120029588" name="Release_luacexe" parent="cdt.managedbuild.config.gnu.mingw.lib.release" postbuildStep="python ../postbuild.py">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.262358594.2120029588." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.release.1167125690" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.release.283392071" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.release"/>
+							<builder buildPath="${workspace_loc:/Lua/Release}" id="cdt.managedbuild.builder.gnu.cross.535879788" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.791798530" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1125168430" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.667307707" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1535862423" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.440661936" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release">
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.optimization.level.358347794" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.debugging.level.1222074098" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc -fPIC " commandLinePattern="${COMMAND} -DLUAC_EXE ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.2079304117" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.lib.release.option.optimization.level.837286345" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.release.option.debugging.level.1510087892" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.719684395" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../include/lua"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1117681104" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.618379539" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option id="gnu.c.link.option.paths.723091575" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../lib"/>
+								</option>
+								<option id="gnu.c.link.option.libs.431964622" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.443390725" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.335261051" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Lua.cdt.managedbuild.target.gnu.mingw.lib.731219561" name="Static Library" projectType="cdt.managedbuild.target.gnu.mingw.lib"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.lib.debug.407882940;cdt.managedbuild.config.gnu.mingw.lib.debug.407882940.;cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.1284641594;cdt.managedbuild.tool.gnu.c.compiler.input.1525499441">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.lib.release.1081880397;cdt.managedbuild.config.gnu.mingw.lib.release.1081880397.;cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.685062649;cdt.managedbuild.tool.gnu.c.compiler.input.465018914">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

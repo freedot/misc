@@ -1,0 +1,3 @@
+1、需要保存 神奇的 33.tree 文件，才能正确用eclipse打开
+2、在windows下编译，需要在src/lib下生成两个空的 (在windows下的)librt.a libdl.a 库文件
+3、在linux下编译，需要在src/lib/mslib下生成空的 (在linux下的)libws2_32.a 库文件

@@ -1,0 +1,17 @@
+.dll$
+.dat$
+.ilk$
+.txt$
+.xml$
+.log$
+.svn$
+.project$
+.cproject$
+^E:\MyWork\TqGame\trunk\data\config$
+^E:\MyWork\TqGame\trunk\data\log$
+^/home/ubuntu/work/data/config$
+^/home/ubuntu/work/data/log$
+^/home/ubuntu/work/data/script/res$
+^/mydata/game/work/data/config$
+^/mydata/game/work/data/log$
+^/mydata/game/work/data/script/res$

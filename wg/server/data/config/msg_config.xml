@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Default>
+  <ServerPath value="ComMessager.exe" />
+  <HostPort value="35345" />
+  <ShareMemSize value="1024" />
+  <SendPipe bufsize="1048576" />
+  <RecvPipe bufsize="1048576" />
+</Default>
+
+<Nodes>
+  <Node>
+    <OwnerName value="gamesvr00001" />
+    <Id value="1"/>
+    <HostIp value="127.0.0.1:1122" />
+  </Node>
+  <Node>
+    <OwnerName value="connect00001" />
+    <Id value="2"/>
+    <HostIp value="127.0.0.1:1122" />
+  </Node>
+  <Node>
+    <OwnerName value="gamesvr00002" />
+    <Id value="3"/>
+    <HostIp value="127.0.0.1:1122" />
+  </Node>
+  <Node>
+    <OwnerName value="connect00002" />
+    <Id value="4"/>
+    <HostIp value="127.0.0.1:1122" />
+  </Node>
+</Nodes>
+
+<Links>
+  <Link>
+    <From value="gamesvr00001" />
+    <To value="connect00001" />
+    <SendPipe bufsize="1048576" sharememkey="100001"/>
+    <RecvPipe bufsize="1048576" sharememkey="100002"/>
+  </Link>
+  <Link>
+    <From value="gamesvr00002" />
+    <To value="connect00002" />
+    <SendPipe bufsize="1048576" sharememkey="100003"/>
+    <RecvPipe bufsize="1048576" sharememkey="100004"/>
+  </Link>
+</Links>

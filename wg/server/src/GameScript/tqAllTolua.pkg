@@ -1,0 +1,24 @@
+$pfile "tqTypedef.pkg"
+
+$#pragma GCC diagnostic ignored "-Wunused-function"
+
+$cfile "EventCast.h"
+
+$cfile "../include/result.h"
+$cfile "../include/eventtype.h"
+$cfile "../include/baseevent.h"
+$cfile "../include/messagerCmd.h"
+$cfile "../include/IDatabase.h"
+$cfile "../include/IScriptSys.h"
+
+// 和服务器相关的
+$cfile "../GameSvr/tqRoleVar.h"
+$cfile "../GameSvr/IScriptPub.h"
+$cfile "../GameSvr/IGridsManager.h"
+$cfile "../GameSvr/IRankManager.h"
+$cfile "../GameSvr/IRank.h"
+$cfile "../GameSvr/IProxyServer.h"
+
+$using namespace IO;
+$using namespace Script;
+
