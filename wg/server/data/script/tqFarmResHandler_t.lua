@@ -442,10 +442,10 @@ local TestCaseBaseGatherFarmResHdr = TestCase:extends({
 		self.hdr.player = self.player
 		self.hdr:_sendCombinedCommRes()
 		assertEQ ( self.mm.walkLog, 'sendSysMsgArgs,sendSysMsgArgs,sendSysMsgArgs,sendSysMsgArgs' )
-		assertEQ ( self.mm.params['sendSysMsgArgs.1'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.WOOD .. '",' .. 1} )
-		assertEQ ( self.mm.params['sendSysMsgArgs.2'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.STONE .. '",' .. 2} )
-		assertEQ ( self.mm.params['sendSysMsgArgs.3'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.FOOD .. '",' .. 30} )
-		assertEQ ( self.mm.params['sendSysMsgArgs.4'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.IRON .. '",' .. 3} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.1'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.IRON .. '",' .. 3} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.2'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.FOOD .. '",' .. 30} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.3'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.WOOD .. '",' .. 1} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.4'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.STONE .. '",' .. 2} )
 		
 		self.hdr.nums = {{resid=FIXID.FARM, num=10},{resid=FIXID.FARM, num=20}
 			,{resid=FIXID.TIMBERYARD, num=1} 
@@ -454,9 +454,9 @@ local TestCaseBaseGatherFarmResHdr = TestCase:extends({
 		self.mm:clear()
 		self.hdr:_sendCombinedCommRes()
 		assertEQ ( self.mm.walkLog, 'sendSysMsgArgs,sendSysMsgArgs,sendSysMsgArgs' )
-		assertEQ ( self.mm.params['sendSysMsgArgs.1'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.WOOD .. '",' .. 1} )
-		assertEQ ( self.mm.params['sendSysMsgArgs.2'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.STONE .. '",' .. 2} )
-		assertEQ ( self.mm.params['sendSysMsgArgs.3'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.FOOD .. '",' .. 30} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.1'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.FOOD .. '",' .. 30} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.2'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.WOOD .. '",' .. 1} )
+		assertEQ ( self.mm.params['sendSysMsgArgs.3'], {self.player, SMSGT.SYSCHANNEL, CHAT_TAG.SYS, 100026, '"@itemid' .. FIXID.STONE .. '",' .. 2} )
 	end;
 	
 	test__addGetSelfResLogs = function(self)

@@ -1,0 +1,1 @@
+Payment=Class.extern(function(){var a=null,b=null;this.init=function(){a=this},this.initOneTime=function(a){b=a},this.pay=function(){fusion2.dialog.pay({zoneid:pay_zone_id,sandbox:!0,onClose:a._closePay}),PaymentSender.sendStartPay(b)},this._closePay=function(){PaymentSender.sendStopPay(b)}}).snew()

@@ -10,7 +10,7 @@
 <!-- 登录db的主机的密码-->
 <DBPassword type="string" value="123" />
 <!-- db的库文件-->
-<Database type="string" value="32wan_zone00001" />
+<Database type="string" value="new_zone01" />
 <!-- db中的字符集 -->
 <DBCharacterSet type="string" value="utf8" />
 <!-- 线id -->

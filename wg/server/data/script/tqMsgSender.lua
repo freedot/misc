@@ -58,7 +58,7 @@ StringBuffer = Class:extends({
 	end;
 	
 	format = function(self, fmt, ... )
-		self.s_ = string.format(fmt, unpack(arg))
+		self.s_ = string.format(fmt, ...)
 	end;
 	
 	puts = function(self, s)
@@ -76,7 +76,7 @@ stringbuf = Class:extends({
 	end;
 	
 	format = function(self, fmt, ... )
-		self.s_ = string.format(fmt, unpack(arg))
+		self.s_ = string.format(fmt, ...)
 	end;
 	
 	puts = function(self, s)
@@ -116,7 +116,7 @@ XDInfoHelper = Class:extends({
 MsgSender = Class:extends({
 	invoke = function(self, methodName, player, ...)
 		if not self:isCanSend(player) then return end
-		self[methodName](self, player, unpack(arg))
+		self[methodName](self, player, ...)
 	end;
 	
 	getCommListMsg = function(self, items, first, last, obj, combineItemCaller, getitemkey)

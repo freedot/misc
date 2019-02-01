@@ -1,0 +1,1 @@
+{"version":3,"file":"guimgr.js","sourceRoot":"","sources":["../../tss/gui/guimgr.ts"],"names":["GuiMgr","GuiMgr.constructor","GuiMgr.initDlg"],"mappings":"AAAA;IAAAA;IAGAC,CAACA;IAFGD,wBAAOA,GAAPA,UAAUA,GAAOA,EAAEA,KAASA,EAAEA,KAASA;IACvCE,CAACA;IACLF,aAACA;AAADA,CAACA,AAHD,IAGC;AAED,iBAAS,MAAM,CAAC"}

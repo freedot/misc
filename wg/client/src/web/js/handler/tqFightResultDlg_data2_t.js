@@ -1,0 +1,20 @@
+fightresult={
+result:1,
+attacker:{
+  role:{name:"source_r",icon:0,level:1,objType:1,alli:"--"},
+  heros:[
+    {name:"shero1",level:2,soldier:{resid:150001010,number:10,loss:0,revive:0},addExp:5,addCredit:0},
+    {name:"shero2",level:1,soldier:{resid:150002005,number:10,loss:0,revive:0},addExp:5,addCredit:0}
+  ],
+  gainres:{},
+  getdrop:[{val:5,type:"heroexp"}]
+},
+defender:{
+  role:{name:"defender_r",icon:101,level:1,objType:5,alli:"--"},
+  heros:[
+    {name:"dhero1",level:1,soldier:{resid:150001001,number:5,loss:5,revive:0},addExp:0,addCredit:0}
+  ],
+  lossres:{},defexpend:{},getdrop:[]
+},
+defenderParty:"defender_r"
+};

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ui edit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script language="JavaScript">
+G_ID_ASCCOMP = function(a, b){return a.id - b.id;};
+</script>
+
+<script language="JavaScript">
+  setlogtime=function(){};log=function(msg){};profile=function(flag,key){};
+</script>
+
+<script language="JavaScript">
+image_base_url='./images/';
+</script>
+
+<script src="./js/jclass.js" type="text/javascript"></script>
+<script src="./js/caller.js" type="text/javascript"></script>
+<script src="./js/globalvar.js" type="text/javascript"></script>
+<script src="./js/loader.js" type="text/javascript"></script>
+<script src="./js/commutil.js" type="text/javascript"></script>
+<script src="./js/res/res_fixid.js" type="text/javascript"></script>
+<script src="./js/res/res_fixid_ex.js" type="text/javascript"></script>
+<script src="./js/res/res_string.js" type="text/javascript"></script>
+<script src="./js/res/res_uiback.js" type="text/javascript"></script>
+<script src="./js/res/res_all_helps.js" type="text/javascript"></script>
+<script src="./js/res/res_newui_mb_cls.js" type="text/javascript"></script>
+<script src="./js/base/tqclass.js" type="text/javascript"></script>
+<script src="./js/res/res_images.js" type="text/javascript"></script>
+<script src="./js/tqTQ.js" type="text/javascript"></script>
+<script src="./js/tqWindowResizer.js" type="text/javascript"></script>
+<script src="./js/res/res_defs_forpy.js" type="text/javascript"></script>
+<script src="./js/res/res_defs.js" type="text/javascript"></script>
+<script src="./js/res/res_stateeffects.js" type="text/javascript"></script>
+<script src="./js/res/res_avatarclts.js" type="text/javascript"></script>
+<script src="./js/res/res_attrs.js" type="text/javascript"></script>
+<script src="./js/res/res_classs.js" type="text/javascript"></script>
+<script src="./js/res/res_sounds.js" type="text/javascript"></script>
+<script src="./js/ui/tqComButton.js" type="text/javascript"></script>
+<script src="./js/ui/tqProgressBar.js" type="text/javascript"></script>
+<script src="./js/ui/tqCheckBox.js" type="text/javascript"></script>
+<script src="./js/ui/tqTabPanel.js" type="text/javascript"></script>
+<script src="./js/ui/tqPageNavigate.js" type="text/javascript"></script>
+<script src="./js/ui/tqList.js" type="text/javascript"></script>
+<script src="./js/ui/tqUI.js" type="text/javascript"></script>
+<script src="./js/ui/tqPopPanel.js" type="text/javascript"></script>
+<script src="./js/ui/tqMenu.js" type="text/javascript"></script>
+<script src="./js/ui/tqDialog.js" type="text/javascript"></script>
+<script src="./js/ui/tqScroller.js" type="text/javascript"></script>
+<script src="./js/ui/tqDropList.js" type="text/javascript"></script>
+<script src="./js/ui/tqSpinInput.js" type="text/javascript"></script>
+<script src="./js/ui/tqTooltip.js" type="text/javascript"></script>
+<script src="./js/ui/tqMessageBox.js" type="text/javascript"></script>
+<script src="./js/ui/tqSysMsgTipsBox.js" type="text/javascript"></script>
+<script src="./js/help/res_help.js" type="text/javascript"></script>
+<script src="./js/tqGameApp.js" type="text/javascript"></script>
+<script src="./js/handler/tqBaseDlg.js" type="text/javascript"></script>
+<script src="./js/handler/tqSoundMgr.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="./css/style_layers.css" />
+<link rel="stylesheet" type="text/css" href="./css/gameui.css" />
+<link rel="stylesheet" type="text/css" href="./css/game.css" />
+</head>
+<body>
+ 
+<div id="size_div" name="size_div" class="size_div"></div>
+<div id="scrollbar_div" name="scrollbar_div" class="scrollbar_div"><div class="scrollbar_div_con"></div></div>
+<div id="g_body" class="g_body" ondragstart="return false;"></div>
+
+<script language="JavaScript">
+var PreGlobalPub = JClass.ex({
+	_init : function(){
+		this._windowResizer = WindowResizer.snew(this);
+		this._imgr = null;
+		this._gui = new UI(this);
+	}
+	,getImgr: function(){
+		return this._imgr;
+	}
+	,getGUI: function(){
+		return this._gui;
+	}
+	,getWinSizer: function(){
+		return this._windowResizer;
+	}
+	,regEvent: function(eid, sid, self, fun) {
+	}
+	,sendEvent : function(e) {
+	}
+	,pendEvent : function(e) {
+	}
+	,regUpdater : function(self, fun, intervalMs, notImmUpdate) {
+	}
+	,unregUpdater : function(self, fun){
+	}
+});
+var global_pub = PreGlobalPub.snew();
+var UIPreViewDlg = JBaseDlg.ex({
+	_getDlgCfg : function(){
+		return {modal:true, title:'no title', pos:{x:0, y:0}, uicfg:{'c_':{'a':0,'h':746,'z':[{'a':19,'g':3,'f':3,'i':354,'h':156,'z':[{'a':2,'b':1,'e':'herolist','g':3,
+'f':2,'i':349,'h':152,'k':0}]},{'a':12,'e':'tablist','ag':[1,5,4,6,2],'g':3,'f':672,'i':331,'h':65},{
+'a':13,'e':'tablist','ag':[1,5,4,6,2],'g':3,'f':163,'i':347,'h':506}],'m':'herodlg','i':364}}};
+	}
+});
+UIPreViewDlg.snew(global_pub).openDlg();
+</script>
+</body>
+</html>

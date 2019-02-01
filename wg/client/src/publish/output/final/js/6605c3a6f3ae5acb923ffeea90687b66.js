@@ -1,0 +1,1 @@
+RoleStateHandler=Class.extern(function(){var a=null,b=null;this.init=function(e){a=e,b=this,a.regEvent(EVT.LOGIN_OK,0,b,c),a.regEvent(EVT.NET,NETCMD.ROLESTATE,b,d)};var c=function(){RoleStateSender.getAllStates(a)},d=function(b){var c=b.data;c.states&&(TQ.dictCopy(a.getImgr().getRoleStates(),c.states),a.sendEvent({eid:EVT.ROLESPECSTATE_CHANGE,sid:0}))}})

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TestParser">
+</Property><Property Name="Solution File" Value="E:\packer2\TestParser.sln">
+</Property><Property Name="Date" Value="2011年9月8日">
+</Property><Property Name="Time" Value="9:29">
+</Property></Properties><Event ErrorLevel="0" Project="TestParser" Source="TestParser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestParser" Source="TestParser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TestParser.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TestParser.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestParser" Source="TestParser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

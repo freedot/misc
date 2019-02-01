@@ -1,0 +1,18 @@
+http://www.my-debugbar.com/wiki/CompanionJS/HomePage
+
+
+
+
+
+
+IE js调试工具
+IE js调试工具Companion.JS，类似Firefox下的firebug，这的确是一个不错的js调试工具，希望能为各位web开发者带来方便，这可不是一个js文件，而是一个名字，它是作为ie的插件来安装使用的，而且需要结合Microsoft Script Debugger使用，通过安装这个工具，但页面出现错误时会在左上角弹出一个小错误提示，点击会在IE下面显示出一个错误控制台，就如FF下的 firebug控制台一样。错误信息提示很详细。 如下是官网的一个错误提示示例图：
+官网地址：a 
+具体使用方法为： 
+1、先下载Companion.JS安装文件，然后安装。 
+2、下载安装Microsoft Script Debugger，如果您的机器已经安装过了就可以免过这一步。 
+3、打开IE菜单“工具”--“Internet选项”--“高级”，找到“禁用脚本调试(Internet Explorer)”和“禁用脚本调试(在Internet Explorer之外)”，将两个选项前面的对钩都去掉，然后重启IE。 
+4、在Ie中输入：http://www.my-debugbar.com/wiki/uploads/CompanionJS/dummy.htm，然后点击click me链接，如果左上角弹出一个小错误提示或下面控制台出现了错误信息提示，就说明您已经安装成功了。
+提示：Microsoft Script Debugger 下载 Microsoft Script Debugger 有两个下载版本可用，请按您的操作系统选择相应的下载版本。 dbg10chs.exe 需要 Microsoft Windows 98 或 Millennium Edition (Me) - scd10chs.exe 需要 Windows XP、2000 或 NT 4.0。 
+dbg10chs.exe: http://download.microsoft.com/download/winscript56/Install/1.0/W9XMe/CN/dbg10chs.exe 
+scd10chs.exe: http://download.microsoft.com/download/winscript56/Install/1.0/W9XMe/CN/scd10chs.exe

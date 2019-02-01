@@ -1,0 +1,1 @@
+{"version":3,"file":"caller.js","sourceRoot":"","sources":["../../tss/com/caller.ts"],"names":["NullCaller","NullCaller.constructor","NullCaller.invoke"],"mappings":"AAAA;IAAAA;IAGAC,CAACA;IAFUD,2BAAMA,GAAbA;QAAcE,cAAOA;aAAPA,WAAOA,CAAPA,sBAAOA,CAAPA,IAAOA;YAAPA,6BAAOA;;IACrBA,CAACA;IACLF,iBAACA;AAADA,CAACA,AAHD,IAGC;AAHY,kBAAU,aAGtB,CAAA"}

@@ -89,8 +89,8 @@ local TestCaseWorldMsgQueue = TestCase:extends({
 		local fromInfo = {vip=0,blue={level=0,year=0,super=0,grow=0}}
 		self.queue:_sendAllOnlinePlayers({fromId=1, fromName='role', msg='msg'})
 		assertEQ ( self.mm.walkLog, 'getAllOnlinePlayers,sendMsg,sendMsg' )
-		assertEQ ( self.mm.params['sendMsg.1'], {players['1role'], 0, 1, 'role', fromInfo, CHAT_CHANNEL.WORLD, 'msg'} )
-		assertEQ ( self.mm.params['sendMsg.2'], {players['2role'], 0, 1, 'role', fromInfo, CHAT_CHANNEL.WORLD, 'msg'} )
+		assertEQ ( self.mm.params['sendMsg.1'], {players['2role'], 0, 1, 'role', fromInfo, CHAT_CHANNEL.WORLD, 'msg'} )
+		assertEQ ( self.mm.params['sendMsg.2'], {players['1role'], 0, 1, 'role', fromInfo, CHAT_CHANNEL.WORLD, 'msg'} )
 	end;
 })
 

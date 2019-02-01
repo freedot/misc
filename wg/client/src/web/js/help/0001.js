@@ -1,0 +1,1 @@
+﻿help_info['0001']='hello world - 0001';

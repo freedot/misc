@@ -1,0 +1,45 @@
+﻿//
+g_scriptlists = [
+	"js/commutil.js",
+	"js/res/res_fixid.js",
+	"js/res/res_fixid_ex.js",
+	"js/res/res_string.js",
+	"js/res/res_uiback.js",	
+	"js/res/res_all_helps.js",
+	"js/res/res_newui_mb_cls.js",
+
+	"js/base/tqclass.js",
+	"js/res/res_images.js",
+	"js/tqTQ.js",
+	"js/tqWindowResizer.js",
+	
+	"js/res/res_defs_forpy.js",
+	"js/res/res_defs.js",	
+	"js/res/res_stateeffects.js",
+	"js/res/res_avatarclts.js",
+	"js/res/res_attrs.js",
+	"js/res/res_classs.js",
+	"js/res/res_sounds.js",
+	
+	"js/ui/tqComButton.js",
+	"js/ui/tqProgressBar.js",
+	"js/ui/tqCheckBox.js",
+	"js/ui/tqTabPanel.js",
+	"js/ui/tqPageNavigate.js",
+	"js/ui/tqList.js",
+	"js/ui/tqUI.js",
+	"js/ui/tqPopPanel.js",
+	"js/ui/tqMenu.js",
+	"js/ui/tqDialog.js",
+	"js/ui/tqScroller.js",
+	"js/ui/tqDropList.js",
+	"js/ui/tqSpinInput.js",
+	"js/ui/tqTooltip.js",
+	"js/ui/tqMessageBox.js",
+	"js/ui/tqSysMsgTipsBox.js",
+	"js/help/res_help.js",
+	"js/tqGameApp.js",
+	"js/handler/tqBaseDlg.js",
+	"js/handler/tqSoundMgr.js"
+];
+

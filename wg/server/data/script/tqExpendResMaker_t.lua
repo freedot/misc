@@ -45,10 +45,11 @@ local TestCaseExpendResMaker = TestCase:extends({
 		local p_res = {food=1,wood=2,stone=3,iron=4}
 		local p_expendress = {}
 		ExpendResMaker:_makeCommExpendRes(p_res, p_expendress,p_number)
+		
 		assertEQ ( p_expendress, {
 			{id=FIXID.WOOD,type=EXPEND_TYPE.COMMRES,val=2*2}
-			,{id=FIXID.IRON,type=EXPEND_TYPE.COMMRES,val=4*2}
 			,{id=FIXID.STONE,type=EXPEND_TYPE.COMMRES,val=3*2} 
+			,{id=FIXID.IRON,type=EXPEND_TYPE.COMMRES,val=4*2}
 			,{id=FIXID.FOOD,type=EXPEND_TYPE.COMMRES,val=1*2}
 			} )
 	end;

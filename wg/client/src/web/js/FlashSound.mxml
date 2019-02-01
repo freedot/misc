@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" minWidth="100" minHeight="100" fontSize="12" backgroundColor="#FFFFFF" width="280" height="74" backgroundGradientAlphas="[0.0, 0.0]" applicationComplete="appInit(event)">
+
+	<mx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			private var sound:Sound = null;
+			private var soundChannel:SoundChannel = null;
+			protected function btnPlay_onclick(event:MouseEvent):void
+			{
+				if(btnPlay.label == '播 放')
+				{
+					play(txtUrl.text);
+				}
+				else
+				{
+					stop();
+				}
+			}
+
+			protected function appInit(event:FlexEvent):void
+			{
+				ExternalInterface.addCallback("playSound", play);
+				ExternalInterface.addCallback("stopSound", stop);
+			}
+
+			//播放
+			private function play(url:String):void
+			{
+				btnPlay.label = '停 止';
+				if(url == '')
+				{
+					url = txtUrl.text;
+				}
+				else
+				{
+					txtUrl.text = url;
+				}
+				if(sound != null)
+				{
+					soundChannel.stop();
+					sound = null;
+					soundChannel = null;
+				}
+				
+				sound = new Sound(new URLRequest(url));
+				soundChannel = sound.play();
+				sound.addEventListener(ProgressEvent.PROGRESS, function(e:ProgressEvent):void{
+					lblInfo.text = '加载 ' + Math.round(e.bytesLoaded / e.bytesTotal * 100).toString() + '%';
+				});
+				sound.addEventListener(Event.COMPLETE, function(e:Event):void{
+					var str:String = '';
+					str += '大小:' + formatSize(sound.bytesTotal);
+					str += ' 时长:' + formatSpanTime(sound.length);
+					lblInfo.text = str;
+				});
+			}
+			
+			//停止
+			private function stop():void
+			{
+				btnPlay.label = '播 放';
+				if(sound != null)
+				{
+					soundChannel.stop();
+					sound = null;
+					soundChannel = null;
+				}
+			}
+			
+			private function formatSize(size:Number):String
+			{
+				var strReturn:String = "";
+				var tempSize:Number = size * 1.0 * (size < 0 ? -1 : 1);
+				if (tempSize < 1024)
+				{
+					strReturn += formatNumber(tempSize, 2) + "B";
+				}
+				else if (tempSize < 1024 * 1024)
+				{
+					tempSize = tempSize / 1024;
+					strReturn += formatNumber(tempSize, 2) + "K";
+				}
+				else if (tempSize < 1024 * 1024 * 1024)
+				{
+					tempSize = tempSize / 1024 / 1024;
+					strReturn += formatNumber(tempSize, 2) + "M";
+				}
+				else
+				{
+					tempSize = tempSize / 1024 / 1024 / 1024;
+					strReturn += formatNumber(tempSize, 2) + "G";
+				}
+				
+				if (size < 0)
+				{
+					strReturn = "-" + strReturn;
+				}
+				
+				return strReturn;
+			}
+			
+			private function formatNumber(i:Number, j:int):Number
+			{
+				i = i * Math.pow(10, j);
+				i = Math.round(i);
+				i = i / Math.pow(10, j);
+				return i;
+			}
+			
+			private function formatSpanTime(ms:Number):String
+			{
+				var str:String = '';
+				var tempSize:Number = ms;
+				if (tempSize < 1000)
+				{
+					str += formatNumber(tempSize, 2) + "毫秒";
+				}
+				else if (tempSize < 1000 * 60)
+				{
+					tempSize = tempSize / 1000;
+					str += formatNumber(tempSize, 2) + "秒";
+				}
+				else if (tempSize < 1000 * 60 * 60)
+				{
+					tempSize = tempSize / 1000 / 60;
+					str += formatNumber(tempSize, 2) + "分";
+				}
+				else if (tempSize < 1000 * 60 * 60 * 60)
+				{
+					tempSize = tempSize / 1000 / 60 / 60;
+					str += formatNumber(tempSize, 2) + "小时";
+				}
+
+				return str;
+			}
+		]]>
+	</mx:Script>
+
+	<mx:Button x="10" y="40" label="播 放" fontWeight="normal" click="btnPlay_onclick(event)" id="btnPlay"/>
+	<mx:TextInput x="10" y="10" width="260" id="txtUrl" text="http://localhost:8058/mp3/1.mp3"/>
+	<mx:Label x="72" y="44" id="lblInfo"/>
+	
+</mx:Application>

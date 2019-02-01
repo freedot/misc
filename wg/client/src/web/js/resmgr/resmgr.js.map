@@ -1,0 +1,1 @@
+{"version":3,"file":"resmgr.js","sourceRoot":"","sources":["../../tss/resmgr/resmgr.ts"],"names":["ResMgr","ResMgr.constructor","ResMgr.getHeroMgr"],"mappings":"AACA;IAAAA;IAIAC,CAACA;IAHGD,2BAAUA,GAAVA;QACIE,MAAMA,CAACA,IAAIA,CAACA;IAChBA,CAACA;IACLF,aAACA;AAADA,CAACA,AAJD,IAIC;AAED,iBAAS,MAAM,CAAC"}

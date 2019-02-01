@@ -106,7 +106,7 @@ local TestCaseFightResultMaker = TestCase:extends({
 		local expect = '{result:1'
 		expect = expect..',defenderParty:"party"'
 		expect = expect..',expedType:1'
-		expect = expect..',attacker:{role:{name:"qjb",icon:0,level:0,objType:1,alli:"--"},heros:[],gainres:{money:2},getdrop:[{val:1,type:"heroexp"}]}'
+		expect = expect..',attacker:{role:{name:"qjb",icon:0,level:0,objType:1,alli:"--"},heros:[],gainres:{money:2},getdrop:[{type:"heroexp",val:1}]}'
 		expect = expect..',defender:{role:{name:"qjb",icon:0,level:0,objType:1,alli:"--"},heros:[],lossres:{money:2},defexpend:{},getdrop:[]}'
 		expect = expect..'}'
 		assert ( s == expect )

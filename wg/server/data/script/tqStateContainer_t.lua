@@ -274,7 +274,7 @@ local TestCaseStateContainer = TestCase:extends({
 		self.mm.ids = ''
 		local mm = self.mm
 		self.mm:mock(stateContainer, '_stopState', nil, function(self, hdr, state)
-			assert ( hdr == nil )
+			assert ( hdr == 'nil' )
 			mm.ids = mm.ids .. state:getId()
 			end)
 			

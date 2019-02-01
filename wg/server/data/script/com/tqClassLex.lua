@@ -193,7 +193,7 @@ end
 function get_keyword(sline)
 	local keytb = {}
 	local s = string.gsub(sline, "([{}])", " %1 ")
-	for w in string.gfind(s, "[^%s,;=()]+") do
+	for w in string.gmatch(s, "[^%s,;=()]+") do
 		table.insert(keytb, w)
 	end
 	return keytb

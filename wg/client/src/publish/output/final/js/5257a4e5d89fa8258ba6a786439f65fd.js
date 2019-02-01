@@ -1,0 +1,1 @@
+ChatPanelDlg=JBaseDlg.ex({_innerInit:function(){this._chatpanel=null},_getDlgCfg:function(){return{modal:!0,title:rstr.chatPanelDlg.title,pos:{x:"center",y:"vcenter"},uicfg:uicfg.chatpaneldlg}},_afterCreate:function(){this._chatpanel=new ChatPanel(this.g_,this.getItems().chatpanelcon)}})

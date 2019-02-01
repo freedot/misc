@@ -114,7 +114,7 @@ class Builder :
 			
 	def _updateSrc(self):
 		os.chdir( self._curpath )
-		self.syscall('svn up')
+		#self.syscall('svn up')
 		
 	def _removeWin32Lib(self):
 		os.chdir( self._curpath )

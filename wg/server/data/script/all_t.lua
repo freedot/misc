@@ -14,7 +14,8 @@ local resetCurTestCases = function(curFileName)
 		f:close()
 	end
 	
-	for w in string.gfind(s, "suite.addTestCase%((%w+)") do
+	for w in string.gmatch(s, "suite.addTestCase%((%w+)") do
+		--print('case: ', w)
 		table.insert(g_curtestcases, w)
 	end
 end

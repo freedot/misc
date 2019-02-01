@@ -1,0 +1,1 @@
+StartGlobalTip=JClass.ex({_init:function(a){this._g=a},openDlg:function(){UIM.getDlg("npc").openDlg({desc:TQ.format(rstr.startGlobalTip.desc,IMG.makeImg("reddot/02.png")),ops:rstr.startGlobalTip.ops,caller:Caller.snew(this,this._onSelectOption)})},_onSelectOption:function(a){TaskSender.sendNewcomerTaskEnd(this._g)}})

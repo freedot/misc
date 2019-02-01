@@ -1443,7 +1443,23 @@ MMock = Class:extends({
 		local mm = self
 		
 		local newMethod = function(...)
-			local params = {...}
+			local params = {}
+			for i=1, select('#', ...), 1 do
+				local a = select(i, ...)
+				if a == nil then
+					table.insert(params, 'nil')
+				else
+					table.insert(params, a)
+				end
+			end
+			
+			for i=#params, 1, -1 do
+				if params[i] ~= 'nil' then
+					break
+				else
+					table.remove(params, i)
+				end
+			end
 			
 			local _isGlobalObject = function()
 				return (obj == math) or (obj == string) or (obj == table) or (obj == _G) or (obj == global)
@@ -1464,12 +1480,7 @@ MMock = Class:extends({
 				mm.params[methodAlias] = {}
 				local count = table.getn(params)
 				for i=1, count, 1 do
-					local param = params[i]
-					local fmtParam = param
-					if fmtParam == nil then
-						fmtParam = 'nil'
-					end
-					
+					local fmtParam = params[i]
 					local isFirstParam = (i == 1)
 					if _isGlobalObject() or not isFirstParam  then
 						table.insert(mm.params[curStackFrameName], fmtParam)
@@ -1495,10 +1506,9 @@ MMock = Class:extends({
 				end
 				
 				local rt, rt1, rt2, rt3, rt4, rt5, rt6, rt7, rt8, rt9 = customMethod(unpack(params))
-				if rt == nil then
+				if rt == nil or rt == 'nil' then
 					return nil
 				end
-				
 				return {rt, rt1, rt2, rt3, rt4, rt5, rt6, rt7, rt8, rt9}
 			end;
 			
@@ -1511,11 +1521,13 @@ MMock = Class:extends({
 				if _isGlobalObject() then
 					originalRt = {originalMethod(obj, unpack(params))}
 				else
+					--[[
 					for i=1, #params, 1 do
 						if params[i] == nil then
 							params[i] = 'nil'
 						end
 					end
+					]]
 					table.remove(params, 1)
 					originalRt = {originalMethod(obj, unpack(params))}
 				end

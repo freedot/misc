@@ -1,0 +1,1159 @@
+﻿.g_swfobjs {POSITION:absolute; Z-INDEX:1000000;}
+.g_hideswfobj {visibility:hidden;}
+.g_loading_bak {POSITION:absolute; MARGIN:0 0 0 0; WIDTH:100%; HEIGHT:100%; LEFT: 0px; TOP: 0px; Z-INDEX:99999;BACKGROUND-COLOR:#000000;}
+.g_loading {OVERFLOW:hidden;TEXT-ALIGN:left; POSITION:absolute; MARGIN:0 0 0 -498px; WIDTH:997px; HEIGHT:578px; LEFT: 50%; Z-INDEX:100000;BACKGROUND:url('../images/office/loading/bk.jpg?v=2') no-repeat  50% 0px #000000;}
+.g_loading_progress_bak{POSITION:absolute; left:229px; top:492px; width:586px; height:21px;BACKGROUND:url('../images/office/loading/bar_back.gif?v=1') no-repeat;}
+.g_loading_progress_bar{width:1px; height:21px;BACKGROUND:url('../images/office/loading/bar_front.gif?v=1') no-repeat;}
+.g_loading_tip{POSITION:absolute; left:229px; top:542px; width:586px; height:21px; TEXT-ALIGN:center; COLOR:#AFAFAF;}
+
+.npcdlg{}
+.npcdlg .bk{BACKGROUND:url('../images/office/npcdlg/bk.png?v=1') no-repeat;}
+.npcdlg .op{BACKGROUND:url('../images/office/npcdlg/op.gif?v=1') no-repeat;}
+
+.helptipdlg0{BACKGROUND:url('../images/office/helptipdlg/tip_help_bk0.png?v=1') no-repeat;}
+.helptipdlg1{BACKGROUND:url('../images/office/helptipdlg/tip_help_bk1.png?v=1') no-repeat;}
+.helptipdlg2{BACKGROUND:url('../images/office/helptipdlg/tip_help_bk2.png?v=1') no-repeat;}
+	
+.myselldlg{}
+.myselldlg .sellinglbl{BACKGROUND:url('../images/office/alli/myselldlg/sellinglbl.gif?v=1') no-repeat;}
+
+.worldbossDlg{BORDER:1px solid #5b5a56;COLOR:#f0f0f0;BACKGROUND:#080F0F;}
+.worldbossDlg .forcetabLbl{BACKGROUND:url('../images/office/expedition/forcetablbl.gif?v=1') no-repeat;}
+.worldbossDlg .forcetabFlag{BACKGROUND:url('../images/office/expedition/forcetabflag.gif?v=1') no-repeat;}
+.worldbossDlg .reportLbl{BACKGROUND:url('../images/office/worldboss/maindlg/report_lbl.gif?v=1') no-repeat;}
+.worldbossDlg .bossBack{BACKGROUND:url('../images/office/worldboss/maindlg/boss_bak.png?v=1') no-repeat;}
+
+.worldboss_fight_btn_n{CURSOR:pointer;width:92px; height:77px;BACKGROUND:url('../images/office/worldboss/btns/fight/n.gif?v=1') no-repeat;}
+.worldboss_fight_btn_h{CURSOR:pointer;width:92px; height:77px;BACKGROUND:url('../images/office/worldboss/btns/fight/h.gif?v=1') no-repeat;}
+.worldboss_fight_btn_p{CURSOR:pointer;width:92px; height:77px;BACKGROUND:url('../images/office/worldboss/btns/fight/p.gif?v=1') no-repeat;}
+.worldboss_fight_btn_d{CURSOR:pointer;width:92px; height:77px;BACKGROUND:url('../images/office/worldboss/btns/fight/d.gif?v=1') no-repeat;}
+
+.worldboss_guwu_btn_n{CURSOR:pointer;width:78px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwu/n.gif?v=1') no-repeat;}
+.worldboss_guwu_btn_h{CURSOR:pointer;width:78px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwu/h.gif?v=1') no-repeat;}
+.worldboss_guwu_btn_p{CURSOR:pointer;width:78px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwu/p.gif?v=1') no-repeat;}
+.worldboss_guwu_btn_d{CURSOR:pointer;width:78px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwu/d.gif?v=1') no-repeat;}
+
+.worldboss_guwus_btn_n{CURSOR:pointer;width:94px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwus/n.gif?v=1') no-repeat;}
+.worldboss_guwus_btn_h{CURSOR:pointer;width:94px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwus/h.gif?v=1') no-repeat;}
+.worldboss_guwus_btn_p{CURSOR:pointer;width:94px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwus/p.gif?v=1') no-repeat;}
+.worldboss_guwus_btn_d{CURSOR:pointer;width:94px; height:100px;BACKGROUND:url('../images/office/worldboss/btns/guwus/d.gif?v=1') no-repeat;}
+
+.mapboundary_h{BACKGROUND:url('../images/office/fields/mapboundary_h.png?v=1') repeat-x;}
+.mapboundary_v{BACKGROUND:url('../images/office/fields/mapboundary_v.png?v=1') repeat-y;}
+
+.blue3366DiamondDlg{BACKGROUND:url('../images/office/qq/3366/bk.gif?v=1') no-repeat;}
+
+.vipdlg{BACKGROUND:url('../images/office/vip/dlg/bak.png?v=1') no-repeat;}
+.vipdlg .vipProg{BACKGROUND:url('../images/office/vip/dlg/prog.jpg?v=1') no-repeat;}
+.vipdlg .curLevel{BACKGROUND:url('../images/office/vip/dlg/cursel.png?v=1') no-repeat;}
+.vipdlg .item_n{BACKGROUND:url('../images/office/vip/dlg/item.jpg?v=1') no-repeat;}
+.vipdlg .yesflag{BACKGROUND:url('../images/office/vip/dlg/yes.png?v=1') 50% 0px no-repeat;}
+.vipdlg .noflag{BACKGROUND:url('../images/office/vip/dlg/no.png?v=1') 50% 0px no-repeat;}
+.vip_btn_n{CURSOR:pointer;width:35px; height:35px;BACKGROUND:url('../images/office/vip/btns/main/n.gif?v=1') no-repeat;}
+.vip_btn_h{CURSOR:pointer;width:35px; height:35px;BACKGROUND:url('../images/office/vip/btns/main/h.gif?v=1') no-repeat;}
+.vip_btn_p{CURSOR:pointer;width:35px; height:35px;BACKGROUND:url('../images/office/vip/btns/main/p.gif?v=1') no-repeat;}
+
+.suggest_btn_n{CURSOR:pointer;width:32px; height:32px;BACKGROUND:url('../images/office/ui/back/suggestbtn/n.gif?v=1') no-repeat;}
+.suggest_btn_n_new{CURSOR:pointer;width:32px; height:32px;BACKGROUND:url('../images/office/ui/back/suggestbtn/n_new.gif?v=2') no-repeat;}
+.suggest_btn_h{CURSOR:pointer;width:32px; height:32px;BACKGROUND:url('../images/office/ui/back/suggestbtn/h.gif?v=1') no-repeat;}
+.suggest_btn_p{CURSOR:pointer;width:32px; height:32px;BACKGROUND:url('../images/office/ui/back/suggestbtn/p.gif?v=1') no-repeat;}
+
+.payActDlg{ }
+.payActDlg .valProg{width:458px;height:22px;BACKGROUND:url('../images/office/payactdlg/valprog.gif?v=1');}
+
+.spirit_select_0 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/0.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_1 {POSITION:absolute;Z-INDEX:99999;WIDTH:auto;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/1.png?v=1') repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_2 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/2.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_3 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:auto;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/3.png?v=1') repeat-y;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_4 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:auto;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/4.png?v=1') repeat-y;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_5 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/5.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_6 {POSITION:absolute;Z-INDEX:99999;WIDTH:auto;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/6.png?v=1') repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_7 {POSITION:absolute;Z-INDEX:99999;WIDTH:8px;HEIGHT:8px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/7.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+.spirit_select_rhombus {POSITION:absolute;Z-INDEX:99999;WIDTH:113px;HEIGHT:65px;
+	BACKGROUND:url('../images/office/newcomerhelp/spirit/select/rhombus.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+/*
+.spirit_select_rhombus {POSITION:absolute;Z-INDEX:99999;WIDTH:113px;HEIGHT:65px;
+	BACKGROUND:url('../images/office/effects/role_upgrade.png?v=1') no-repeat;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+*/
+
+.spirit_content{  
+    text-shadow:2px 0px #ffffff,-2px 0px #ffffff,0px 2px #ffffff,0px -2px #ffffff;
+	font-size:20px;
+	color:#c04000;
+	font-family:"Microsoft JhengHe","STHeiti","SimHei";
+	font-weight:bold;
+	-webkit-text-stroke-width: 0.2px;
+}
+
+.buygolddlg{}
+.buygolddlg .fp{BACKGROUND:url('../images/office/buygold/fp.gif?v=3') no-repeat;}
+	
+.shopdlg{}
+.shopdlg .yd{BACKGROUND:url('../images/office/shopdlg/yd.gif?v=1') no-repeat;}
+
+.actbar_label{BACKGROUND:url('../images/office/actbar/label.png?v=1') no-repeat;}
+.sysmsg_bak{BACKGROUND:url('../images/office/chat/sysmsg_bak.png?v=1') no-repeat;}
+
+.onlineGetGoods_icon{BACKGROUND:url('../images/office/comm/onlinegoods.png?v=1') no-repeat;}
+
+.filteritem{BACKGROUND-COLOR:#E8E8E8;}
+.filteritem-h{BACKGROUND-COLOR:#A0A0A0;}
+.filteritem-num{COLOR:#FFFFFF;TEXT-ALIGN:right;}
+.filteritem-name{TEXT-ALIGN:center;}
+
+.item_icon_border_level1{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #fefefe;}
+.item_icon_border_level2{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #30ff30;}
+.item_icon_border_level3{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #3080ff;}
+.item_icon_border_level4{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #AD23CE;}
+.item_icon_border_level5{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #ff8040;}
+.item_icon_border_level6{BACKGROUND:-1px -1px no-repeat;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #ff3030;}
+
+.actBarLabel{BACKGROUND:50% 0px no-repeat;}
+
+.bluediamondDlg{BACKGROUND:url('../images/office/qq/bd/mainui/bk.png?v=1') no-repeat;}
+.bd-ui-closebtn-n{CURSOR:pointer;WIDTH:33px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/close/n.png?v=1') no-repeat;}
+.bd-ui-closebtn-h{CURSOR:pointer;WIDTH:33px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/close/h.png?v=1') no-repeat;}
+.bd-ui-closebtn-p{CURSOR:pointer;WIDTH:33px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/close/h.png?v=1') no-repeat;}
+
+.bd-ui-openbdbtn-n{CURSOR:pointer;WIDTH:112px;HEIGHT:32px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/openbd/n.png?v=1') no-repeat;}
+.bd-ui-openbdbtn-h{CURSOR:pointer;WIDTH:112px;HEIGHT:32px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/openbd/h.png?v=1') no-repeat;}
+
+.bd-ui-paybdbtn-n{CURSOR:pointer;WIDTH:112px;HEIGHT:32px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/paybd/n.png?v=1') no-repeat;}
+.bd-ui-paybdbtn-h{CURSOR:pointer;WIDTH:112px;HEIGHT:32px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/paybd/n.png?v=1') no-repeat;}
+
+.bd-ui-openyearbdbtn-n{CURSOR:pointer;WIDTH:152px;HEIGHT:33px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/openyearbd/n.png?v=1') no-repeat;}
+.bd-ui-openyearbdbtn-h{CURSOR:pointer;WIDTH:152px;HEIGHT:33px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/openyearbd/h.png?v=1') no-repeat;}
+
+.bd-ui-payyearbdbtn-n{CURSOR:pointer;WIDTH:152px;HEIGHT:33px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/payyearbd/n.png?v=1') no-repeat;}
+.bd-ui-payyearbdbtn-h{CURSOR:pointer;WIDTH:152px;HEIGHT:33px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/payyearbd/h.png?v=1') no-repeat;}
+
+.bd-ui-getbtn-n{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/get/n.png?v=1') no-repeat;}
+.bd-ui-getbtn-h{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/get/h.png?v=1') no-repeat;}
+.bd-ui-getbtn-d{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/get/d.png?v=1') no-repeat;}
+
+.bd-ui-buybtn-n{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/buy/n.png?v=1') no-repeat;}
+.bd-ui-buybtn-h{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/buy/h.png?v=1') no-repeat;}
+.bd-ui-buybtn-d{CURSOR:pointer;WIDTH:38px;HEIGHT:20px;BACKGROUND:url('../images/office/qq/bd/mainui/btns/buy/d.png?v=1') no-repeat;}
+
+
+.yellowdiamondDlg{BACKGROUND:url('../images/office/qq/yd/mainui/bk.png?v=3') no-repeat;}
+.yb-ui-closebtn-n{CURSOR:pointer;WIDTH:33px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/close/n.png?v=1') no-repeat;}
+.yb-ui-closebtn-h{CURSOR:pointer;WIDTH:33px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/close/h.png?v=1') no-repeat;}
+
+.yb-ui-buybtn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/buy/n.png?v=1') no-repeat;}
+.yb-ui-buybtn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/buy/h.png?v=1') no-repeat;}
+
+.yb-ui-getbtn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/get/n.png?v=1') no-repeat;}
+.yb-ui-getbtn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/get/h.png?v=1') no-repeat;}
+.yb-ui-getbtn-d{CURSOR:pointer;WIDTH:58px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/get/d.png?v=1') no-repeat;}
+
+.yb-ui-immgetbtn-n{CURSOR:pointer;WIDTH:86px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/immget/n.png?v=1') no-repeat;}
+.yb-ui-immgetbtn-h{CURSOR:pointer;WIDTH:86px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/immget/h.png?v=1') no-repeat;}
+.yb-ui-immgetbtn-d{CURSOR:pointer;WIDTH:86px;HEIGHT:29px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/immget/d.png?v=1') no-repeat;}
+
+.yb-ui-openydbtn-n{CURSOR:pointer;WIDTH:114px;HEIGHT:35px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/openyd/n.png?v=1') no-repeat;}
+.yb-ui-openydbtn-h{CURSOR:pointer;WIDTH:114px;HEIGHT:35px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/openyd/h.png?v=1') no-repeat;}
+
+.yb-ui-openyearydbtn-n{CURSOR:pointer;WIDTH:142px;HEIGHT:38px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/openyearyd/n.png?v=1') no-repeat;}
+.yb-ui-openyearydbtn-h{CURSOR:pointer;WIDTH:142px;HEIGHT:38px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/openyearyd/h.png?v=1') no-repeat;}
+
+.yb-ui-payydbtn-n{CURSOR:pointer;WIDTH:113px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/payyd/n.png?v=1') no-repeat;}
+.yb-ui-payydbtn-h{CURSOR:pointer;WIDTH:113px;HEIGHT:36px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/payyd/h.png?v=1') no-repeat;}
+
+.yb-ui-payyearydbtn-n{CURSOR:pointer;WIDTH:142px;HEIGHT:38px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/payyearyd/n.png?v=1') no-repeat;}
+.yb-ui-payyearydbtn-h{CURSOR:pointer;WIDTH:142px;HEIGHT:38px;BACKGROUND:url('../images/office/qq/yd/mainui/btns/payyearyd/h.png?v=1') no-repeat;}
+
+
+/*君主升级特效*/
+.role_upgrade_effect{
+	BACKGROUND:url('../images/office/effects/role_upgrade.png?v=1');
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+/*城池升级特效*/
+.city_upgrade_effect{
+	BACKGROUND:url('../images/office/effects/city_upgrade.png?v=1');
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);}
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=4);}
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=8);}
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=12);}
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=16);}
+.alpha_0{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=16);}
+
+.exchangedlg{}
+.exchangedlg .gemcombineArrow{BACKGROUND:url('../images/office/armop/arrow_up.gif?v=1') no-repeat;}
+.exchangedlg .canExchangeFlag{BACKGROUND:url('../images/office/exchange/canflag.gif?v=1') no-repeat;}
+
+/*跟踪按钮条*/
+.trackbtnbar{BACKGROUND:url('../images/office/ui/back/trackbtn/bk.gif?v=4') no-repeat;}
+
+/*新手帮助对话框*/
+.NewcomerHelper{BACKGROUND:url('../images/office/newcomerhelp/bk.png?v=2') no-repeat;}
+.NewcomerHelper .subbak{BACKGROUND:url('../images/office/newcomerhelp/bk.png?v=2') -147px -46px no-repeat;}
+.NewcomerHelper .changetipbtn{CURSOR:pointer; HEIGHT:20px; WIDTH:60px; COLOR:#2199f0;TEXT-DECORATION:underline;}
+
+.armopdlg{}
+.armopdlg .gemcombineArrow{BACKGROUND:url('../images/office/armop/arrow_up.gif?v=1') no-repeat;}
+
+/*图像帮助对话框*/
+.ImgHelpDlg{}
+.ImgHelpDlg .img{MARGIN:0px 0px; BACKGROUND: 50% 50% no-repeat;}
+
+/*任务指引面板*/
+.taskGuidePanel{BACKGROUND:url('../images/office/taskguide/bk.png?v=1') repeat;}
+.taskGuidePanel .taskTitle{FONT-WEIGHT:bold; HEIGHT:14px;COLOR:#30ff30;}
+.taskGuidePanel .taskDesc{COLOR:#ffffff;}
+.taskGuidePanel .hotFlag{BACKGROUND:url('../images/office/taskguide/hotflag.gif?v=0');}
+.taskGuidePanel .wait_complete_state{COLOR:#ff3000;}
+.taskGuidePanel .wait_get_state{COLOR:#30ff30;}
+.taskGuidePanel .complete_state{COLOR:#ffff00;}
+
+/* 活跃系统 */
+.activityValDlg{BACKGROUND:url('../images/office/activityval/bk.gif?v=1') no-repeat;}
+.activityValDlg .taskList_number_nofinish{COLOR:#F0F0F0;}
+.activityValDlg .taskList_number_finish{COLOR:#10F010;}
+.activityValDlg .taskList_number_finishpart{COLOR:#F0F0F0;}
+.activityValDlg .taskList_addnumber_nofinish{COLOR:#F0F010;}
+.activityValDlg .taskList_addnumber_finish{COLOR:#10F010;}
+.activityValDlg .taskList_addnumber_finishpart{COLOR:#10F010;}
+.activityValDlg .todayActValLbl{COLOR:#E8E8E8;FONT-SIZE:14px;}
+.activityValDlg .todayActVal{COLOR:#30FF30;FONT-SIZE:34px;FONT-WEIGHT:bold;}
+.activityValDlg .curActivityTip{COLOR:#f0f060;}
+.activityValDlg .todaySvrActTag{COLOR:#101010;BACKGROUND:url('../images/office/activityval/svracttag.gif?v=1') no-repeat;}
+.activityValDlg .stateEffect{BACKGROUND:url('../images/office/activityval/stateeffect.gif?v=1') no-repeat;}
+
+
+/*战斗演示对话框*/
+.fightmapdlg{}
+.fightmapdlg .map{MARGIN:0px 0px; BACKGROUND: 50% 50% no-repeat;}
+.fightmapdlg .attackerRoleBak{BACKGROUND:url('../images/office/fight/leftrole.gif?v=1') no-repeat;}
+.fightmapdlg .defenderRoleBak{BACKGROUND:url('../images/office/fight/rightrole.gif?v=1') no-repeat;}
+.fightmapdlg .attackerHeroBak{BACKGROUND:url('../images/office/fight/lefthero.gif?v=1') no-repeat;}
+.fightmapdlg .defenderHeroBak{BACKGROUND:url('../images/office/fight/righthero.gif?v=1') no-repeat;}
+.fightmapdlg .vsback{BACKGROUND:url('../images/office/fight/vs.gif?v=1') no-repeat;}
+.fightmapdlg .wallBar{BACKGROUND:url('../images/office/fight/wallbar.gif?v=1') no-repeat;}
+.fightmapdlg .xj{BACKGROUND:url('../images/office/fight/xj.gif?v=1') no-repeat;}
+.fightmapdlg .gm{BACKGROUND:url('../images/office/fight/gm.gif?v=1') no-repeat;}
+.fightmapdlg .jm{BACKGROUND:url('../images/office/fight/jm.gif?v=1') no-repeat;}
+.fightmapdlg .ls{BACKGROUND:url('../images/office/fight/ls.gif?v=1') no-repeat;}
+.fightmapdlg .nj{BACKGROUND:url('../images/office/fight/nj.gif?v=1') no-repeat;}
+
+	
+/*军情面板*/
+.militarydlg{}
+.militarydlg .selfarmy{COLOR:#20FF20;}
+.militarydlg .enemyarmy{COLOR:#FF3300;}
+.militarydlg .alliancearmy{COLOR:#EFEF33;}
+
+/*祭坛对话框*/
+.jitandlg{}
+.jitandlg .arrowhead{BACKGROUND:url('../images/office/jitandlg/arrowhead.gif?v=1') no-repeat;}
+
+/* 出征对话框 */
+.expedlg{}
+.expedlg .tiplabel {TEXT-ALIGN:left;COLOR:#EFEF33;}
+.expedlg .sgrid {BORDER: 1px solid #D0D0D0;BACKGROUND-COLOR: #E4E4E4; TEXT-ALIGN:center; LINE-HEIGHT:32px;}
+.expedlg .sicon {TEXT-ALIGN:center;LINE-HEIGHT:16px;BACKGROUND-COLOR: #f1f1f1;}
+.expedlg .hagrid {BACKGROUND-COLOR: #E4E4E4; CURSOR:pointer;}
+.expedlg .agrid {TEXT-ALIGN:center;LINE-HEIGHT:32px;BORDER: 1px solid #D0D0D0; BACKGROUND-COLOR: #E4E4E4; CURSOR:pointer;}
+.expedlg .forcetabLbl{BACKGROUND:url('../images/office/expedition/forcetablbl.gif?v=1') no-repeat;}
+.expedlg .forcetabFlag{BACKGROUND:url('../images/office/expedition/forcetabflag.gif?v=1') no-repeat;}
+.expedlg .todayfightinfo{LINE-HEIGHT:20px;}
+.expedlg .typedesc{COLOR:#30FF30;}
+
+/* 城防对话框*/
+.cityDefDlg{}
+.cityDefDlg .forcetabLbl{BACKGROUND:url('../images/office/expedition/forcetablbl.gif?v=1') no-repeat;}
+.cityDefDlg .forcetabFlag{BACKGROUND:url('../images/office/expedition/forcetabflag.gif?v=1') no-repeat;}
+
+.stateBuffItem{WIDTH:40px;HEIGHT:30px;}
+.stateBuffItem .icon{WIDTH:30px;HEIGHT:30px;}
+
+/* 千层塔主对话框 */
+.actTowerMainDlg{}
+.actTowerMainDlg .bak{BACKGROUND:url('../images/office/activity/tower/mainbk.jpg?v=1') no-repeat;}
+
+/* 千层塔出征对话框 */
+.actTowerExpDlg{}
+.actTowerExpDlg .forcetabLbl{BACKGROUND:url('../images/office/expedition/forcetablbl.gif?v=1') no-repeat;}
+.actTowerExpDlg .forcetabFlag{BACKGROUND:url('../images/office/expedition/forcetabflag.gif?v=1') no-repeat;}
+.actTowerExpDlg .leftLifes{BACKGROUND:url('../images/office/activity/redheart.gif?v=1') repeat-x;}
+.actTowerExpDlg .curLayerArrow{BACKGROUND:url('../images/office/activity/tower/arraw.png?v=1') !important;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/office/activity/tower/arraw.png?v=1');
+_background-image: none;}
+.actTowerExpDlg .enemyForce{BACKGROUND:url('../images/office/activity/tower/enemyforce.gif?v=1') no-repeat;}
+.actTowerExpDlg .layers{BACKGROUND:url('../images/office/activity/tower/layers.jpg?v=1') no-repeat;}
+
+/* 点将台主对话框 */
+.actTerraceMainDlg{}
+.actTerraceMainDlg .mapbk{BACKGROUND:url('../images/office/activity/terrace/mapbk.jpg?v=1') no-repeat;}
+
+/* 点将台出征对话框 */
+.actTerraceExpDlg{}
+.actTerraceExpDlg .gateName{FONT-WEIGHT:bold; HEIGHT:14px;}
+.actTerraceExpDlg .gatebk{BACKGROUND:url('../images/office/activity/terrace/gatebk.jpg?v=1') no-repeat;}
+.actTerraceExpDlg .leftLifes{BACKGROUND:url('../images/office/activity/redheart.gif?v=1') repeat-x;}
+.actTerraceExpDlg .item_sel{BACKGROUND:url('../images/office/activity/terrace/gateitem/p.gif?v=1') no-repeat;}
+.actTerraceExpDlg .item_normal{BACKGROUND:url('../images/office/activity/terrace/gateitem/n.gif?v=1') no-repeat;}
+.actTerraceExpDlg .strBar{font-size: 0; /* for ie */line-height: 0; /* for ie */ BACKGROUND:url('../images/office/activity/terrace/strbar.gif?v=1') repeat-y;}
+.actTerraceExpDlg .agileBar{font-size: 0; /* for ie */line-height: 0; /* for ie */ BACKGROUND:url('../images/office/activity/terrace/agilebar.gif?v=1') repeat-y;}
+.actTerraceExpDlg .phyBar{font-size: 0; /* for ie */line-height: 0; /* for ie */ BACKGROUND:url('../images/office/activity/terrace/phybar.gif?v=1') repeat-y;}
+.actTerraceExpDlg .split{BACKGROUND:url('../images/office/resprotectdlg/bline.gif?v=1') repeat-x;}
+
+
+
+.itemtip{WIDTH:160px;LINE-HEIGHT:18px;}
+.itemtip2{WIDTH:190px;LINE-HEIGHT:18px;}
+.itemtip3{WIDTH:300px;LINE-HEIGHT:18px;}
+.wearitemtip{WIDTH:160px;LINE-HEIGHT:18px;BACKGROUND:url('../images/office/hero/wearflag.png?v=1') 85px 60px  no-repeat;}
+.wearitemtip_ie6{WIDTH:160px;LINE-HEIGHT:18px;BACKGROUND:url('../images/office/hero/wearflag.gif?v=1') 85px 60px no-repeat;}
+.itemtipicon{FLOAT:right;WIDTH:53px;HEIGHT:53px;}
+.commtip{MAX-WIDTH:160px;LINE-HEIGHT:18px;}
+
+.culturetip{WIDTH:200px;LINE-HEIGHT:18px;}
+
+.actortip{WIDTH:150px;LINE-HEIGHT:18px;}
+
+.buildtip{WIDTH:300px;LINE-HEIGHT:18px;}
+.buildtipauto{WIDTH:auto;LINE-HEIGHT:18px;}
+.buildtipbuild{WIDTH:220px;LINE-HEIGHT:18px;}
+
+.subjecttip{WIDTH:100px;LINE-HEIGHT:18px;}
+.heroexpbartip{WIDTH:110px;LINE-HEIGHT:18px;}
+
+/* 写信对话框 */
+.writeletter{}
+.writeletter .recvi{}
+.writeletter .titlei{}
+.writeletter .letteri{}
+	
+/** 购买指定道具对话框 */
+.buyitemdlg{}
+.buyitemdlg .iconinfo{WIDTH:230px;HEIGHT:64px;}
+.buyitemdlg .icon{FLOAT:left;WIDTH:64px;HEIGHT:64px;}
+.buyitemdlg .info{FLOAT:left;WIDTH:120px;HEIGHT:64px;}
+.buyitemdlg .itemline{WIDTH:auto;HEIGHT:30px;}
+.buyitemdlg .desc{MARGIN:10px 0px;PADDING:5px;WIDTH:270px;HEIGHT:auto;BORDER: 1px solid #808080;}
+.buyitemdlg .num{MARGIN-LEFT:50px;WIDTH:230px;HEIGHT:30px;}
+.buyitemdlg .num .label{DISPLAY:inline;FLOAT:left;WIDTH:60px;HEIGHT:22px;LINE-HEIGHT:22px;MARGIN-LEFT:4px;}
+.buyitemdlg .num .con{DISPLAY:inline;FLOAT:left;WIDTH:50px;HEIGHT:22px;LINE-HEIGHT:22px;}
+.buyitemdlg .numi{FONT-FAMILY: "宋体";FONT-SIZE: 12px;TEXT-ALIGN: left;WIDTH:40px;HEIGHT:17px;VERTICAL-ALIGN: middle;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #888888;}
+.buyitemdlg .pay{MARGIN-LEFT:10px;WIDTH:260px;HEIGHT:auto;}
+.buyitemdlg .payitemline{WIDTH:260px;HEIGHT:20px;}
+.buyitemdlg .payitem{FLOAT:left;WIDTH:130px;HEIGHT:20px;}
+.buyitemdlg .myhave{FLOAT:left;WIDTH:125px;HEIGHT:20px;LINE-HEIGHT:20px;}
+
+/** 在面板上内嵌的可使用道具列表选择 */
+.inneruseitem{}
+.inneruseitem .uselbl{MARGIN-TOP:10px;HEIGHT:16px;LINE-HEIGHT:16px;}
+.inneruseitem .desc{MARGIN-TOP:5px;PADDING:5px 16px 5px 16px;LINE-HEIGHT:14px;TEXT-ALIGN:left;BORDER: 1px solid #808080;}
+
+/** 任务对话框 */
+.taskdlg{}
+.taskdlg .taskcon{}
+.taskdlg .taskcon .title{COLOR:#b0b0b0;}
+.taskdlg .taskcon .detailname{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .time{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .precond{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .desc{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .detaildesc{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .help{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .target{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .difficulty{MARGIN:5px 5px 15px 5px;LINE-HEIGHT:20px;}
+.taskdlg .taskcon .reward{}
+	
+.taskdlg .wait_complete_state{COLOR:#f0f0f0;}
+.taskdlg .wait_get_state{COLOR:#30ff30;}
+.taskdlg .complete_state{COLOR:#ffff00;}
+.taskdlg .cannotdo_state{COLOR:#ff3000;}
+.taskdlg .cando_state{COLOR:#30ff30;}
+.taskdlg .doing_state{COLOR:#ffff00;}
+.taskdlg .precond_enough{COLOR:#30ff30;}
+.taskdlg .precond_noenough{COLOR:#ff3000;}
+
+
+/** 任务追踪面板 */
+.tasktrack .nameline{WIDTH:315px;HEIGHT:18px;}
+.tasktrack .jump{FLOAT:left;WIDTH:16px;HEIGHT:18px;}
+.tasktrack .name{FLOAT:left;WIDTH:auto;HEIGHT:18px;COLOR:#ffff00;}
+.tasktrack .goal{WIDTH:305px;HEIGHT:auto;PADDING-LEFT:17px;COLOR:#ffffff;}
+.tasktrack .status{WIDTH:305px;HEIGHT:auto;PADDING-LEFT:17px;COLOR:#ffffff;}
+
+/** 任务追踪对话框 */
+.tasktrackdlg{}
+.tasktrackdlg .nameline{WIDTH:auto;HEIGHT:18px;}
+.tasktrackdlg .jump{FLOAT:left;WIDTH:16px;HEIGHT:18px;}
+.tasktrackdlg .name{FLOAT:left;WIDTH:auto;HEIGHT:18px;COLOR:#ffff00;}
+.tasktrackdlg .goal{WIDTH:auto;HEIGHT:auto;PADDING-LEFT:17px;COLOR:#ffffff;}
+.tasktrackdlg .status{WIDTH:auto;HEIGHT:auto;PADDING-LEFT:17px;COLOR:#ffffff;}
+
+/** 资源保护对话框 */
+.resprotectdlg{}
+.resprotectdlg .split{BACKGROUND:url('../images/office/resprotectdlg/bline.gif?v=1') repeat-x;}
+.resprotectdlg .curhas{font-size: 0; /* for ie */line-height: 0; /* for ie */BACKGROUND:url('../images/office/resprotectdlg/curhas.gif?v=1') repeat-y;}
+.resprotectdlg .curprotect{font-size: 0; /* for ie */line-height: 0; /* for ie */BACKGROUND:url('../images/office/resprotectdlg/curprotect.gif?v=1') repeat-y;}
+.resprotectdlg .curhastipblock{BACKGROUND-COLOR: #E4BB30;}
+.resprotectdlg .curprotecttipblock{BACKGROUND-COLOR: #E72C69;}
+
+/** 底部的资源面板*/
+.briefrespanel{BACKGROUND:url('../images/office/briefresbar/bak.gif?v=1') no-repeat;}
+.briefrespanel .tagicon{BACKGROUND:no-repeat;}
+.briefrespanel .cityLevel{BACKGROUND: 50% 0px no-repeat;}
+.briefrespanel .upgradebak{BACKGROUND:url('../images/office/briefresbar/upgradebak.gif?v=1') no-repeat;}
+.briefrespanel .cityupgradebk{BACKGROUND:url('../images/office/briefresbar/cityupgradebk.gif?v=1') no-repeat;}
+
+/** 内城建筑追踪面板 */
+.ibuildtrack{COLOR:#ffffff;}
+
+/** 资源面板 */
+.commrespanel {}
+.commrespanel .name{COLOR:#FFFFFF}
+.commrespanel .total{COLOR:#FFFFFF;TEXT-ALIGN:right;}
+.commrespanel .cur{COLOR:#FFFFFF;TEXT-ALIGN:right;}
+.commrespanel .op{COLOR:#FFFFFF}
+/** 资源面板 */
+.herorespanel {}
+.herorespanel .name{COLOR:#FFFFFF}
+.herorespanel .level{COLOR:#FFFFFF;TEXT-ALIGN:right;}
+.herorespanel .state{COLOR:#FFFFFF;}
+/** 资源面板 */
+.soldierrespanel {}
+.soldierrespanel .name{COLOR:#FFFFFF}
+.soldierrespanel .num{COLOR:#FFFFFF;TEXT-ALIGN:right;}
+/** 人口资源面板*/
+.popurespanel{COLOR:#FFFFFF;OVERFLOW:hidden;}
+/** ROLE面板*/
+.rolepanel{BACKGROUND:url('../images/office/rolepanel/bak.png?v=2') no-repeat;}
+/*.rolepanel{BACKGROUND:url('../images/office/rolepanel/bak.png?v=2') !important;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/office/rolepanel/bak.png?v=2');
+    _background-image: none;}
+*/
+.rolepanel .level{WIDTH:20px;HEIGHT:20px;LINE-HEIGHT:20px;TEXT-ALIGN:center;COLOR:#FFFF00;BACKGROUND:url('../images/office/rolepanel/level.png?v=1') no-repeat;}
+.rolepanel .icon{CURSOR:pointer;}
+/** chat面板*/
+.chatdlg{}
+.chatdlg .title{-moz-user-select:none;}
+/** find对话框 */
+.finddlg{}
+.finddlg .item_n{}
+.finddlg .item_p{BACKGROUND-COLOR: #505000;}
+.finddlg .item_h{BACKGROUND-COLOR: #505050;}
+/** teampanel面板*/
+.teampanel_name{BACKGROUND-COLOR:#505050;}
+/** teamdlg*/
+.teamdlg_mylist{}
+.teamdlg_mylist .item_n{}
+.teamdlg_mylist .item_p{BACKGROUND-COLOR: #505000;}
+.teamdlg_mylist .item_h{BACKGROUND-COLOR: #505050;}
+.teamdlg_apply{}
+.teamdlg_apply .item_n{}
+.teamdlg_apply .item_p{BACKGROUND-COLOR: #505000;}
+.teamdlg_apply .item_h{BACKGROUND-COLOR: #505050;}
+.teamdlg_single{}
+.teamdlg_single .item_n{}
+.teamdlg_single .item_p{BACKGROUND-COLOR: #505000;}
+.teamdlg_single .item_h{BACKGROUND-COLOR: #505050;}
+.teamdlg_oteams{}
+.teamdlg_oteams .item_n{}
+.teamdlg_oteams .item_p{BACKGROUND-COLOR: #505000;}
+.teamdlg_oteams .item_h{BACKGROUND-COLOR: #505050;}
+/**InviteConfirmdlg */
+.inviteconfirmdlg{}
+.inviteconfirmdlg .lefttime{LINE-HEIGHT:42px;TEXT-ALIGN:center;COLOR:#FFFF00;FONT-FAMILY: "宋体";FONT-SIZE: 32px;}
+/**groupmemberdlg */
+.groupmemberdlg{}
+.groupmemberdlg .item_n{}
+.groupmemberdlg .item_p{BACKGROUND-COLOR: #505000;}
+.groupmemberdlg .item_h{BACKGROUND-COLOR: #505050;}
+/**gamemap */
+.gamemap{BACKGROUND-COLOR:#302020;}
+.gamemap .mapscene{-moz-user-select:none;OVERFLOW:hidden;BACKGROUND-COLOR:#302020;}
+.gamemap .mapscene_con{BACKGROUND-COLOR:#302020;}
+.gamemap .maptitle{COLOR:#ffffff;BACKGROUND-COLOR:#808000;TEXT-ALIGN:center;LINE-HEIGHT:20px;}
+
+.gamemap .smallmap{OVERFLOW:hidden;BACKGROUND-COLOR:#808000;}
+.gamemap .smap_viewblock{BORDER:1px solid #a00000;OVERFLOW:hidden;}
+.gamemap .smap_viewblock_i{BACKGROUND-COLOR:#00ffff;}
+.gamemap .smap_event{-moz-user-select:none;}
+
+/** 主界面玩家列表 */
+.playerlistbak{BACKGROUND:url('../images/office/ui/back/playerlist/bak.png?v=1') !important;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/office/ui/back/playerlist/bak.png?v=1');
+_background-image: none;}
+.playerlist{}
+.playerlist .item_n{CURSOR:pointer;COLOR:#cccccc;}
+.playerlist .item_h{CURSOR:pointer;BACKGROUND-COLOR:#505050;COLOR:#ffffff;}
+.playerlist .item_p{CURSOR:pointer;BACKGROUND-COLOR:#505050;COLOR:#ffffff;}
+
+.gamemap .pagebar{BACKGROUND-COLOR:#303030;}
+.gamemap .tabbarhead{BACKGROUND-COLOR:#505050;}
+.gamemap .listcon{}
+.gamemap .listcon .item_n{CURSOR:pointer;COLOR:#ffffff;}
+.gamemap .listcon .item_p{CURSOR:pointer;BACKGROUND-COLOR:#505000;COLOR:#ffffff;}
+.gamemap .listcon .item_h{CURSOR:pointer;BACKGROUND-COLOR:#505050;COLOR:#ffffff;}
+.ui-searchbtn-n{CURSOR:pointer;WIDTH:39px;HEIGHT:18px;BACKGROUND:url('../images/office/map/search.gif?v=0') no-repeat;}
+.ui-searchbtn-h{CURSOR:pointer;WIDTH:39px;HEIGHT:18px;BACKGROUND:url('../images/office/map/search.gif?v=0') 0px 0px no-repeat;}
+.ui-searchbtn-p{CURSOR:pointer;WIDTH:39px;HEIGHT:18px;BACKGROUND:url('../images/office/map/search.gif?v=0') 1px 1px no-repeat;}
+
+/**主面板小地图*/
+.smallmap{OVERFLOW:hidden;BACKGROUND:url('../images/office/smallmap/bak.gif?v=1');}
+.smallmap .smap_viewblock{BORDER:1px solid #a00000;OVERFLOW:hidden;}
+.smallmap .smap_viewblock_i{BACKGROUND-COLOR:#00ffff;}
+.smallmap .smap_event{-moz-user-select:none;}
+
+/**聊天面板*/
+.chatpanel{}
+.chatpanel .toolbar{BACKGROUND:url('../images/office/chat/toolbar.gif?v=1') no-repeat;}
+.chatpanel .msginput{FONT-FAMILY:"Microsoft JhengHe","STHeiti","SimHei","黑体","宋体";FONT-SIZE:12px;TEXT-ALIGN:left;OVERFLOW:hidden;}
+.chatpanel .speeker{BACKGROUND:url('../images/office/chat/speeker.gif?v=1') no-repeat;} 
+.chatpanel .splitline{BACKGROUND:url('../images/office/chat/splitline.gif?v=1') no-repeat;} 
+.chatpanel .mb_msginput{FONT-FAMILY:"Microsoft JhengHe","STHeiti","SimHei","黑体","宋体";FONT-SIZE:22px;TEXT-ALIGN:left;OVERFLOW:hidden;}
+
+/**聊天连接 */
+.ui_chat_imgtag{ display:inline-block; width:37px; height:16px; OVERFLOW:visible; vertical-align:middle;}
+.ui_chat_imgtag .inner_img{ width:37px; height:19px;}
+.ui_chat_imgtag_fixie{ display:inline-block; *display:inline; *zoom:1; width:37px; height:16px; OVERFLOW:visible; }
+.ui_chat_imgtag_fixie .inner_img{ width:37px; height:19px; }
+
+/** 聊天vip的标示 */
+.ui_chat_viptag{ display:inline-block; width:33px; height:16px; OVERFLOW:visible; }
+.ui_chat_viptag .inner_img{ width:33px; height:19px;}
+.ui_chat_viptag_fixie{ display:inline-block; *display:inline; *zoom:1; width:33px; height:16px; OVERFLOW:visible; }
+.ui_chat_viptag_fixie .inner_img{ width:33px; height:19px; }
+
+/** 聊天blue grow的标示 */
+.ui_chat_growtag{ display:inline-block; width:18px; height:14px; OVERFLOW:visible; }
+.ui_chat_growtag .inner_img{ width:18px; height:17px;}
+.ui_chat_growtag_fixie{ display:inline-block; *display:inline; *zoom:1; width:18px; height:14px; OVERFLOW:visible; }
+.ui_chat_growtag_fixie .inner_img{ width:18px; height:17px; }
+
+
+/** 聊天blue vip的标示 */
+.ui_chat_blueviptag{ display:inline-block; width:18px; height:14px; OVERFLOW:visible; }
+.ui_chat_blueviptag_fixie{ display:inline-block; *display:inline; *zoom:1; width:18px; height:14px; OVERFLOW:visible; }
+.ui_chat_bluevipyeartag{ display:inline-block; width:36px; height:14px; OVERFLOW:visible; }
+.ui_chat_bluevipyeartag_fixie{ display:inline-block; *display:inline; *zoom:1; width:36px; height:14px; OVERFLOW:visible; }
+
+
+.ui-chat-link-player:link{-moz-user-select: none;white-space:nowrap;COLOR:#f19900;TEXT-DECORATION:underline;}
+.ui-chat-link-player:visited{-moz-user-select: none;white-space:nowrap;COLOR:#f19900;TEXT-DECORATION:underline;}
+.ui-chat-link-player:hover{-moz-user-select: none;white-space:nowrap;COLOR:#f19900;TEXT-DECORATION:underline;}
+.ui-chat-player-colon{COLOR:#f19900;}
+.ui-chat-player-splitword{COLOR:#f19999;}
+.ui-chat-player-title{white-space:nowrap;
+	display:inline-block;
+	height:16px;
+	line-height:16px;
+	OVERFLOW:visible;
+	vertical-align:middle;
+}
+.ui-chat_player-title-fixie{
+	white-space:nowrap;
+	display:inline-block; 
+	*display:inline;
+	*zoom:1;
+	height:16px;
+	line-height:16px;
+	OVERFLOW:visible;
+	vertical-align:middle;
+}
+
+.ui-chat-link-hero:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-chat-link-hero:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-chat-link-hero:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-chat-link-item:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-chat-link-item:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-chat-link-item:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-link-buyitem:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-buyitem:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-buyitem:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-link-fightdemo:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-fightdemo:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-fightdemo:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-link-gotomap:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-gotomap:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-gotomap:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-link-alliance:link{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-alliance:visited{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+.ui-link-alliance:hover{-moz-user-select: none;COLOR:#1090f0;TEXT-DECORATION:underline;}
+
+.ui-link-imghelp:link{-moz-user-select: none;white-space: nowrap;FONT-SIZE:14px;COLOR:#10ff10;TEXT-DECORATION:underline;}
+.ui-link-imghelp:visited{-moz-user-select: none;white-space: nowrap;FONT-SIZE:14px;COLOR:#10ff10;TEXT-DECORATION:underline;}
+.ui-link-imghelp:hover{-moz-user-select: none;white-space: nowrap;FONT-SIZE:14px;COLOR:#10ff10;TEXT-DECORATION:underline;}
+
+.ui-link-openvip:link{-moz-user-select: none;COLOR:#ffff00;TEXT-DECORATION:underline;}
+.ui-link-openvip:visited{-moz-user-select: none;COLOR:#ffff00;TEXT-DECORATION:underline;}
+.ui-link-openvip:hover{-moz-user-select: none;COLOR:#ffff00;TEXT-DECORATION:underline;}
+
+.ui-link-alink:link{-moz-user-select: none;COLOR:#10ff10;TEXT-DECORATION:underline;}
+.ui-link-alink:visited{-moz-user-select: none;COLOR:#10ff10;TEXT-DECORATION:underline;}
+.ui-link-alink:hover{-moz-user-select: none;COLOR:#10ff10;TEXT-DECORATION:underline;}
+
+
+/**系统消息面板*/
+.sysmsgpanel .con{COLOR:#eeee88;}
+
+/** npc头像选择列表 */
+.npclist{HEIGHT:90px;WIDTH:auto;}
+.npclist .npcitem_nor{DISPLAY:inline;FLOAT:left;CURSOR:pointer;HEIGHT:80px;WIDTH:70px;LINE-HEIGHT:80px;MARGIN:5px 4px 5px 4px;}
+.npclist .npcitem_hot{DISPLAY:inline;FLOAT:left;CURSOR:pointer;HEIGHT:80px;WIDTH:70px;LINE-HEIGHT:80px;BACKGROUND-COLOR:#0000ff;MARGIN:5px 4px 5px 4px;}
+.npclist .npchead{CURSOR:pointer;HEIGHT:60px;WIDTH:60px;LINE-HEIGHT:60px;MARGIN:4px 5px 0px 5px;}
+.npclist .npcname{CURSOR:pointer;TEXT-ALIGN:center;HEIGHT:12px;WIDTH:60px;LINE-HEIGHT:12px;MARGIN:0px 5px 4px 5px;}
+
+.selbuilddlg{}
+.selbuilddlg .mainback{BACKGROUND:url('../images/office/build/mainback.gif?v=1') no-repeat;}
+.selbuilddlg .ressubback{BACKGROUND:url('../images/office/build/ressubback.gif?v=1') no-repeat;}
+.selbuilddlg .militarysubback{BACKGROUND:url('../images/office/build/militarysubback.gif?v=1') no-repeat;}
+.selbuilddlg .cnt{WIDTH:25px;HEIGHT:14px;LINE-HEIGHT:14px;TEXT-ALIGN:center;COLOR:#eeeeee;BACKGROUND:url('../images/office/build/flagback.gif?v=1') no-repeat;}
+
+.unselectclass{
+   -moz-user-select: none; /*火狐*/
+   -webkit-user-select: none;  /*webkit浏览器*/
+   -ms-user-select: none;   /*IE10*/
+   -khtml-user-select: none; /*早期浏览器*/
+   user-select: none;
+}
+
+/** 内城建筑block */
+.inbldblock{
+   -moz-user-select: none; /*火狐*/
+   -webkit-user-select: none;  /*webkit浏览器*/
+   -ms-user-select: none;   /*IE10*/
+   -khtml-user-select: none; /*早期浏览器*/
+   user-select: none;
+	BACKGROUND:no-repeat;}
+.inbldblock .state{-moz-user-select:none;POSITION:absolute;Z-INDEX:1px;WIDTH:52px;HEIGHT:48px;}
+.inbldblock .time{-moz-user-select:none;POSITION:absolute;Z-INDEX:2px;WIDTH:65px;HEIGHT:14px;LINE-HEIGHT:14px;TEXT-ALIGN:center;COLOR:#FFFF00;BACKGROUND:url('../images/office/build/block/timetag.png?v=1') no-repeat;}
+.inbldblock .levelname{-moz-user-select:none;POSITION:absolute;Z-INDEX:3px;WIDTH:65px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;COLOR:#FFFFFF;BACKGROUND:url('../images/office/build/block/leveltag.png?v=1') no-repeat;}
+.inbldblock .level{-moz-user-select:none;FLOAT:left;WIDTH:20px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;}
+.inbldblock .name{-moz-user-select:none;FLOAT:left;WIDTH:45px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;}
+
+/** 城池动态对话框 */
+.buildinfodlg{}
+.buildinfodlg .item_n{TEXT-ALIGN:center;}
+.buildinfodlg .item_p{TEXT-ALIGN:center;BACKGROUND-COLOR: #505000;}
+.buildinfodlg .item_h{TEXT-ALIGN:center;BACKGROUND-COLOR: #505050;}
+.buildinfodlg .ddd{BACKGROUND-COLOR: #000050;}
+
+/** 野地建筑 */
+.fieldblock{BACKGROUND:no-repeat;WIDTH:320px;HEIGHT:250px;}
+.fieldblock .cityBuild{POSITION:absolute;WIDTH:320px;HEIGHT:250px;}
+.fieldblock .name{POSITION:absolute;WIDTH:90px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;COLOR:#fefefe;BACKGROUND:url('../images/office/fields/rolecity/name.gif?v=1') no-repeat;}
+
+.fieldblock .declaring_fight_name{POSITION:absolute;WIDTH:90px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;COLOR:#ff3000;BACKGROUND:url('../images/office/fields/rolecity/name.gif?v=1') no-repeat;}
+.fieldblock .fighting_name{POSITION:absolute;WIDTH:90px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;COLOR:#fefefe;BACKGROUND:url('../images/office/fields/rolecity/fighting_name.gif?v=1') no-repeat;}
+.fieldblock .role_name{POSITION:absolute;WIDTH:90px;HEIGHT:16px;LINE-HEIGHT:16px;TEXT-ALIGN:center;COLOR:#fefefe;BACKGROUND:url('../images/office/fields/rolecity/name.gif?v=1') no-repeat;}
+
+.fieldblock .myAlliFlag{POSITION:absolute;WIDTH:24px;HEIGHT:25px;LINE-HEIGHT:25px;TEXT-ALIGN:center;COLOR:#fefefe;BACKGROUND:url('../images/office/fields/rolecity/myalliflag.gif?v=1') no-repeat;}
+.fieldblock .enemyAlliFlag{POSITION:absolute;WIDTH:46px;HEIGHT:35px;LINE-HEIGHT:30px;PADDING-LEFT:7px;COLOR:#802020;BACKGROUND:url('../images/office/fields/rolecity/enemyalliflag.gif?v=1') no-repeat;}
+.fieldblock .subCity{POSITION:absolute;WIDTH:82px;HEIGHT:55px;}
+.fieldblock .noFieldFlag{POSITION:absolute;display:none;WIDTH:46px;HEIGHT:52px;LEFT:46px;TOP:121px;}
+.fieldblock .myFieldFlag{POSITION:absolute;display:block;WIDTH:46px;HEIGHT:52px;LEFT:46px;TOP:121px;BACKGROUND:url('../images/office/fields/flag/myfield.gif?v=1') no-repeat;}
+.fieldblock .alliFieldFlag{POSITION:absolute;display:block;WIDTH:46px;HEIGHT:52px;LEFT:46px;TOP:121px;BACKGROUND:url('../images/office/fields/flag/allifield.gif?v=1') no-repeat;}
+.fieldblock .noalliFieldFlag{POSITION:absolute;display:block;WIDTH:46px;HEIGHT:52px;LEFT:46px;TOP:121px;BACKGROUND:url('../images/office/fields/flag/noallifield.gif?v=1') no-repeat;}
+.fieldselectblock{-moz-user-select:none;POSITION:absolute;Z-INDEX:1000000;
+	BACKGROUND:url('../images/office/fields/selectblock.png?v=1')  !important;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/office/fields/selectblock.png?v=1');
+	_background-image: none;}
+
+	
+/** 联盟主对话框 */
+.alliancedlg { }
+.alliancedlg .myAlliFlag{POSITION:absolute;WIDTH:24px;HEIGHT:25px;LINE-HEIGHT:25px;TEXT-ALIGN:center;COLOR:#fefefe;BACKGROUND:url('../images/office/fields/rolecity/myalliflag.gif?v=1') no-repeat;}
+
+/** 可采集地块标志 */
+.farmblockcangather{POSITION:absolute;Z-INDEX:1000;LEFT:18px;TOP:10px;WIDTH:32px;HEIGHT:32px;BACKGROUND:url('../images/office/farm/block/cangather.gif?v=1') no-repeat;}
+.farmblockprotect{POSITION:absolute;Z-INDEX:1001;LEFT:26px;TOP:14px;WIDTH:85px;HEIGHT:55px;BACKGROUND:url('../images/office/farm/block/protect.png?v=1') no-repeat;}
+	
+.farmpanel{COLOR:#eeeea0;}
+.farmpanel .opbak{BACKGROUND:url('../images/office/farm/opbar.jpg?v=1') no-repeat;}
+
+.farmpanel .opsel-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/sel.gif?v=1') no-repeat;}
+.farmpanel .opsel-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/sel.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opsel-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/sel.gif?v=1') 1px 1px no-repeat;}
+.farmpanel .opinput-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/input.gif?v=1') no-repeat;}
+.farmpanel .opinput-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/input.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opinput-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/input.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opinit-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/init.gif?v=1') no-repeat;}
+.farmpanel .opinit-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/init.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opinit-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/init.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opget-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/get.gif?v=1') no-repeat;}
+.farmpanel .opget-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/get.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opget-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/get.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .oppre-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/pre.gif?v=1') no-repeat;}
+.farmpanel .oppre-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/pre.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .oppre-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/pre.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opall-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/all.gif?v=1') no-repeat;}
+.farmpanel .opall-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/all.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opall-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/all.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opotherget-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherget.gif?v=1') no-repeat;}
+.farmpanel .opotherget-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherget.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opotherget-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherget.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opotherall-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherall.gif?v=1') no-repeat;}
+.farmpanel .opotherall-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherall.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opotherall-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/otherall.gif?v=1') 1px 1px no-repeat;}
+
+
+.farmpanel .opmyfarm-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/myfarm.gif?v=1') no-repeat;}
+.farmpanel .opmyfarm-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/myfarm.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opmyfarm-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/myfarm.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opfarminfo-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farminfo.gif?v=1') no-repeat;}
+.farmpanel .opfarminfo-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farminfo.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opfarminfo-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farminfo.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opfarmrefresh-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/opfarmrefresh.gif?v=1') no-repeat;}
+.farmpanel .opfarmrefresh-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/opfarmrefresh.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opfarmrefresh-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/opfarmrefresh.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .opfarmrule-btn-n{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farmrule.gif?v=1') no-repeat;}
+.farmpanel .opfarmrule-btn-h{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farmrule.gif?v=1') -1px -1px no-repeat;}
+.farmpanel .opfarmrule-btn-p{CURSOR:pointer;WIDTH:58px;HEIGHT:45px;BACKGROUND:url('../images/office/farm/op/farmrule.gif?v=1') 1px 1px no-repeat;}
+
+.farmpanel .openfriend-btn-n{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/openfriend.gif?v=1') no-repeat;}
+.farmpanel .openfriend-btn-h{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/openfriend.gif?v=1') no-repeat;}
+.farmpanel .openfriend-btn-p{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/openfriend.gif?v=1') no-repeat;}
+
+.farmpanel .closefriend-btn-n{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/closefriend.gif?v=1') no-repeat;}
+.farmpanel .closefriend-btn-h{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/closefriend.gif?v=1') no-repeat;}
+.farmpanel .closefriend-btn-p{CURSOR:pointer;WIDTH:24px;HEIGHT:97px;BACKGROUND:url('../images/office/farm/op/closefriend.gif?v=1') no-repeat;}
+
+.friend-applyList-btn-n{CURSOR:pointer;WIDTH:22px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/friendapplylistbtn/n.gif?v=1') no-repeat;}
+.friend-applyList-btn-h{CURSOR:pointer;WIDTH:22px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/friendapplylistbtn/h.gif?v=1') no-repeat;}
+.friend-applyList-btn-p{CURSOR:pointer;WIDTH:22px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/friendapplylistbtn/p.gif?v=1') no-repeat;}
+.friend-applyList-btn-b{CURSOR:pointer;WIDTH:22px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/friendapplylistbtn/b.gif?v=1') no-repeat;}
+
+.farmpiptip{WIDTH:120px;LINE-HEIGHT:18px;}
+.farmpipdlg{}
+.farmpipdlg .item_n{CURSOR:pointer;}
+.farmpipdlg .item_p{CURSOR:pointer;BACKGROUND-COLOR: #505000;}
+.farmpipdlg .item_h{CURSOR:pointer;BACKGROUND-COLOR: #505050;}
+
+.farminfodlg{}
+.farminfodlg .item_n{CURSOR:pointer;}
+.farminfodlg .item_p{CURSOR:pointer;BACKGROUND-COLOR: #505000;}
+.farminfodlg .item_h{CURSOR:pointer;BACKGROUND-COLOR: #505050;}
+.upfarmresnum {TEXT-ALIGN:center;FONT-SIZE:16px;FONT-WEIGHT:bold;COLOR:#00ef00;}
+.upfarmresnumback {TEXT-ALIGN:center;FONT-SIZE:16px;FONT-WEIGHT:bold;COLOR:#202020;}
+
+.actorValueEffect_front {TEXT-ALIGN:center;LINE-HEIGHT:20px;}
+.actorValueEffect_back {TEXT-ALIGN:center;LINE-HEIGHT:20px;COLOR:#202020;}
+
+.culturedlg{}
+.culturedlg .item-n{BACKGROUND:url('../images/office/build/culture/itemback-n.gif?v=1') no-repeat;}
+.culturedlg .item-h{BACKGROUND:url('../images/office/build/culture/itemback-h.gif?v=1') no-repeat;}
+.culturedlg .item-p{BACKGROUND:url('../images/office/build/culture/itemback-h.gif?v=1') no-repeat;}
+
+.soldierdlg{}
+.soldierdlg .num{COLOR:#ffffff;TEXT-ALIGN:right;}
+.soldierdlg .item-n{BACKGROUND:url('../images/office/build/culture/itemback-n.gif?v=1') no-repeat;}
+.soldierdlg .item-h{BACKGROUND:url('../images/office/build/culture/itemback-h.gif?v=1') no-repeat;}
+.soldierdlg .item-p{BACKGROUND:url('../images/office/build/culture/itemback-h.gif?v=1') no-repeat;}
+
+.fightmap{}
+.fightmap .headinfobak{OVERFLOW:hidden;BACKGROUND:url('../images/office/farm/headinfobak_min.gif?v=0') no-repeat;}
+.fightmap .autofighttip{OVERFLOW:hidden;WIDTH:95px;HEIGHT:24px;BACKGROUND:url('../images/office/fight/autofight.gif?v=1') no-repeat;}
+.fightmap .headinfobak_fight{OVERFLOW:hidden;BACKGROUND:url('../images/office/fight/headinfobak_fight.gif?v=1') no-repeat;}
+.fightmap .fightname{COLOR:#ffffff;FONT-WEIGHT:bold;}
+.fightmap .mapscene{-moz-user-select:none;OVERFLOW:hidden;}
+.fightmap .smallmap{OVERFLOW:hidden;BACKGROUND-COLOR:#808000;BORDER:1px solid #800000;}
+.fightmap .smap_viewblock{BORDER:1px solid #20ff20;OVERFLOW:hidden;}
+.fightmap .smap_viewblock_i{BACKGROUND-COLOR:#00ffff;}
+.fightmap .smap_event{-moz-user-select:none;}
+.fightmap .hotcursor{-moz-user-select:none;WIDTH:50px;HEIGHT:50px;POSITION:absolute;Z-INDEX:10000;BORDER:1px solid #0000ff;}
+.fightmap .selcursor{-moz-user-select:none;WIDTH:50px;HEIGHT:50px;POSITION:absolute;Z-INDEX:10001;BORDER:1px solid #00ff00;}
+.fightmap .blueblock {Z-INDEX:90;POSITION:absolute;BACKGROUND:url('../images/office/fight/bluesel.png?v=1') repeat;}
+.fightmap .redblock {Z-INDEX:91;POSITION:absolute;BACKGROUND:url('../images/office/fight/redsel.png?v=1') repeat;}
+.fightmap .resultback{BACKGROUND:url('../images/office/fight/resultback.gif?v=1') repeat;}
+.fightmap .selfhead{BACKGROUND:url('../images/office/fight/selfhead.gif?v=1') repeat;}
+.fightmap .enemyhead{BACKGROUND:url('../images/office/fight/enemyhead.gif?v=1') repeat;}
+.fightmap .retwin{BACKGROUND:url('../images/office/fight/retwin.gif?v=1') repeat;}
+.fightmap .retfail{BACKGROUND:url('../images/office/fight/retfail.gif?v=1') repeat;}
+.fightmap .attackflag{BACKGROUND:url('../images/office/fight/attack.gif?v=1') repeat;}
+.fightmap .defendflag{BACKGROUND:url('../images/office/fight/defend.gif?v=1') repeat;}
+
+/* mail temp */
+.mailfightresult {HEIGHT:28px;LINE-HEIGHT:28px;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #5e5e5e;  COLOR:#d48e2e;}
+.mailfighttable{BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #5e5e5e; }
+.mailfighttable .title {TEXT-ALIGN:center;BACKGROUND-COLOR:#182424;COLOR:#d48e2e;}
+.mailfighttable .attackline {TEXT-ALIGN:center;BACKGROUND-COLOR:#0a121f;COLOR:#9a9a9a;}
+.mailfighttable .defline {TEXT-ALIGN:center;BACKGROUND-COLOR:#170304;COLOR:#9a9a9a;}
+.mailfighttable .line {TEXT-ALIGN:center;COLOR:#ffffff;}
+.mailfightres {LINE-HEIGHT:22px;BORDER-WIDTH: 1px;BORDER-STYLE: solid;BORDER-COLOR: #5e5e5e;  COLOR:#9a9a9a;}
+
+.sys_mail_logo{width:627px; height:69px; BACKGROUND:url('../images/office/mail/syslogo.gif?v=3') no-repeat;}
+.mailcommsys{BORDER-WIDTH: 0px;}
+.mailcommsys .con{LINE-HEIGHT:24px; COLOR:#cfcfcf; font-size:14px; padding-left:4px; }
+
+.comm_mail_con{LINE-HEIGHT:24px; COLOR:#cfcfcf; font-size:14px; padding-left:4px; }
+
+
+.herodlg{}
+.herodlg .jingmaibk_nan{BACKGROUND:url('../images/office/hero/jingmaibk_nan.gif?v=1') no-repeat;}
+.herodlg .jingmaibk_nv{BACKGROUND:url('../images/office/hero/jingmaibk_nv.gif?v=1') no-repeat;}
+.herodlg .level{WIDTH:20px;HEIGHT:20px;LINE-HEIGHT:20px;TEXT-ALIGN:center;COLOR:#FFFF00;BACKGROUND:url('../images/office/ui/level.png?v=0') no-repeat;}
+.herodlg .changeval{COLOR:#20ff20;}
+.herodlg .fulllevel{BACKGROUND:url('../images/office/hero/fulllevel.gif?v=1') repeat;}
+.herodlg .armback{BACKGROUND:url('../images/office/hero/armback.gif?v=1') no-repeat;}
+.herodlg .curtacticskill{BORDER:1px solid #ffff80;COLOR:#808080;BACKGROUND:#0b1413;}
+
+
+.commgrid_normal{BACKGROUND:url('../images/office/hero/commgrid_normal.gif?v=1') repeat;}
+.commgrid_hot{BACKGROUND:url('../images/office/hero/commgrid_hot.gif?v=1') repeat;}
+.soldiergrid_normal{BACKGROUND:url('../images/office/hero/soldiergrid_normal.gif?v=1') repeat;}
+.soldiergrid_hot{BACKGROUND:url('../images/office/hero/soldiergrid_hot.gif?v=1') repeat;}
+.commgrid_icon{TEXT-ALIGN:center;LINE-HEIGHT:32px;COLOR:#909090;}
+.soldiergrid_num{TEXT-ALIGN:center;}
+
+.strategydlg{}
+.strategydlg .itemicon{OVERFLOW:hidden;}
+.strategydlg .itemname{TEXT-ALIGN:center;}
+.strategydlg .item_normal{BACKGROUND:url('../images/office/strategy/grid_normal.gif?v=1') repeat;}
+.strategydlg .item_hot{BACKGROUND:url('../images/office/strategy/grid_hot.gif?v=1') repeat;}
+
+.recruitherodlg{}
+.recruitherodlg .heroback{BACKGROUND:url('../images/office/hero/heroitemback.gif?v=1');}
+.recruitherodlg .maxnvalback{BACKGROUND:url('../images/office/hero/maxnvalback.gif?v=1');}
+
+
+.allimaindlg{}
+.allimaindlg .leveltag{BACKGROUND:url('../images/office/build/block/leveltag.png?v=1');}
+.allimaindlg .timetag{BACKGROUND:url('../images/office/build/block/timetag.png?v=1');}
+.allimaindlg .introduce{BACKGROUND:#202020;OVERFLOW:hidden;}
+
+.subscribedlg{}
+.subscribedlg .itemback{BACKGROUND:#323230;BORDER:1px solid #787a77;}
+
+.allipromotedlg{}
+.allipromotedlg .rightarrow{BACKGROUND:url('../images/office/alli/rightarrow.gif?v=1');}
+.allipromotedlg .item_n{BACKGROUND:url('../images/office/alli/promote/itemback-n.gif?v=1');}
+.allipromotedlg .item_h{BACKGROUND:url('../images/office/alli/promote/itemback-h.gif?v=1');}
+.allipromotedlg .item_p{BACKGROUND:url('../images/office/alli/promote/itemback-p.gif?v=1');}
+
+.allipraydlg{BACKGROUND:url('../images/office/alli/pray/itemback.jpg?v=1');}
+
+.createroledlg{BACKGROUND-COLOR:#000000;}
+.createroledlg .panelbk{BACKGROUND:url('../images/office/createrole/panelbk.gif?v=1');}
+.createroledlg .item_normal{BACKGROUND:url('../images/office/createrole/frame/normal.gif?v=1');}
+.createroledlg .item_sel{BACKGROUND:url('../images/office/createrole/frame/sel.gif?v=1');}
+.createroledlg .item_hot{BACKGROUND:url('../images/office/createrole/frame/normal.gif?v=1');}
+
+.cityflag{CURSOR:pointer;}
+.changecity{}
+
+.menu_panel .cd_itemnor{CURSOR:pointer;HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;}
+.menu_panel .cd_itemhot{CURSOR:pointer;HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;BACKGROUND-COLOR:#FFFFA0;}
+.menu_panel .cd_itemdis{CURSOR:pointer;HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;}
+.menu_panel .cd_coliconnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;WIDTH:40px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .cd_coliconhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;WIDTH:40px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .cd_colnamenor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;MARGIN:0px;WIDTH:auto;HEIGHT:35px;LINE-HEIGHT:35px;COLOR:#FFFFA0;}
+.menu_panel .cd_colnamehot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;MARGIN:0px;WIDTH:auto;HEIGHT:35px;LINE-HEIGHT:35px;COLOR:#0020f0;}
+.menu_panel .cd_colnamedis{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;MARGIN:0px;WIDTH:auto;HEIGHT:35px;LINE-HEIGHT:35px;COLOR:#808080;}
+.menu_panel .cd_coliarrnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;WIDTH:4px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .cd_coliarrhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;PADDING-LEFT:4px;TEXT-ALIGN:left;WIDTH:4px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+
+
+.menu_panel .fatt_itemnor{CURSOR:pointer;MARGIN:1px 1px; HEIGHT:25px;LINE-HEIGHT:25px;WIDTH:auto;BORDER:1px solid #252525;BACKGROUND-COLOR:#101010;}
+.menu_panel .fatt_itemhot{CURSOR:pointer;MARGIN:1px 1px; HEIGHT:25px;LINE-HEIGHT:25px;WIDTH:auto;BORDER:1px solid #8F0000;BACKGROUND-COLOR:#FFFFA0;}
+.menu_panel .fatt_itemdis{CURSOR:pointer;MARGIN:1px 2px; HEIGHT:25px;LINE-HEIGHT:25px;WIDTH:auto;BORDER:1px solid #000000;}
+.menu_panel .fatt_coliconnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:30px;HEIGHT:25px;LINE-HEIGHT:25px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fatt_coliconhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:30px;HEIGHT:25px;LINE-HEIGHT:25px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fatt_colnamenor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:35px;HEIGHT:25px;LINE-HEIGHT:25px;COLOR:#FFFFA0;}
+.menu_panel .fatt_colnamehot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:35px;HEIGHT:25px;LINE-HEIGHT:25px;COLOR:#0020f0;}
+.menu_panel .fatt_colnamedis{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:35px;HEIGHT:25px;LINE-HEIGHT:25px;COLOR:#808080;}
+.menu_panel .fatt_coliarrnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:20px;HEIGHT:25px;LINE-HEIGHT:25px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fatt_coliarrhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:20px;HEIGHT:25px;LINE-HEIGHT:25px;BACKGROUND:no-repeat 50% 50%;}
+
+.menu_panel .fskill_itemnor{FLOAT:left;CURSOR:pointer;MARGIN:1px 2px; HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;BORDER:1px solid #404040;BACKGROUND-COLOR:#202020;}
+.menu_panel .fskill_itemhot{FLOAT:left;CURSOR:pointer;MARGIN:1px 2px; HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;BORDER:1px solid #8F0000;BACKGROUND-COLOR:#FFFFA0;}
+.menu_panel .fskill_itemdis{FLOAT:left;CURSOR:pointer;MARGIN:1px 2px; HEIGHT:35px;LINE-HEIGHT:35px;WIDTH:auto;BORDER:1px solid #404040;BACKGROUND-COLOR:#202020;}
+.menu_panel .fskill_coliconnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:40px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fskill_coliconhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:40px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fskill_colnamenor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;MARGIN:0px;WIDTH:60px;HEIGHT:35px;LINE-HEIGHT:15px;COLOR:#FFFFA0;}
+.menu_panel .fskill_colnamehot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;MARGIN:0px;WIDTH:60px;HEIGHT:35px;LINE-HEIGHT:15px;COLOR:#0020f0;}
+.menu_panel .fskill_colnamedis{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;MARGIN:0px;WIDTH:60px;HEIGHT:35px;LINE-HEIGHT:15px;COLOR:#808080;}
+.menu_panel .fskill_coliarrnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:1px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+.menu_panel .fskill_coliarrhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:left;WIDTH:1px;HEIGHT:35px;LINE-HEIGHT:35px;BACKGROUND:no-repeat 50% 50%;}
+
+.comm_listitem_n{CURSOR:default;}
+.comm_listitem_p{CURSOR:default;BACKGROUND-COLOR: #376BAC;}
+.comm_listitem_h{CURSOR:default;BACKGROUND-COLOR: #505050;}
+
+.comm_grayfont{COLOR:#b0b0b0;}
+.comm_deepgrayfont{COLOR:#a0a0a0;}
+.comm_redfont{COLOR:#ff3000;}
+.comm_whitefont{COLOR:#f0f0f0;}
+.comm_greenfont{COLOR:#20ff20;}
+.comm_blackfont{COLOR:#101010;}
+.comm_yellowfont{COLOR:#f0f060;}
+.comm_yellowfont2{COLOR:#ffff10;}
+.comm_yellowfont3{COLOR:#FFC90E;}
+.comm_yellowfont4{COLOR:#d3af70;}
+.comm_purple{COLOR:#A349A4;}
+
+.comm_clip{overflow:hidden;} 
+.comm_norepeat{BACKGROUND:no-repeat;}
+.comm_norepeatandimgcenter{BACKGROUND:50% 50% no-repeat;}
+
+.comm_label{BORDER:1px solid #5b5a56;COLOR:#b0b0b0;BACKGROUND:#0b1413;OVERFLOW:hidden;}
+.comm_value{BORDER:1px solid #5b5a56;COLOR:#f0f0f0;BACKGROUND:#0b1413;}
+
+.comm_label_noborder{COLOR:#b0b0b0;}
+
+.comm_lineh14{LINE-HEIGHT:14px;}
+.comm_lineh16{LINE-HEIGHT:16px;}
+.comm_lineh18{LINE-HEIGHT:18px;}
+.comm_lineh20{LINE-HEIGHT:20px;}
+.comm_lineh24{LINE-HEIGHT:24px;}
+.comm_lineh28{LINE-HEIGHT:28px;}
+.comm_lineh30{LINE-HEIGHT:30px;}
+
+.comm_font12{FONT-SIZE:12px;}
+.comm_font13{FONT-SIZE:13px;}
+.comm_font14{FONT-SIZE:14px;}
+.comm_font16{FONT-SIZE:16px; }
+.comm_font18{FONT-SIZE:18px;}
+.comm_font22{FONT-SIZE:22px;}
+.comm_font24{FONT-SIZE:24px;}
+.comm_bold{FONT-WEIGHT:bold;}
+.comm_htfont{font-family:"Microsoft JhengHe","STHeiti","SimHei","黑体","宋体";}
+.comm_underline{TEXT-DECORATION:underline;CURSOR:pointer;}
+.comm_center{TEXT-ALIGN:center;}
+
+.comm_split_line{BORDER-TOP:1px solid #8b8a86;}
+
+.comm_inlineline_block{white-space:nowrap;
+	display:inline-block;
+	}
+	
+.comm_inlineline_block_fixie{white-space:nowrap;
+	display:inline-block; 
+	*display:inline; 
+	*zoom:1;
+	}	
+	
+.black_edge{  
+    text-shadow:1px 0px #202020,-1px 0px #202020,0px 1px #202020,0px -1px #202020;
+    filter: Dropshadow(offx=1,offy=0,color=#202020)
+        Dropshadow(offx=0,offy=1,color=#202020)
+        Dropshadow(offx=0,offy=-1,color=#202020)
+        Dropshadow(offx=-1,offy=0,color=#202020);
+}
+
+.deepyellow_edge{  
+    text-shadow:1px 0px #804020,-1px 0px #804020,0px 1px #804020,0px -1px #804020;
+    filter: Dropshadow(offx=1,offy=0,color=#804020)
+        Dropshadow(offx=0,offy=1,color=#804020)
+        Dropshadow(offx=0,offy=-1,color=#804020)
+        Dropshadow(offx=-1,offy=0,color=#804020);
+}
+
+
+
+.disable_icon{background:#ffffff; opacity:0.35; filter:Alpha(Opacity=35);-moz-opacity:0.35;}
+.grayicon_cover{background:#a0a0a0; opacity:0.50; filter:Alpha(Opacity=35);-moz-opacity:0.35;}
+.redicon_cover{background:#ff0000; opacity:0.35; filter:Alpha(Opacity=35);-moz-opacity:0.35;}
+
+.innerborder{
+	BORDER-TOP:1px solid #AC9264;
+	BORDER-LEFT:1px solid #AC9264;
+	BORDER-RIGHT:1px solid #AC9264;
+	BORDER-BOTTOM:1px solid #AC9264;}
+.listheadcol{BACKGROUND-COLOR:#000000;
+	BORDER-TOP:1px solid #AC9264;
+	BORDER-LEFT:1px solid #AC9264;
+	BORDER-RIGHT:1px solid #4C3204;
+	BORDER-BOTTOM:1px solid #4C3204;
+	TEXT-ALIGN:center;LINE-HEIGHT:20px;
+	}
+	
+.commheadcol{}
+.commheadcol .leftdom{FLOAT:left;WIDTH:4px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/headcol/01.gif?v=1') no-repeat;}
+.commheadcol .textdom{FLOAT:left;WIDTH:auto;HEIGHT:22px;LINE-HEIGHT:22px;TEXT-ALIGN:center;COLOR:#ffffff;BACKGROUND:url('../images/office/ui/back/headcol/02.gif?v=1') repeat-x;}
+.commheadcol .rightdom{FLOAT:left;WIDTH:4px;HEIGHT:22px;BACKGROUND:url('../images/office/ui/back/headcol/03.gif?v=1') no-repeat;}
+
+/* mobile */
+.mb-button1-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#C0C0C0;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn1/n.gif?v=1') no-repeat;}
+.mb-button1-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn1/h.gif?v=1') no-repeat;}
+.mb-button1-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn1/p.gif?v=1') no-repeat;}
+.mb-button1-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#808080;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn1/n.gif?v=1') no-repeat;}
+
+.mb-button2-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#C0C0C0;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn2/n.gif?v=1') no-repeat;}
+.mb-button2-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn2/n.gif?v=1') no-repeat;}
+.mb-button2-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn2/h.gif?v=1') no-repeat;}
+.mb-button2-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#808080;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn2/n.gif?v=1') no-repeat;}
+	
+.mb-button3-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#C0C0C0;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn3/n.gif?v=1') no-repeat;}
+.mb-button3-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn3/n.gif?v=1') no-repeat;}
+.mb-button3-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn3/h.gif?v=1') no-repeat;}
+.mb-button3-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:94px;HEIGHT:39px;COLOR:#808080;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn3/n.gif?v=1') no-repeat;}
+	
+.mb-button4-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:80px;HEIGHT:57px;COLOR:#C0C0C0;LINE-HEIGHT:60px;BACKGROUND:url('../images/office/ui/back/mb/btn4/n.gif?v=1') no-repeat;}
+.mb-button4-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:80px;HEIGHT:57px;COLOR:#FFFFFF;LINE-HEIGHT:60px;BACKGROUND:url('../images/office/ui/back/mb/btn4/h.gif?v=1') no-repeat;}
+.mb-button4-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:80px;HEIGHT:57px;COLOR:#FFFFFF;LINE-HEIGHT:60px;BACKGROUND:url('../images/office/ui/back/mb/btn4/p.gif?v=1') no-repeat;}
+.mb-button4-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:22px;WIDTH:80px;HEIGHT:57px;COLOR:#808080;LINE-HEIGHT:60px;BACKGROUND:url('../images/office/ui/back/mb/btn4/n.gif?v=1') no-repeat;}
+	
+.mb-button5-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:74px;HEIGHT:39px;COLOR:#C0C0C0;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn5/n.gif?v=1') no-repeat;}
+.mb-button5-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:74px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn5/h.gif?v=1') no-repeat;}
+.mb-button5-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:74px;HEIGHT:39px;COLOR:#FFFFFF;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn5/p.gif?v=1') no-repeat;}
+.mb-button5-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:74px;HEIGHT:39px;COLOR:#808080;LINE-HEIGHT:39px;BACKGROUND:url('../images/office/ui/back/mb/btn5/n.gif?v=1') no-repeat;}
+	
+.mb-button6-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#C0C0C0;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn6/n.gif?v=1') no-repeat;}
+.mb-button6-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#FFFFFF;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn6/h.gif?v=1') no-repeat;}
+.mb-button6-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#FFFFFF;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn6/p.gif?v=1') no-repeat;}
+.mb-button6-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#808080;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn6/d.gif?v=0') no-repeat;}
+	
+.mb-button7-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#C0C0C0;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn7/n.gif?v=1') no-repeat;}
+.mb-button7-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#FFFFFF;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn7/h.gif?v=1') no-repeat;}
+.mb-button7-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#FFFFFF;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn7/p.gif?v=1') no-repeat;}
+.mb-button7-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;TEXT-ALIGN:center;FONT-SIZE:20px;WIDTH:60px;HEIGHT:50px;COLOR:#808080;LINE-HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/btn7/d.gif?v=0') no-repeat;}
+	
+.mb-button8-expand-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/expand.png?v=1') no-repeat;}
+.mb-button8-expand-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/expand.png?v=1') no-repeat;}
+.mb-button8-expand-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/expand.png?v=1') no-repeat;}
+.mb-button8-expand-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/expand.png?v=1') no-repeat;}
+
+.mb-button8-collapse-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/collapse.png?v=1') no-repeat;}
+.mb-button8-collapse-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/collapse.png?v=1') no-repeat;}
+.mb-button8-collapse-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/collapse.png?v=1') no-repeat;}
+.mb-button8-collapse-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:28px;HEIGHT:53px;BACKGROUND:url('../images/office/ui/back/mb/btn8/collapse.png?v=1') no-repeat;}
+
+.mb-facebutton-n{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:35px;HEIGHT:35px;BACKGROUND:url('../images/office/ui/back/mb/facebtn/n.gif?v=1') no-repeat;}
+.mb-facebutton-h{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:35px;HEIGHT:35px;BACKGROUND:url('../images/office/ui/back/mb/facebtn/n.gif?v=1') no-repeat;}
+.mb-facebutton-p{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:35px;HEIGHT:35px;BACKGROUND:url('../images/office/ui/back/mb/facebtn/n.gif?v=1') no-repeat;}
+.mb-facebutton-d{-moz-user-select: none;FLOAT:left;CURSOR:pointer;WIDTH:35px;HEIGHT:35px;BACKGROUND:url('../images/office/ui/back/mb/facebtn/n.gif?v=1') no-repeat;}
+
+.mb-ui-mdlg {POSITION:absolute; TOP:0px; LEFT:0px; WIDTH:1000px; HEIGHT:597px;}
+.mb-ui-mdlg .ui-overlay-dlg {Z-INDEX:1; POSITION:absolute; TOP:0px; LEFT:0px; WIDTH:2048px; HEIGHT:1536px; background:#000000; opacity:0.2; filter:Alpha(Opacity=20);-moz-opacity:0.2;-moz-user-select:none;}
+.mb-ui-mdlg .ui-panel-dlg {Z-INDEX:2;WIDTH:auto;HEIGHT:auto;POSITION:absolute;COLOR:#eeeea0;}
+.mb-ui-mdlg .ui-titlebar{WIDTH:50px; HEIGHT:50px; LINE-HEIGHT:50px;TEXT-ALIGN:center; MARGIN:0px 0px 0px 0px;-moz-user-select:none;OVERFLOW:visible;BACKGROUND:url('../images/office/ui/back/mb/commdlg/title.gif?v=1') no-repeat  center 5px;}
+.mb-ui-mdlg .ui-titleprespace{DISPLAY:inline;FLOAT:left;WIDTH:77px;HEIGHT:50px;}
+.mb-ui-mdlg .ui-titletext{DISPLAY:inline;FLOAT:left;COLOR:#ffffff;font-size:24px; font-family:"Microsoft JhengHe","STHeiti","SimHei";WIDTH:auto;MARGIN-TOP:8px;HEIGHT:42px; LINE-HEIGHT:42px; OVERFLOW:visible;FONT-EIGHT:bold; TEXT-ALIGN:center;-moz-user-select:none;}
+.mb-ui-mdlg .ui-titlebtn{DISPLAY:inline;FLOAT:left;WIDTH:51px;HEIGHT:40px;MARGIN:10px 16px 0px 0px;}
+.mb-ui-mdlg .ui-content {WIDTH:auto; MARGIN:10px 37px 25px 37px;}
+.mb-ui-mdlg .ui-btns {WIDTH:50px; HEIGHT:32px; MARGIN:2px 0px 2px 0px;}
+.mb-ui-mdlg .ui-dlg-btn{DISPLAY:inline;FLOAT:left;WIDTH:14px; HEIGHT:27px; MARGIN:3px 30px 0px 0px;}
+
+.ui-back .mb-ui-commdlg-1{FLOAT:left;WIDTH:174px;HEIGHT:71px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/01.gif?v=1') no-repeat;}
+.ui-back .mb-ui-commdlg-2{FLOAT:left;WIDTH:51px;HEIGHT:71px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/02.gif?v=1') repeat-x;}
+.ui-back .mb-ui-commdlg-3{FLOAT:left;WIDTH:177px;HEIGHT:71px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/03.gif?v=1') no-repeat;}
+.ui-back .mb-ui-commdlg-4{FLOAT:left;WIDTH:174px;HEIGHT:48px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/04.gif?v=1') repeat-y;}
+.ui-back .mb-ui-commdlg-5{FLOAT:left;WIDTH:51px;HEIGHT:48px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/05.gif?v=1') repeat;}
+.ui-back .mb-ui-commdlg-6{FLOAT:left;WIDTH:177px;HEIGHT:48px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/06.gif?v=1') repeat-y;}
+.ui-back .mb-ui-commdlg-7{FLOAT:left;WIDTH:174px;HEIGHT:58px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/07.gif?v=1') no-repeat;}
+.ui-back .mb-ui-commdlg-8{FLOAT:left;WIDTH:51px;HEIGHT:58px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/08.gif?v=1') repeat-x;}
+.ui-back .mb-ui-commdlg-9{FLOAT:left;WIDTH:177px;HEIGHT:58px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/09.gif?v=1') no-repeat;}
+.ui-back .mb-ui-commdlg-7n{FLOAT:left;WIDTH:174px;HEIGHT:33px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/07n.gif?v=1') no-repeat;}
+.ui-back .mb-ui-commdlg-8n{FLOAT:left;WIDTH:51px;HEIGHT:33px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/08n.gif?v=1') repeat-x;}
+.ui-back .mb-ui-commdlg-9n{FLOAT:left;WIDTH:177px;HEIGHT:33px;BACKGROUND:url('../images/office/ui/back/mb/commdlg/09n.gif?v=1') no-repeat;}
+
+.mb-ui-dlg {Z-INDEX:2;HEIGHT:auto;POSITION:absolute;COLOR:#eeeea0;}
+.mb-ui-dlg .ui-panel-dlg {Z-INDEX:2;WIDTH:auto;HEIGHT:auto;POSITION:absolute;COLOR:#eeeea0;}
+.mb-ui-dlg .ui-titlebar{WIDTH:50px; HEIGHT:50px; LINE-HEIGHT:50px;TEXT-ALIGN:center; MARGIN:0px 0px 0px 0px;-moz-user-select:none;OVERFLOW:visible;BACKGROUND:url('../images/office/ui/back/mb/commdlg/title.gif?v=1') no-repeat  center 5px;}
+.mb-ui-dlg .ui-titleprespace{DISPLAY:inline;FLOAT:left;WIDTH:77px;HEIGHT:50px;}
+.mb-ui-dlg .ui-titletext{DISPLAY:inline;FLOAT:left;COLOR:#ffffff;font-size:24px; font-family:"Microsoft JhengHe","STHeiti","SimHei";WIDTH:auto;MARGIN-TOP:8px;HEIGHT:42px; LINE-HEIGHT:42px; OVERFLOW:visible;FONT-WEIGHT:bold; TEXT-ALIGN:center;-moz-user-select:none;}
+.mb-ui-dlg .ui-titlebtn{DISPLAY:inline;FLOAT:left;WIDTH:51px;HEIGHT:40px;MARGIN:10px 16px 0px 0px;}
+.mb-ui-dlg .ui-content {WIDTH:auto; MARGIN:10px 37px 25px 37px;}
+.mb-ui-dlg .ui-btns {WIDTH:50px; HEIGHT:32px; MARGIN:2px 0px 2px 0px;}
+.mb-ui-dlg .ui-dlg-btn{DISPLAY:inline;FLOAT:left;WIDTH:14px; HEIGHT:27px; MARGIN:3px 30px 0px 0px;}
+
+.mb_chattarget_menu_panel{HEIGHT:auto;BACKGROUND-COLOR:#000000;
+	BORDER-TOP:1px solid #AC9264;
+	BORDER-LEFT:1px solid #AC9264;
+	BORDER-RIGHT:1px solid #4C3204;
+	BORDER-BOTTOM:1px solid #4C3204;
+	}
+.mb_chattarget_menu_panel .itemnor{CURSOR:pointer;HEIGHT:39px;LINE-HEIGHT:39px;WIDTH:auto;BACKGROUND:url('../images/office/ui/back/mb/btn2/n.gif?v=1') no-repeat  center;}
+.mb_chattarget_menu_panel .itemhot{CURSOR:pointer;HEIGHT:39px;LINE-HEIGHT:39px;WIDTH:auto;BACKGROUND:url('../images/office/ui/back/mb/btn2/h.gif?v=1') #FFFFA0 no-repeat center;}
+.mb_chattarget_menu_panel .itemdis{CURSOR:pointer;HEIGHT:39px;LINE-HEIGHT:39px;WIDTH:auto;}
+.mb_chattarget_menu_panel .coliconnor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;WIDTH:0px;HEIGHT:39px;}
+.mb_chattarget_menu_panel .coliconhot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;WIDTH:0px;HEIGHT:39px;}
+.mb_chattarget_menu_panel .colnamenor{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:center;WIDTH:auto;HEIGHT:39px;LINE-HEIGHT:39px;font-size: 22px;COLOR:#FFFFFF;}
+.mb_chattarget_menu_panel .colnamehot{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:center;WIDTH:auto;HEIGHT:39px;LINE-HEIGHT:39px;font-size: 22px;COLOR:#FFFFA0;}
+.mb_chattarget_menu_panel .colnamedis{CURSOR:pointer;DISPLAY:inline;FLOAT:left;TEXT-ALIGN:center;WIDTH:auto;HEIGHT:39px;LINE-HEIGHT:39px;font-size: 22px;COLOR:#808080;}
+
+.mb-ui-closebtn1-n{FLOAT:right;CURSOR:pointer;WIDTH:45px;HEIGHT:45px;BACKGROUND:url('../images/office/ui/back/mb/closebtn1/n.gif?v=1') no-repeat;}
+.mb-ui-closebtn1-h{FLOAT:right;CURSOR:pointer;WIDTH:45px;HEIGHT:45px;BACKGROUND:url('../images/office/ui/back/mb/closebtn1/h.gif?v=1') no-repeat;}
+.mb-ui-closebtn1-p{FLOAT:right;CURSOR:pointer;WIDTH:45px;HEIGHT:45px;BACKGROUND:url('../images/office/ui/back/mb/closebtn1/p.gif?v=1') no-repeat;}
+
+/**聊天连接 */
+.mb_ui_chat_imgtag{ display:inline-block; width:65px; height:28px; OVERFLOW:visible; vertical-align:middle; }
+.mb_ui_chat_imgtag .inner_img{ width:65px; height:28px;}
+.mb_ui_chat_imgtag_fixie{ display:inline-block; *display:inline; *zoom:1; width:65px; height:28px; OVERFLOW:visible; }
+.mb_ui_chat_imgtag_fixie .inner_img{ width:65px; height:28px;  }
+.mb-ui-chat-player-title{white-space:nowrap; display:inline-block; height:28px; line-height:28px; OVERFLOW:visible; vertical-align:middle; }
+
+/*跟踪按钮条*/
+.mb_trackbtnbar{BACKGROUND:url('../images/office/ui/back/mb/trackbtn/bk.gif?v=1') no-repeat;}
+/* 活动日历跟踪按钮 */
+.mb-ui-trackbtn-actdate-n{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/actdate/n.gif?v=1') no-repeat;}
+.mb-ui-trackbtn-actdate-h{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/actdate/h.gif?v=1')  no-repeat;}
+.mb-ui-trackbtn-actdate-p{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/actdate/p.gif?v=1') no-repeat;}
+/* 自动建筑动态跟踪按钮 */
+.mb-ui-trackbtn-autobuild-n{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/autobuild/n.gif?v=1') 1px 0px no-repeat;}
+.mb-ui-trackbtn-autobuild-h{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/autobuild/h.gif?v=1') no-repeat;}
+.mb-ui-trackbtn-autobuild-p{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/autobuild/p.gif?v=1') no-repeat;}
+/* 建筑动态跟踪按钮 */
+.mb-ui-trackbtn-building-n{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/building/n.gif?v=1') no-repeat;}
+.mb-ui-trackbtn-building-h{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/building/h.gif?v=1') no-repeat;}
+.mb-ui-trackbtn-building-p{-moz-user-select:none;CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/trackbtn/building/p.gif?v=1') no-repeat;}
+.mb-ui-trackbtn-reddot{ Z-INDEX: 10; position:absolute; width: 21px;height: 21px;background: url('../images/office/reddot/02.png?v=1') no-repeat;}
+/**聊天面板*/
+.mb-smbtn-sound-n{cursor: pointer;width: 26px;height: 26px;background: url('../images/office/smallmap/btns/sound/n.gif?v=1')  no-repeat;}
+.mb-smbtn-sound-h{cursor: pointer;width: 26px;height: 26px;background: url('../images/office/smallmap/btns/sound/h.gif?v=1')  no-repeat;}
+.mb-smbtn-sound-p{cursor: pointer;width: 26px;height: 26px;background: url('../images/office/smallmap/btns/sound/p.gif?v=1')  no-repeat;}
+/**聊天面板*/
+.mb_chatpanel{}
+.mb_chatpanel .toolbar{BACKGROUND:url('../images/office/mb/chat/toolbar.gif?v=1') no-repeat;}
+.mb_chatpanel .msginput{FONT-FAMILY:"Microsoft JhengHe","STHeiti","SimHei","黑体","宋体";FONT-SIZE:12px;TEXT-ALIGN:left;OVERFLOW:hidden;}
+.mb_chatpanel .speeker{BACKGROUND:url('../images/office/chat/speeker.gif?v=1') no-repeat;} 
+.mb_chatpanel .splitline{BACKGROUND:url('../images/office/chat/splitline.gif?v=1') no-repeat;} 
+.mb_chatpanel .mb_msginput{FONT-FAMILY:"Microsoft JhengHe","STHeiti","SimHei","黑体","宋体";FONT-SIZE:22px;TEXT-ALIGN:left;OVERFLOW:hidden;}
+/** */
+.mb-suggest_btn_n{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/suggestbtn/n.gif?v=1') no-repeat;}
+.mb-suggest_btn_n_new{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/suggestbtn/n_new.gif?v=1') no-repeat;}
+.mb-suggest_btn_h{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/suggestbtn/h.gif?v=1') no-repeat;}
+.mb-suggest_btn_p{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/suggestbtn/p.gif?v=1') no-repeat;}
+/** */
+.mb-vip_btn_n{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/vipbtn/n.gif?v=1') no-repeat;}
+.mb-vip_btn_h{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/vipbtn/h.gif?v=1') no-repeat;}
+.mb-vip_btn_p{CURSOR:pointer;width:50px; height:50px;BACKGROUND:url('../images/office/ui/back/mb/vipbtn/p.gif?v=1') no-repeat;}
+/** */
+.mb-ui-spirit-min-n{CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/helpspirit/spiritmini.gif?v=1') no-repeat;}
+.mb-ui-spirit-min-h{CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/helpspirit/spiritmini_h.gif?v=1') no-repeat;}
+.mb-ui-spirit-min-p{CURSOR:pointer;WIDTH:50px;HEIGHT:50px;BACKGROUND:url('../images/office/ui/back/mb/helpspirit/spiritmini_p.gif?v=1') no-repeat;}
+/** */
+.commbtn-reddot{ Z-INDEX: 10; position:absolute; left:0px; top:0px; width: 12px;height: 12px;background: url('../images/office/reddot/02.png?v=1') no-repeat;}

@@ -1,0 +1,139 @@
+/*通用*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td {margin: 0;padding: 0;font-size: 12px; font-family: Tahoma,宋体;/*Arial, "Microsoft YaHei";*/  }
+table {border-collapse: collapse;border-spacing: 0;}
+fieldset,img {border: 0;}
+th,em {font-style: normal;font-weight: normal;}
+ul,ol {list-style: none;}
+caption,th {text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;font-weight: normal;}
+
+a {text-decoration: none;color: #666666;}
+a:hover {text-decoration: underline;}
+table {border-collapse: collapse;border-spacing: 0;empty-cells: show;}
+input,select,form img,button {vertical-align: middle;}
+select{padding: 3px;}
+img {border: 0;}
+section,article,aside,header,footer,nav,dialog,figure {display: block;}
+html {  
+ _background: url('about:blank') fixed;  
+}
+
+
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+/* Hide from IE Mac \*/ 
+.clearfix { display:block; }
+/* End hide from IE Mac */ 
+
+.fix{width:100%;height:0;overflow:hidden;clear:both;float:none;}
+.float-l{float: left;}
+.float-r{float: right;}
+
+.hide {display: none;}
+.show{display: block;}
+
+
+/*官网*/
+/*页面背景*/
+body{ font-family: 微软雅黑; font-weight: bold; font-size: 14px;  }
+.index{background: url("http://mat1.gtimg.com/gamezone/playgame/zl/images/mbg2.jpg") no-repeat center top #f5e0cf;}
+.server{background: url("http://mat1.gtimg.com/gamezone/playgame/jh/images/mbg3.jpg") no-repeat center top #f5e0cf;}
+
+.header{height: 359px; margin: 0 auto; width: 960px; position: relative; }
+.content-wrapper{width: 100%;/*background: url("http://mat1.gtimg.com/gamezone/playgame/jh/images/cbg2.jpg") center repeat-y;*/}
+.content{margin: 0 auto; width: 976px;}
+.footer{/*background: url("http://mat1.gtimg.com/gamezone/playgame/jh/images/fbg.jpg") no-repeat center top;*/}
+.layout-l{width: 220px; padding:0px;  float: left; border:0px;}
+.layout-m{float: left; }
+.layout-r{width: 238px; float: right;  }
+.layout-c{width: 500px;float: left; margin: 42px 0 0 7px;; }
+
+/*中间内容*/
+.mod-news{/* border: 1px solid #e2c692; background-color: #725438;*/ }
+.mod-news a,.mod-news span{color: #ad8969; font-size: 12px; font-weight: normal; }
+.mod-news .tab{height: 44px;}
+.mod-news .tab a{ float:left; font-weight:bold;  color: #c26559; line-height:44px; font-size: 18px; text-align:center; display: inline-block; width: 250px; height:44px; text-decoration: none; background: url("http://mat1.gtimg.com/gamezone/playgame/zl/images/btnbg.jpg") no-repeat; }
+.mod-news .tab a.here{ color:#fbdda1; background:url("http://mat1.gtimg.com/gamezone/playgame/zl/images/btnh.jpg") no-repeat;}
+.mod-news .title{text-align: center; padding: 20px 0 20px 0;}
+.mod-news .title a{color: #ff973b; font-size: 14px;   }
+.mod-news .list{padding: 15px 10px;}
+.mod-news .list li{ line-height: 21px;}
+.mod-news .list li a{float: left; clear: both;  }
+.mod-news .list li span{float: right;}
+.mod-news .boxes{background: url("http://mat1.gtimg.com/gamezone/playgame/zl/images/bbg.jpg") no-repeat; height: 244px;}
+
+
+.mod-pic{margin-top: 5px;}
+.mod-pic a{border: 1px solid #e2c692; float: left; margin-left: 12px; width: 150px;height: 86px; display: block;}
+.mod-pic a.first{margin: 0;}
+.mod-pic a img{width: 150px;height: 86px;}
+
+/*左侧模块*/
+.btn-link{display: block; width: 220px;height: 65px; background: url("http://mat1.gtimg.com/gamezone/playgame/zl/images/btns.jpg"); margin-bottom: 5px; }
+.btn-servers{background-position:0 -160px; height:55px;}
+.btn-cdkey{background-position:0 -222px;}
+.btn-xs{background-position:0 -286px;}
+.btn-wb{background-position:0 -351px;}
+.start-box{height: 152px; }
+
+/*右侧模块*/
+.mod-act{margin-top: 5px;}
+.mod-act .t{height: 139px; }
+.mod-act .c{color: #c49e7c; font-size: 12px; height: 44px; padding: 10px 14px 1px 14px;}
+.mod-act .f{text-align: center; height: 50px;}
+.mod-act .btn-act{width: 117px;height: 37px; display: inline-block; }
+.mod-act .btn-iwan{width: 238px;height: 50px; display: inline-block;}
+
+
+/*sever页*/
+.layout-s{width: 677px; padding:18px 0 0  54px; float: left; }
+.btn-home{width: 134px; height: 27px; display: block; position: absolute; bottom: 0; right: 0;background: url("http://mat1.gtimg.com/gamezone/playgame/jh/images/btn_home.jpg"); line-height: 0; font-size: 0; overflow: hidden; }
+
+.server-box{margin-bottom: 10px;}
+.server-box .t span{font-size: 18px; color: #f7941c; background-color:#5c482e; padding: 3px 20px; display: inline-block; margin:0 0 -1px 0px; border:1px solid #f2d9a6; border-bottom: 0; }
+.server-box .c{background-color: #2d0d03; border:1px solid #f2d9a6; padding-bottom: 5px;  }
+.server-box .l{height: 37px;}
+
+/*服务器按钮*/
+.btn-server {display: block;width: 134px;height: 24px;float:left;background:url("http://mat1.gtimg.com/gamezone/playgame/wang/images/server_sp_1.png") no-repeat 0px -174px;margin: 5px 0 0 5px;text-decoration: none;color: #ffe9bd;}
+.btn-server:hover{background-position: -134px -174px; text-decoration: none;}
+.btn-server em,a.btn-sever i,.btn-server a b,.btn-server a span{font-style: normal; overflow: hidden; }
+.btn-server em, .btn-server i, .btn-server b{background:url("http://mat1.gtimg.com/gamezone/playgame/wang/images/server_sp_1.png") no-repeat;}
+.btn-server em{display: inline-block;width: 9px;height: 13px; margin:6px 0 0 5px; float: left;   }
+.btn-server span{ cursor:pointer; display:inline-block;margin:5px 0 0 3px; _margin:6px 0 0 3px; /*  padding:1px 0 0 3px; */  font-size: 12px;  float: left;  }
+.btn-server i, .btn-server b{display: inline-block; width: 17px;height: 17px; float: right; margin: 4px 3px 0 0;}
+.btn-server i{background-position: -595px -135px;}
+.btn-server b{background-position: -595px -118px;}
+.btn-server .s-free{background-position: -560px -49px;}
+.btn-server .s-crowd {background-position: -578px -49px;}
+.btn-server .s-full {background-position: -569px -49px;}
+.btn-server .s-care {background-position: -587px -49px;}
+.btn-server strong{font-weight: normal;margin-left: 5px; }
+
+/*推荐服务器按钮*/
+.btn-server-light{ width:140px; height:46px;  background: url("http://img1.gtimg.com/gamezone/pics/hv1/90/22/1155/75109575.png") no-repeat -415px -94px;}
+.btn-server-light em{margin: 16px 0 0 5px;}
+.btn-server-light i{margin: 13px 3px 0 0;}
+.btn-server-light b{margin: 13px 5px 0 0;}
+.btn-server-light small{margin-top: 13px;}
+.btn-server-light span{margin:13px 0 0 3px;}
+.btn-server-light:hover{background-position: -415px -140px;}
+
+/*开始游戏按钮*/
+.btn-start{ text-align:center;  padding-top:98px; float:none; margin-bottom:14px; height: 0px; width: 220px; background-image: none; }
+.btn-start i,.btn-start b,.btn-start em,.btn-start span,.btn-start strong{float: none; vertical-align: middle; margin-top: 0;}
+
+
+
+/*服务器页登录块*/
+.qq-info{position: absolute;  right: 734px; bottom: 7px;}
+.qq-info2{ right: 225px;   }
+.qq-info span,.qq-info a{float: right;color: white; font-size: 14px; line-height: 14px; color: #c26559; }
+.qq-info a{text-decoration: none; margin: 0 7px;  }
+.qq-info #logout-box{display: none;}
+
+/*服务器列表tab*/
+.tabs{ border-bottom: 1px solid #F2D9A6; padding-top: 5px; }
+.tabs a{color: #DEC380; border: 1px solid #F2D9A6; padding: 5px;  display: inline-block;  margin:0 0px -1px 5px; text-decoration: none; background-color: #801D17; }
+.tabs a.here{background-color: #9F2524; color:#F2D9A6;  }/*  |xGv00|db7054bf8dd4f40cea1fa3eaaa978c84 */.serverinfo{height:20px;}.serverinfo .space_left{float:left; display:inline-block; width:18px; height:20px;}.serverinfo .space_mid{float:left; display:inline-block; width:2px; height:20px;}.serverinfo .flag_empty{float:left; display:inline-block; width:17px; height:17px;}.serverinfo .flag_full{float:left; display:inline-block; width:17px; height:17px; background: url("./images/server_sp.png") no-repeat 0px -16px;}.serverinfo .flag_recommend{float:left; display:inline-block; width:17px; height:17px; background: url("./images/server_sp.png") no-repeat 0px -33px;}.serverinfo .flag_new{float:left; display:inline-block; width:17px; height:17px; background: url("./images/server_sp.png") no-repeat 0px -50px;}.serverinfo .state_gray{float:left; display:inline-block; width:9px; height:16px; background: url("./images/server_sp.png") no-repeat -27px 0px;}.serverinfo .state_green{float:left; display:inline-block; width:9px; height:16px; background: url("./images/server_sp.png") no-repeat 0px 0px;}.serverinfo .state_yellow{float:left; display:inline-block; width:9px; height:16px; background: url("./images/server_sp.png") no-repeat -18px 0px;}.serverinfo .state_red{float:left; display:inline-block; width:9px; height:16px; background: url("./images/server_sp.png") no-repeat -9px 0px;}.serverinfo .name{float:left; display:inline-block; width:75px; color:#ffe9bd;}.serverinfo .dropbtn{float:left; display:inline-block;}.serverinfo .dropbtn a{color:#ffc76b; text-decoration: underline;}.serverinfo .dropbtn a:hover{color:#ffe9bd; text-decoration: underline;}.serverlist-panel{ position: absolute; display:block; background-color: #801D17; width:288px;}.serverlist-panel .item-line{white-space:nowrap; width:288px; height:25px;}.serverlist-panel .item-line .item{float:left; display:inline-block; width:143px; height:25px; background-color: #801D17; padding-top:6px;}.serverlist-panel .item-line .item-hot{float:left; display:inline-block; width:143px; height:25px; background-color: #a03D37; padding-top:6px;}.serverlist-panel .lastservertitle{float:left; display:inline-block; width:288px; height:25px;}.serverlist-panel .pservertitle{float:left; display:inline-block; width:288px; height:25px;}.serverlist-panel .allservertitle{float:left; display:inline-block; width:288px; height:25px;}.dialog{ position: fixed; top: 100px; left: 45%; z-index: 900003;  background-color: #fff; -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.3); -moz-box-shadow: 0 2px 6px rgba(0,0,0,.3); box-shadow: 0 2px 6px rgba(0,0,0,.3); border: solid 1px #c8cbcc; font-size: 12px;}.guest-select-dlg{ margin:40px;}.guest-select-dlg .guestlogin-btn{width:17px; height:17px; background: url("./images/btns.jpg") no-repeat 0px -50px;}.guest-select-dlg .login-btn{}.guest-select-dlg .reg-btn{}

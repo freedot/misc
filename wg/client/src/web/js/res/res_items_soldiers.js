@@ -1,0 +1,8 @@
+﻿res_items_soldiers=[{'name':'刀兵','progalias':'DAOBING','bigpic':150001,'arange':'2.0','mspeed':'2.0','phy':'13/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','str':'8/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','agile':'9/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','aspeed':'195+5*LV','id':150001,'desc':'近程兵种。防御体力高，命中闪避较低，攻击弱。善于克制弓兵和戟兵'}
+,{'name':'戟兵','progalias':'JIBING','bigpic':150002,'arange':'2.0','mspeed':'2.0','phy':'10/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','str':'8/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','agile':'12/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','aspeed':'95+5*LV','id':150002,'desc':'近程兵种。命中闪避高，防御体力其次，攻击弱。善于克制弓兵和骑兵'}
+,{'name':'弓兵','progalias':'GONGBING','bigpic':150003,'arange':'5.0','mspeed':'2.0','phy':'7/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','str':'11/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','agile':'12/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','aspeed':'495+5*LV','id':150003,'desc':'远程兵种。命中闪避高，攻击其次，防御体力低。善于克制骑兵和器械部队'}
+,{'name':'骑兵','progalias':'QIBING','bigpic':150004,'arange':'2.0','mspeed':'3.0','phy':'7/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','str':'13/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','agile':'10/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','aspeed':'395+5*LV','id':150004,'desc':'近程兵种。攻击高，命中闪避其次，防御体力低。善于克制刀兵和器械部队'}
+,{'name':'器械','progalias':'QIXIE','bigpic':150005,'arange':'6.0','mspeed':'1.0','phy':'10/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','str':'14/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','agile':'6/30*(1.676*LV*LV*LV-17*LV*LV+211*LV+104)/3','aspeed':'5*LV','id':150005,'desc':'远程兵种。攻击高，防御体力其次，命中闪避低。善于克制刀兵和戟兵，善于破坏城墙'}
+];
+
+

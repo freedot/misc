@@ -1,0 +1,1 @@
+ActorAttr=function(){this.initialize=function(){},this.checkArmNeed=function(a,b){var c=!0;if(!a)return c;for(var d in b){var e=b[d];if(e.attr==ATTR.LVL){c=a.level>=e.val;if(!c)break}}return c},this.initialize.apply(this,arguments)},AAttr=new ActorAttr

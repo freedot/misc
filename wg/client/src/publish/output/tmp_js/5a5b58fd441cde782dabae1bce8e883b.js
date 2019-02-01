@@ -1,0 +1,1 @@
+MyDict=Class.extern(function(){var a=null,b={};this.init=function(b){a=b},this.get=function(c){return b[c]==null&&(b[c]=a),b[c]},this.set=function(a,c){b[a]=c}})

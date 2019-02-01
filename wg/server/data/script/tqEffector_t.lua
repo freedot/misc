@@ -107,6 +107,7 @@ local TestCaseEffector = TestCase:extends({
 
 local TestCaseSomeEffector = TestCase:extends({
 	setUp = function(self)
+		Util:setTimeDrt(0)
 		TestCaseHelper:createPlayer(self)
 		TestCaseHelper:createHero(self)
 	end;
@@ -2765,7 +2766,7 @@ local TestCaseFullTradingAccUseGiftGoldEffector = TestCase:extends({
 	end;
 	
 	test_init = function(self)
-		assert ( self.effector.SUPER == FullAccUseGiftGoldEffector )
+		assert ( getmetatable(self.effector:getClass())  == FullAccUseGiftGoldEffector )
 		assert ( self.effector.innerEffector:getClass() == TradingAccEffector )
 		assert ( self.effector.accType == 'trading' )
 	end;
@@ -2844,7 +2845,7 @@ local TestCaseFullTaskAccUseGiftGoldEffector = TestCase:extends({
 	end;
 	
 	test_init = function(self)
-		assert ( self.effector.SUPER == FullAccUseGiftGoldEffector )
+		assert ( getmetatable(self.effector:getClass()) == FullAccUseGiftGoldEffector )
 		assert ( self.effector.innerEffector:getClass() == DoingRoleTaskAccEffector )
 		assert ( self.effector.accType == 'roletask' )
 	end;

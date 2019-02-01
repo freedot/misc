@@ -1,0 +1,1 @@
+js_list=['js/swfobject.js?v=1', 'js/jclass.js?v=1', 'js/caller.js?v=2', 'js/globalvar.js?v=1', 'js/scriptlists.js?v=172', 'js/preloadimglists.js?v=1', 'js/loader.js?v=1', 'js/loading.js?v=25'];

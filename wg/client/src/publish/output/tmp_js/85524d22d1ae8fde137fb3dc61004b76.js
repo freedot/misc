@@ -1,0 +1,1 @@
+DictIterator=Class.extern(function(){var a=null,b=null,c=0;this.init=function(d){a=d,b=[];for(var e in a){if(!a[e])continue;b.push(e)}c=0},this.hasMoreNodes=function(){return b[c]?!0:!1},this.nextNode=function(){return a[b[c++]]}})

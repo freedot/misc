@@ -364,7 +364,7 @@ class HandleGuiRes(BaseClass)
 					elseif childressub[j].name == 'width' then
 						listHead:SetColWidth(j-1, tonumber(childressub[j].attr.value))
 					elseif childressub[j].name == 'itemtempsubidx' then
-						for w in string.gfind(childressub[j].attr.value, "%d+") do
+						for w in string.gmatch(childressub[j].attr.value, "%d+") do
 							listHead:InsertSubItemIndexIntoCol(tonumber(w))
 						end
 					end

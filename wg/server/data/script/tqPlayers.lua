@@ -1597,7 +1597,12 @@ PlayerCitys = Class:extends({
 	end;
 	
 	getCityById = function(self, id)
-		return self.citys[id]-- 从1开始
+		local city = self.citys[id] -- 从1开始
+		if city then
+			return city
+		else
+			return nil
+		end
 	end;
 	
 	getBuildingCount = function(self)
@@ -1956,6 +1961,7 @@ NewHeros = Class:extends({
 			InitNewHeroUtil:inithero(self.player, newhero, id, prof, tlevel, minLevel)
 			self:_recalNewHeroNAttrs(count, newhero)
 		end
+
 		self.heros.ulNewHeroLastTime = Util:getTime()
 		self.heros.ucNewCount = count
 	end;

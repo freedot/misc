@@ -5,7 +5,7 @@ class XmlAssist(BaseClass)
 	--@return 返回一个被分割过后的列表
 	function GetNumberArray(self, strval)
 		local myarrays = {}
-		for w in string.gfind(strval, "[+-]?%d+[.]?%d*") do
+		for w in string.gmatch(strval, "[+-]?%d+[.]?%d*") do
 			table.insert(myarrays, tonumber(w))
 		end;
 		return myarrays;
@@ -18,7 +18,7 @@ class XmlAssist(BaseClass)
 	-- 返回color对象
 	function GetColorFromString(self, strval)
 		local mycl = {}
-		for w in string.gfind(strval, "%d+") do
+		for w in string.gmatch(strval, "%d+") do
 			table.insert(mycl, w)
 		end;
 		
@@ -36,7 +36,7 @@ class XmlAssist(BaseClass)
 	-- 返回rect对象
 	function GetRectFromString(self, strval)
 		local myrt = {}
-		for w in string.gfind(strval, "[+-]?%d+") do
+		for w in string.gmatch(strval, "[+-]?%d+") do
 			table.insert(myrt, w)
 		end;
 		
@@ -54,7 +54,7 @@ class XmlAssist(BaseClass)
 	-- 返回size对象
 	function GetSizeFromString(self, strval)
 		local mysz = {}
-		for w in string.gfind(strval, "[+-]?%d+") do
+		for w in string.gmatch(strval, "[+-]?%d+") do
 			table.insert(mysz, w)
 		end;
 		

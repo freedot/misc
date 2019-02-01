@@ -502,14 +502,14 @@ CampsPosIniter = Class:extends({
 	-- clockwise rotate 90 degree
 	rotateFaceUpToFaceRight = function(self, lineupGridIdx)
 		local gridDX = self.LINEUP_MAXCOLS - math.floor(lineupGridIdx / self.LINEUP_MAXCOLS) - 1
-		local gridDY = math.mod(lineupGridIdx, self.LINEUP_MAXCOLS)
+		local gridDY = math.fmod(lineupGridIdx, self.LINEUP_MAXCOLS)
 		return gridDX, gridDY
 	end;
 	
 	-- anticlockwise rotate 90 degree
 	rotateFaceupToFaceLeft = function(self, lineupGridIdx)
 		local gridDX = math.floor(lineupGridIdx / self.LINEUP_MAXCOLS)
-		local gridDY = math.mod(lineupGridIdx, self.LINEUP_MAXCOLS)
+		local gridDY = math.fmod(lineupGridIdx, self.LINEUP_MAXCOLS)
 		return gridDX, gridDY
 	end;
 })

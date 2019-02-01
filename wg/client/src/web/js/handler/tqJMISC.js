@@ -1,0 +1,77 @@
+﻿/** MiscSet */
+JMISC = Class.extern(function(){
+	var m_g;
+	var m_this;
+	var m_appid;
+	
+	this.init = function(){
+		m_this = this;
+		m_appid = 1101114844;
+	};
+	
+	this.initOneTime = function(g){
+		m_g = g;
+	};
+	
+	this.openPayWnd = function(){
+		if (g_platform == 'pengyou' || g_platform == 'qzone' || g_platform == '3366' ) {
+			UIM.openDlg('buygold');
+		} else if (g_platform == '32wan') {
+			window.open('http://apiport.32wan.com/redirect/pay?game=ldtx&sid=' + pay_zone_id);
+		}
+	};
+	
+	this.openOfficialWnd = function(){
+		if (g_platform == 'pengyou' || g_platform == 'qzone' || g_platform == '3366' ) {
+			window.open('http://bbs.open.qq.com/forum.php?mod=forumdisplay&action=list&fid=2399#groupnav');
+		} else if (g_platform == '32wan') {
+			window.open('http://apiport.32wan.com/redirect/bbs?game=ldtx');
+		}
+	};
+	
+	this.openCommYellowDiamond = function(){
+		window.open('http://pay.qq.com/qzone/index.shtml?aid=game' + m_appid + '.op');
+	};
+	
+	this.openYearYellowDiamond = function(){
+		window.open('http://pay.qq.com/qzone/index.shtml?aid=game' + m_appid + '.yop&paytime=year');
+	};
+	
+	this.payCommYellowDiamond = function(){
+		window.open('http://pay.qq.com/qzone/index.shtml?aid=game' + m_appid + '.op');
+	};
+	
+	this.payYearYellowDiamond = function(){
+		this.payCommYellowDiamond();
+	};
+	
+	//----------------
+	this.openCommBlueDiamond = function(){
+		window.open('http://pay.qq.com/qqgame/index.shtml?aid=VIP.APP' + m_appid + '.PLAT3366&ADTAG= VIP.APP' + m_appid + '.PLAT3366');
+	};
+	
+	this.openYearBlueDiamond = function(){
+		window.open('http://pay.qq.com/qqgame/index.shtml?ch=self&cm=tenpay&paytime=year&aid=VIP.APP' + m_appid + '.PLAT3366year&ADTAG= VIP.APP' + m_appid + '.PLAT3366year');
+	};
+	
+	this.payCommBlueDiamond = function(){
+		this.openCommBlueDiamond();
+	};
+	
+	this.payYearBlueDiamond = function(){
+		this.openYearBlueDiamond();
+	};
+	
+	this.openBlueOfficial = function(){
+		window.open('http://gamevip.qq.com/?ADTAG=VIP.WEB.LDTX');
+	};
+	
+	this.open3366 = function(){
+		window.open('http://www.3366.com/info/grow_daily.shtml');
+	};
+}).snew();
+
+
+
+
+

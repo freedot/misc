@@ -1371,9 +1371,9 @@ local TestCaseExpedDantiaoHasOwnerFieldTimerHdr = TestCase:extends({
 		assert ( leftFood > 0 )
 		assert ( floatEQ(seizeFood/(seizeFood + leftFood), res_fight_ownerfield_getres_ratio/100) == true )
 
-		assert( self.ownerPlayer:getPkg():getItemNumber(3000088) == 0 )
 		assert( self.ownerPlayer:getPkg():getItemNumber(3000086) == 2 )
-		assert( self.sourcePlayer:getPkg():getItemNumber(3000088) == 1 )
+		assert( self.ownerPlayer:getPkg():getItemNumber(3000090) == 0 )
+		assert( self.sourcePlayer:getPkg():getItemNumber(3000090) == 1 )
 	end;
 	
 	testAddItems = function(self)

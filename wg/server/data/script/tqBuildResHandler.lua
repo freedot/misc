@@ -151,8 +151,7 @@ CityAddBuildHdr = CityBuildHdr:extends({
 		self.resid = Util:getNumber(cmdtb, 'resid')
 		self.cityid = Util:getNumber(cmdtb, 'cid')
 		self.level = 0
-		self.player = player
-		
+		self.player = player 
 		self.city = player:getCitys():getCityById(self.cityid)
 		if self.city == nil then
 			return false

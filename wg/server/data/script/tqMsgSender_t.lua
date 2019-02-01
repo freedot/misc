@@ -1878,7 +1878,7 @@ local TestCaseFightResStateSender = TestCase:extends({
 		local targetRoleId1 = self.player:getRoleId() + 1
 		local targetRoleId2= self.player:getRoleId() + 2
 		FightResStateSender:sendAllStates(self.player)
-		local expectStr =  '{cmd:'..NETCMD.FIGHTREFSTATE..',states:[{id:' .. targetRoleId2 .. ',state:' .. REF_ROLESTATE.FIGHTING .. ',stoptime:1100000},{id:' .. targetRoleId1 .. ',state:' .. REF_ROLESTATE.DECLARING_FIGHT .. ',stoptime:1000000}]}' 
+		local expectStr =  '{cmd:'..NETCMD.FIGHTREFSTATE..',states:[{id:' .. targetRoleId1 .. ',state:' .. REF_ROLESTATE.DECLARING_FIGHT .. ',stoptime:1000000},{id:' .. targetRoleId2 .. ',state:' .. REF_ROLESTATE.FIGHTING .. ',stoptime:1100000}]}' 
 		assertEQ ( getSendMsg_t(), expectStr)
 	end;
 	
@@ -2688,7 +2688,8 @@ local TestCaseActTowerSender = TestCase:extends({
 		local fightDemo = {armyId=1, fightId=2}
 		local lastLayerInfo = {layer=2, fightResult=1, gift={heroExp=100, items={{id=2500001,number=2}}}}
 		ActTowerSender:sendEnterTower(self.player, fightDemo, lastLayerInfo)
-		assertEQ ( getSendMsg_t() , '{cmd:' .. NETCMD.ACT_TOWER .. ',enterTower:{curLayer:1,leftLifes:2,stopTime:3,fightDemo:{fightId:2,armyId:1},lastLayerInfo:{fightResult:1,layer:2,gift:{items:[{id:2500001,number:2}],heroExp:100}}}}' )
+		local expectStr = '{cmd:' .. NETCMD.ACT_TOWER .. ',enterTower:{curLayer:1,leftLifes:2,stopTime:3,fightDemo:{armyId:1,fightId:2},lastLayerInfo:{layer:2,gift:{heroExp:100,items:[{number:2,id:2500001}]},fightResult:1}}}'
+ 		assertEQ ( getSendMsg_t() , expectStr )
 	end;
 	
 	test_sendExitTower = function(self)
@@ -2757,7 +2758,8 @@ local TestCaseActTerraceSender = TestCase:extends({
 		
 		local fightDemo = {armyId=1, fightId=2}
 		ActTerraceSender:sendEnterTerrace(self.player, fightDemo)
-		assertEQ ( getSendMsg_t() , '{cmd:' .. NETCMD.ACT_TERRACE .. ',enterTerrace:{curGate:{gateId:1,subGateId:2},leftLifes:2,stopTime:3,fightDemo:{fightId:2,armyId:1}}}' )
+		local estr = '{cmd:' .. NETCMD.ACT_TERRACE .. ',enterTerrace:{curGate:{gateId:1,subGateId:2},leftLifes:2,stopTime:3,fightDemo:{armyId:1,fightId:2}}}'
+ 		assertEQ ( getSendMsg_t() , estr )
 	end;
 	
 	test_sendExitTerrace = function(self)
@@ -3217,7 +3219,8 @@ local TestCaseWorldBossSender = TestCase:extends({
 		local fightDemo = {armyId=1, fightId=2} 
 		local hurt = 10
 		WorldBossSender:sendFightDemo(self.player, fightDemo, hurt)
-		assertEQ ( getSendMsg_t() , '{cmd:' .. NETCMD.WORLDBOSS .. ',fightDemo:{fightId:2,armyId:1},hurt:10}' )
+		local expectStr = '{cmd:' .. NETCMD.WORLDBOSS .. ',fightDemo:{armyId:1,fightId:2},hurt:10}'
+		assertEQ ( getSendMsg_t() , expectStr )
 	end;
 	
 	test_sendRanks = function(self)

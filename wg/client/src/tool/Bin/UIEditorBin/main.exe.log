@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 160, in OnMenuCmd
+  File "EditorPanel.pyc", line 312, in OnOpenFile
+  File "DivsTree.pyc", line 474, in OpenFile
+  File "DivsTree.pyc", line 392, in OpenFile
+IOError: [Errno 2] No such file or directory: 'E:\\MyWork\\res_newui.js'
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 203, in OnMenuCmd
+  File "EditorPanel.pyc", line 215, in MoveChildUp
+  File "EditorPanel.pyc", line 233, in SwapShapeTreeItem
+  File "wx\_controls.pyc", line 5315, in GetItemPyData
+wx._core.PyAssertionError: C++ assertion "param" failed at ..\..\src\msw\treectrl.cpp(1083) in wxTreeCtrl::SetItemData(): failed to change tree items data
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 160, in OnMenuCmd
+  File "EditorPanel.pyc", line 312, in OnOpenFile
+  File "DivsTree.pyc", line 474, in OpenFile
+  File "DivsTree.pyc", line 392, in OpenFile
+  File "E:\MyWork\wg\trunk\web\js\res\res_newui.js", line 33
+    'p':'rstr.comm.statehonour','t':'Finder.qfind(res_tip_helps, 'id', 3).desc'},{'a':19,'b':36864,'e':'cityhonor',
+                                                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 160, in OnMenuCmd
+  File "EditorPanel.pyc", line 312, in OnOpenFile
+  File "DivsTree.pyc", line 474, in OpenFile
+  File "DivsTree.pyc", line 392, in OpenFile
+  File "E:\MyWork\wg\trunk\web\js\res\res_newui.js", line 33
+    'p':'rstr.comm.statehonour','t':'Finder.qfind(res_tip_helps, 'id', 3).desc'},{'a':19,'b':36864,'e':'cityhonor',
+                                                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 160, in OnMenuCmd
+  File "EditorPanel.pyc", line 312, in OnOpenFile
+  File "DivsTree.pyc", line 474, in OpenFile
+  File "DivsTree.pyc", line 392, in OpenFile
+  File "E:\MyWork\wg\trunk\web\js\res\res_newui.js", line 33
+    'p':'rstr.comm.statehonour','t':'Finder.qfind(res_tip_helps, 'id', 3).desc'},{'a':19,'b':36864,'e':'cityhonor',
+                                                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "EditorPanel.pyc", line 160, in OnMenuCmd
+  File "EditorPanel.pyc", line 312, in OnOpenFile
+  File "DivsTree.pyc", line 474, in OpenFile
+  File "DivsTree.pyc", line 392, in OpenFile
+  File "E:\MyWork\wg\trunk\web\js\res\res_newui.js", line 33
+    'p':'rstr.comm.statehonour','t':'Finder.qfind(res_tip_helps, 'id', 3).desc'},{'a':19,'b':36864,'e':'cityhonor',
+                                                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "AttrPanel.pyc", line 246, in OnLeftCellClick
+  File "AttrPanel.pyc", line 76, in GetAttrType
+KeyError: ''

@@ -66,7 +66,7 @@ ItemResUtil = Class:extends({
 	
 	splitResidLevel = function(self, id)
 		local resid = math.floor(id/1000)
-		local level = math.mod(id, 1000)
+		local level = math.fmod(id, 1000)
 		return resid, level
 	end;
 	

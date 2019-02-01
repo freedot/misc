@@ -8,7 +8,7 @@ class ReadXmlAssist(BaseClass)
 	-- 返回color对象
 	function GetColorFromString(self, strval)
 		local mycl = {}
-		for w in string.gfind(strval, "%d+") do
+		for w in string.gmatch(strval, "%d+") do
 			table.insert(mycl, w)
 		end;
 		
@@ -26,7 +26,7 @@ class ReadXmlAssist(BaseClass)
 	-- 返回rect对象
 	function GetRectFromString(self, strval)
 		local myrt = {}
-		for w in string.gfind(strval, "%d+") do
+		for w in string.gmatch(strval, "%d+") do
 			table.insert(myrt, w)
 		end;
 		
@@ -44,7 +44,7 @@ class ReadXmlAssist(BaseClass)
 	-- 返回size对象
 	function GetSizeFromString(self, strval)
 		local mysz = {}
-		for w in string.gfind(strval, "%d+") do
+		for w in string.gmatch(strval, "%d+") do
 			table.insert(mysz, w)
 		end;
 		

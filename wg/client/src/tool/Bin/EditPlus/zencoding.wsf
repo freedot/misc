@@ -1,0 +1,26 @@
+/*
+ * @version 1.1
+ * @author Viczen.li (v@vfresh.org)
+ * @link http://www.vfresh.org
+ * adapted to EditPlus by Viczen.li
+ */
+<job id="Zencoding">
+<script src="epp.js" language="JScript"></script>
+<script language="JScript">
+var args = WScript.Arguments;
+if(args.length>0) {
+	var cod = args(0);
+	if(cod) {
+		cod = cod.replace(/^(\s+)/,'');
+		cod = zen_coding.parseIntoTree(cod) || '';
+		cod = cod.toString(true);
+		cod = cod.replace("|", '');	//Locate cursor at first.
+		cod = cod.replace(/\|/gm, '');	//Locate cursor at last.
+	}
+	//var objws = WScript.CreateObject("wscript.shell");
+	//objws.SendKeys(cod);
+	WScript.StdOut.Write(cod);
+ }
+ WScript.Quit();
+</script>
+</job>

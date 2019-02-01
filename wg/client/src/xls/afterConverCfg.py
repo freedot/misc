@@ -1,0 +1,24 @@
+aftercfg={
+'defFile':'E:/MyWork/wg/trunk/web/js/res/res_defs_forpy.js'
+,'srcItem':[
+	'E:/MyWork/wg/trunk/web/js/res/res_items_base.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_items_ex.js'
+	]
+,'desEffItem':'E:/MyWork/wg/trunk/xls/cov/client/res_efftiems_ex.js'
+,'desEffItemName':'res_efftiems_ex'
+,'needResaveFiles':[ #½«¿ÕµÄ×Ö¶ÎÒÆ³ý
+	'E:/MyWork/wg/trunk/xls/cov/client/res_inbuilds.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_cultures_upd.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_items_ex.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_drops.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_fields.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_fieldheros.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_copyfields.js'
+	,'E:/MyWork/wg/trunk/xls/cov/client/res_activityval_tasks.js'
+	]
+,'fixid':{
+	'srcpaths':'E:/MyWork/wg/trunk/xls/cov/client'
+	,'desjs':'E:/MyWork/wg/trunk/xls/cov/client/res_fixid_ex.js'
+	,'deslua':'E:/MyWork/wg/trunk/xls/cov/server/res_fixid_ex.lua'
+	}
+}

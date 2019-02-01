@@ -291,8 +291,8 @@ local TestCaseOpenSvrAct = TestCase:extends({
 		global.getTimer():update()
 		assertStrRepeatCount(self.mm.walkLog, 'addSysMail', 2) 
 		local res1 = res_opensvract_hero[1]
-		assertEQ ( self.mm.params['addSysMail.1'], {'role1', res1.mailtitle, FIXID.COMM_SYS_MAILTEMP, res1.mailcon, {RawItemEx({id=1, resId=res1.itemid, number=res1.itemnumber})} } )
-		assertEQ ( self.mm.params['addSysMail.2'], {'role2', res1.mailtitle, FIXID.COMM_SYS_MAILTEMP, res1.mailcon, {RawItemEx({id=1, resId=res1.itemid, number=res1.itemnumber})} } )
+		assertEQ ( self.mm.params['addSysMail.1'], {'role2', res1.mailtitle, FIXID.COMM_SYS_MAILTEMP, res1.mailcon, {RawItemEx({id=1, resId=res1.itemid, number=res1.itemnumber})} } )
+		assertEQ ( self.mm.params['addSysMail.2'], {'role1', res1.mailtitle, FIXID.COMM_SYS_MAILTEMP, res1.mailcon, {RawItemEx({id=1, resId=res1.itemid, number=res1.itemnumber})} } )
 	end;
 })
 

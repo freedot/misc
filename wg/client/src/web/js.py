@@ -1,0 +1,10 @@
+﻿js_list=[
+	'js/swfobject.js'
+	,'js/jclass.js'
+	,'js/caller.js'
+	,'js/globalvar.js'
+	,'js/scriptlists.js'
+	,'js/preloadimglists.js'
+	,'js/loader.js'
+	,'js/loading.js'
+]

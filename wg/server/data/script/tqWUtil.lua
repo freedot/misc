@@ -219,7 +219,7 @@ WUtil = Class:extends({
 	
 	splitSoldierTotalResId = function(self, totalResid)
 		local resid = math.floor(totalResid / 1000)
-		local level = math.mod(totalResid, 1000)
+		local level = math.fmod(totalResid, 1000)
 		return resid, level
 	end;
 }):new()

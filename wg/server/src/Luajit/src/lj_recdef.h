@@ -38,6 +38,7 @@ static const uint16_t recff_idmap[] = {
 0,
 0,
 0,
+0,
 0x1100,
 0x1200+(IRFPM_FLOOR),
 0x1200+(IRFPM_CEIL),
