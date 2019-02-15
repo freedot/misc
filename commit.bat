@@ -1,4 +1,4 @@
-D:\Program Files\7-Zip\7z.exe a tuntun\tuntun.7z tuntun\*.txt -r
-git add .
-git commit -m "f"
-git push
+cd  tuntun
+del tuntun.dat /q/f
+"D:\Program Files\7-Zip\7z.exe" a tuntun.dat *.txt -r -ptuntun@666
+cd ..

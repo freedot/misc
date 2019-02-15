@@ -1,6 +1,0 @@
-﻿使用H5开发
-
-android/ios/desktop:  内嵌webview + 原生库
-web/微信小程序/其他h5渠道: 纯h5-精简版
-
-
