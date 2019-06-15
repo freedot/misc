@@ -1,0 +1,19 @@
+{
+	"gameCloud":0,
+	"goAppId":"wx06d10e4e7baa8307",	
+	"btnsDes":"分享奖励按钮配置描述1显示0不显示shareMul分享倍数name面本名称",
+	"btns":[
+		{"name":"OfflineReward","video":1,"share":0,"rwvideo":0,"rwshare":0,"shareMul":3,"videoMul":2},
+		{"name":"BoxReward","video":1,"share":0,"rwvideo":0,"rwshare":0,"shareMul":3,"videoMul":2},		
+		{"name":"NoCoinTip","video":1,"share":0,"rwvideo":1,"rwshare":1,"shareMul":3,"videoMul":2},
+		{"name":"NewLevelTips","video":1,"share":0,"rwvideo":1,"rwshare":1,"shareMul":3,"videoMul":2},
+		{"name":"InviteFriend","video":1,"share":0,"rwvideo":0,"rwshare":0,"shareMul":3,"videoMul":2},
+		{"name":"LoginDay","video":1,"share":0,"rwvideo":0,"rwshare":0,"shareMul":3,"videoMul":2}					
+	],
+	"citys":["Shenzhen","Beijin","Hangzhou","Chengdu","Shanghai","Guangzhou"],
+
+	"shares":[
+		{"id":101,"type":1,"group":0,"title":"测试分享！","img":"img/doufunao.png","Weights":3}
+	]
+	
+}

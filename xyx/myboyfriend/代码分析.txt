@@ -1,0 +1,4 @@
+登录成功后服务器发下的信息:
+  localStorage.setItem("sessionid", t.sessionid);
+  localStorage.setItem("openId", t.openId);
+  localStorage.setItem("session_key", t.wxSessionkey);
