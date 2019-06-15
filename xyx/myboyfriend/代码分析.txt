@@ -2,3 +2,7 @@
   localStorage.setItem("sessionid", t.sessionid);
   localStorage.setItem("openId", t.openId);
   localStorage.setItem("session_key", t.wxSessionkey);
+
+
+
+GameData

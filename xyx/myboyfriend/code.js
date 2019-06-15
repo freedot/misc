@@ -22080,7 +22080,7 @@ var rare;
         }));
       },
 
-      //add by qjb
+      //add by qjb 保存邀请者，给他对应的邀请者奖励
       e.prototype.saveInvitePlayer = function() {
         if (void 0 != t.WeChat.onShowQuery && null != t.WeChat.onShowQuery)
           try {
@@ -22198,20 +22198,31 @@ var rare;
     function e() {
       this._initLocal = !1, this.tempDbVersion = 0, this.isVideoAdCanPlay = !0, this.playVideoTimes = 0;
     }
-    return e.Instance = function() {
+
+    e.Instance = function() {
       return null == e._gameData && (e._gameData = new e()), e._gameData;
-    }, e.prototype.init = function() {
+    };
+
+    e.prototype.init = function() {
       this.gameDataReady = !1, this._playerModule = asgard.module.ModuleManager.getModule(t.MODULE_PLAYER),
         this._itemListModule = asgard.module.ModuleManager.getModule(t.MODULE_LIST), this._slotModule = asgard.module.ModuleManager.getModule(t.MODULE_SLOT),
         this._socialModule = asgard.module.ModuleManager.getModule(t.MODULE_SOCIAL), this._lastSaveData = null;
-    }, e.prototype.getGameDataWhenError = function() {
+    };
+
+    e.prototype.getGameDataWhenError = function() {
       console.log("========getGameDataWhenError========="), this._localData = null, this.gameDataReady = !1,
         t.HttpServer.Instance().getUserData(Laya.Handler.create(this, this.OnLoginSuccess), Laya.Handler.create(this, this.OnLoginFailed));
-    }, e.prototype.OnLoginSuccess = function(t) {
+    };
+
+    e.prototype.OnLoginSuccess = function(t) {
       t.result && e.Instance().CheckData(t.result);
-    }, e.prototype.OnLoginFailed = function(t) {}, e.prototype.resetSlotStartTime = function() {
+    };
+
+    e.prototype.OnLoginFailed = function(t) {}, e.prototype.resetSlotStartTime = function() {
       this._slotModule && this._slotModule.resetSlotStartTime();
-    }, e.prototype.startGameFromLocal = function() {
+    };
+
+    e.prototype.startGameFromLocal = function() {
       if (!this._initLocal) {
         this._localData = null;
         try {
@@ -22228,7 +22239,9 @@ var rare;
           console.error("startGameFromLocal error ", t);
         }
       }
-    }, e.prototype.caculatOfflineReward = function(e, i, n, s) {
+    };
+
+    e.prototype.caculatOfflineReward = function(e, i, n, s) {
       t.Utils.getTimestamp();
       console.log("caculatOfflineReward ,", i, n), i = n - i;
       var r = 0;
@@ -22254,39 +22267,70 @@ var rare;
         }
       }
       return r;
-    }, e.prototype.CheckData = function(e) {
+    };
+
+    e.prototype.CheckData = function(e) {
       if (void 0 != e && "" != e) {
-        var i = null,
-          n = null,
-          s = null;
+        var i = null;
+        var n = null;
+        var s = null;
         try {
-          (i = JSON.parse(e)).timestamp = Number(i.timestamp), i.offlineTime = Number(i.offlineTime),
-            i.dbVersion = Number(i.dbVersion), i.shareCoinNum = Number(i.shareCoinNum), i.shareDiamonNum = Number(i.shareDiamonNum),
-            i.upStartTime = Number(i.upStartTime), i.friendDraw = Number(i.friendDraw), i.loginDays = Number(i.loginDays),
-            i.loginRewardDays = Number(i.loginRewardDays), i.lastLoginTime = Number(i.lastLoginTime),
-            i.coin = Number(i.coin), i.diamon = Number(i.diamon), i.speed = Number(i.speed),
-            i.guideStep = Number(i.guideStep), i.shopLevel = Number(i.shopLevel), i.isNewPlayer = "false" != i.isNewPlayer,
-            i.isFly = Number(i.isFly), this._playerModule.Player.shareCoinCount = i.shareCoinNum,
-            this._playerModule.Player.shareDiamonCount = i.shareDiamonNum, this._playerModule.Player.lastLoginTime = i.lastLoginTime,
-            this._playerModule.Player.loginDays = i.loginDays, this._playerModule.Player.loginRewardDays = i.loginRewardDays,
-            this._playerModule.isNewPlayer = i.isNewPlayer, asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_UPDATE_LOGIN_REWARD),
-            this._socialModule.inviteLoginDraw = i.friendDraw, t.Utils.setverTimestamp = i.timestamp;
+          i = JSON.parse(e);
+          i.timestamp = Number(i.timestamp);
+          i.offlineTime = Number(i.offlineTime);
+          i.dbVersion = Number(i.dbVersion);
+          i.shareCoinNum = Number(i.shareCoinNum);
+          i.shareDiamonNum = Number(i.shareDiamonNum);
+          i.upStartTime = Number(i.upStartTime);
+          i.friendDraw = Number(i.friendDraw);
+          i.loginDays = Number(i.loginDays);
+          i.loginRewardDays = Number(i.loginRewardDays);
+          i.lastLoginTime = Number(i.lastLoginTime);
+          i.coin = Number(i.coin);
+          i.diamon = Number(i.diamon);
+          i.speed = Number(i.speed);
+          i.guideStep = Number(i.guideStep);
+          i.shopLevel = Number(i.shopLevel);
+          i.isNewPlayer = "false" != i.isNewPlayer;
+          i.isFly = Number(i.isFly);
+          this._playerModule.Player.shareCoinCount = i.shareCoinNum;
+          this._playerModule.Player.shareDiamonCount = i.shareDiamonNum;
+          this._playerModule.Player.lastLoginTime = i.lastLoginTime;
+          this._playerModule.Player.loginDays = i.loginDays;
+          this._playerModule.Player.loginRewardDays = i.loginRewardDays;
+          this._playerModule.isNewPlayer = i.isNewPlayer;
+          asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_UPDATE_LOGIN_REWARD);
+          this._socialModule.inviteLoginDraw = i.friendDraw;
+          t.Utils.setverTimestamp = i.timestamp;
+
           var r = new Date();
           t.Utils.offsetTimestamp = i.timestamp - r.getTime();
-          var a = JSON.parse(i.slots);
+          var a = JSON.parse(i.slots); // 格子中的所有男友们
           s = [];
           for (l = 0; l < a.length; l++) {
-            (u = JSON.parse(a[l])).id = Number(u.id), u.pos = Number(u.pos), s.push(u);
+            (u = JSON.parse(a[l])).id = Number(u.id),
+              u.pos = Number(u.pos), s.push(u);
           }
-          this._playerModule.SpeedUpEndTime = i.upStartTime, this._playerModule.offLineTime = i.offlineTime;
-          var o = this.caculatOfflineReward(i.isNewPlayer, i.offlineTime, i.timestamp, s);
-          if (this._localData && (console.error("local.dbVersion " + this._localData.dbVersion + " netdbversion " + i.dbVersion),
-              console.error("shareCoinCount " + this._playerModule.Player.shareCoinCount + " shareDiamonCount " + this._playerModule.Player.shareDiamonCount),
-              this._localData.dbVersion >= i.dbVersion)) return void(o > 0 && (this._slotModule.offlineCoin = o,
-            this._playerModule.isGuideOver() && (asgard.ui.UIManager.openView(t.UIPanelID.OFFLINETIP),
-              asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_SHOW_BOX))));
-          this.gameDataReady = !1, asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_GAME_ONHIDE),
-            this._slotModule.offlineCoin = o;
+
+          this._playerModule.SpeedUpEndTime = i.upStartTime,
+            this._playerModule.offLineTime = i.offlineTime;
+          var o = this.caculatOfflineReward(i.isNewPlayer, i.offlineTime, i.timestamp, s); //计算离线奖励
+
+          if (this._localData && (this._localData.dbVersion >= i.dbVersion)) {
+            console.error("local.dbVersion " + this._localData.dbVersion + " netdbversion " + i.dbVersion);
+            console.error("shareCoinCount " + this._playerModule.Player.shareCoinCount + " shareDiamonCount " + this._playerModule.Player.shareDiamonCount);
+
+            return void(o > 0 && (this._slotModule.offlineCoin = o,
+              this._playerModule.isGuideOver() && (
+                asgard.ui.UIManager.openView(t.UIPanelID.OFFLINETIP),
+                asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_SHOW_BOX)
+              )
+            ));
+          }
+
+          this.gameDataReady = !1;
+          asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_GAME_ONHIDE);
+          this._slotModule.offlineCoin = o;
           var h = JSON.parse(i.itemArray);
           n = [];
           for (var l = 0; l < h.length; l++) {
@@ -22305,13 +22349,17 @@ var rare;
           return void console.error(t);
         }
       } else console.log("netData error ");
-    }, e.prototype.postGameData = function(e) {
+    };
+
+    e.prototype.postGameData = function(e) {
       if (this.gameDataReady) {
         var i = this.getPlayerBaseInfo(!0);
         i.shopLevel <= 1 && 0 == i.isFly || "0" == i.coin || i.dbVersion <= 0 || (i.shareGrop = null,
           t.HttpServer.Instance().saveUserData(i, e));
       }
-    }, e.prototype.saveLocalGameData = function() {
+    };
+
+    e.prototype.saveLocalGameData = function() {
       if (this.gameDataReady) {
         var e = this.getPlayerBaseInfo(!1);
         if (e.shopLevel <= 1 && 0 == e.isFly || "0" == e.coin || e.dbVersion <= 0) console.log("保存数据失败11");
@@ -22322,7 +22370,9 @@ var rare;
           t.PlatForm.GetInstance().writeData2File(t.GameConst.LOCAL_CACHE_FILE_PATH, i);
         }
       }
-    }, e.prototype.getPlayerBaseInfo = function(e) {
+    };
+
+    e.prototype.getPlayerBaseInfo = function(e) {
       var i = this._slotModule.AllSlot,
         n = [];
       i ? i.forEach(function(t) {
@@ -22383,7 +22433,9 @@ var rare;
         shareGrop: o,
         isFly: this._playerModule.Player.turnRound
       };
-    }, e.prototype.postRank = function() {
+    };
+
+    e.prototype.postRank = function() {
       if (this.gameDataReady) {
         var t = this._playerModule.Player.Coin + this._slotModule.getCurrSlotRecoveryCoin();
         WxUpdateFriendRank({
@@ -22393,21 +22445,30 @@ var rare;
           openId: this._playerModule.Player.openId
         });
       }
-    }, e.prototype.isCanFly = function() {
+    };
+
+    e.prototype.isCanFly = function() {
       if (this._itemListModule.currOpenLevel < t.GameConst.MAX_LEVEL) return !1;
       for (var e = 0, i = this._slotModule.AllSlot, n = 0; n < i.length; n++) {
         var s = i[n];
         s && s.Post.Lv == t.GameConst.MAX_LEVEL && e++;
       }
       return e >= t.GameConst.FLY_LIMIT_HERO_COUNT;
-    }, e.prototype.doFly = function() {
+    };
+
+    e.prototype.doFly = function() {
       IsMiniGame() ? this.postGameData(Laya.Handler.create(this, this._onFlyOver)) : this._onFlyOver();
-    }, e.prototype._onFlyOver = function() {
+    };
+
+    e.prototype._onFlyOver = function() {
       this._playerModule.doFly(), this._itemListModule.doFly(), this._slotModule.doFly(),
         this._socialModule.doFly(), asgard.events.EventsDispatcher.eventNotify(t.GameEvents.EVENT_GAME_ONSHOW),
         this.postGameData(), this.saveLocalGameData(), this.postRank(), WxGetFriendRankList();
-    }, e;
+    };
+
+    return e;
   }();
+  
   t.GameData = e;
 }(logic || (logic = {}));
 
