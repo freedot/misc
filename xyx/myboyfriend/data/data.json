@@ -1,0 +1,2568 @@
+{
+    "_values": [
+        {
+            "_sheetId": 1,
+            "_sheetName": "Post",
+            "_containsReferenceField": false,
+            "_containsTextBlockField": false,
+            "_dataMap": {
+                "_values": [
+                    {
+                        "Id": 1,
+                        "Lv": 1,
+                        "Name": "小乞丐",
+                        "Icon": "01.png",
+                        "Price": 100,
+                        "Produce": 25,
+                        "Time": 3600,
+                        "Offline": 4,
+                        "Dprice": 0,
+                        "Up": 0,
+                        "Reward": 0
+                    },
+                    {
+                        "Id": 2,
+                        "Lv": 2,
+                        "Name": "包身工",
+                        "Icon": "02.png",
+                        "Price": 1500,
+                        "Produce": 50,
+                        "Time": 3570,
+                        "Offline": 8,
+                        "Dprice": 0,
+                        "Up": 0,
+                        "Reward": 50
+                    },
+                    {
+                        "Id": 3,
+                        "Lv": 3,
+                        "Name": "短工",
+                        "Icon": "03.png",
+                        "Price": 6750,
+                        "Produce": 100,
+                        "Time": 3540,
+                        "Offline": 17,
+                        "Dprice": 0,
+                        "Up": 2,
+                        "Reward": 65
+                    },
+                    {
+                        "Id": 4,
+                        "Lv": 4,
+                        "Name": "长工",
+                        "Icon": "04.png",
+                        "Price": 17955,
+                        "Produce": 200,
+                        "Time": 3510,
+                        "Offline": 34,
+                        "Dprice": 20,
+                        "Up": 3,
+                        "Reward": 80
+                    },
+                    {
+                        "Id": 5,
+                        "Lv": 5,
+                        "Name": "佃户",
+                        "Icon": "05.png",
+                        "Price": 47760,
+                        "Produce": 400,
+                        "Time": 3480,
+                        "Offline": 71,
+                        "Dprice": 26,
+                        "Up": 5,
+                        "Reward": 95
+                    },
+                    {
+                        "Id": 6,
+                        "Lv": 6,
+                        "Name": "贫农",
+                        "Icon": "06.png",
+                        "Price": 127042,
+                        "Produce": 800,
+                        "Time": 3450,
+                        "Offline": 145,
+                        "Dprice": 35,
+                        "Up": 9,
+                        "Reward": 110
+                    },
+                    {
+                        "Id": 7,
+                        "Lv": 7,
+                        "Name": "渔夫",
+                        "Icon": "07.png",
+                        "Price": 337933,
+                        "Produce": 1600,
+                        "Time": 3420,
+                        "Offline": 297,
+                        "Dprice": 47,
+                        "Up": 15,
+                        "Reward": 125
+                    },
+                    {
+                        "Id": 8,
+                        "Lv": 8,
+                        "Name": "猎人",
+                        "Icon": "08.png",
+                        "Price": 898910.75,
+                        "Produce": 3200,
+                        "Time": 3390,
+                        "Offline": 609,
+                        "Dprice": 62,
+                        "Up": 23,
+                        "Reward": 140
+                    },
+                    {
+                        "Id": 9,
+                        "Lv": 9,
+                        "Name": "中农",
+                        "Icon": "09.png",
+                        "Price": 2391126.5,
+                        "Produce": 6400,
+                        "Time": 3360,
+                        "Offline": 1248,
+                        "Dprice": 80,
+                        "Up": 33,
+                        "Reward": 155
+                    },
+                    {
+                        "Id": 10,
+                        "Lv": 10,
+                        "Name": "富农",
+                        "Icon": "10.png",
+                        "Price": 6360460,
+                        "Produce": 12800,
+                        "Time": 3330,
+                        "Offline": 2558,
+                        "Dprice": 101,
+                        "Up": 45,
+                        "Reward": 170
+                    },
+                    {
+                        "Id": 11,
+                        "Lv": 11,
+                        "Name": "掌柜",
+                        "Icon": "11.png",
+                        "Price": 16918992,
+                        "Produce": 25600,
+                        "Time": 3300,
+                        "Offline": 5243,
+                        "Dprice": 125,
+                        "Up": 59,
+                        "Reward": 185
+                    },
+                    {
+                        "Id": 12,
+                        "Lv": 12,
+                        "Name": "商人",
+                        "Icon": "12.png",
+                        "Price": 45004968,
+                        "Produce": 51200,
+                        "Time": 3270,
+                        "Offline": 10749,
+                        "Dprice": 152,
+                        "Up": 75,
+                        "Reward": 200
+                    },
+                    {
+                        "Id": 13,
+                        "Lv": 13,
+                        "Name": "财主",
+                        "Icon": "13.png",
+                        "Price": 119714416,
+                        "Produce": 102400,
+                        "Time": 3240,
+                        "Offline": 22035,
+                        "Dprice": 182,
+                        "Up": 93,
+                        "Reward": 215
+                    },
+                    {
+                        "Id": 14,
+                        "Lv": 14,
+                        "Name": "兵卒",
+                        "Icon": "14.png",
+                        "Price": 318443520,
+                        "Produce": 204800,
+                        "Time": 3210,
+                        "Offline": 45171,
+                        "Dprice": 215,
+                        "Up": 113,
+                        "Reward": 230
+                    },
+                    {
+                        "Id": 15,
+                        "Lv": 15,
+                        "Name": "武卒",
+                        "Icon": "15.png",
+                        "Price": 847068224,
+                        "Produce": 409600,
+                        "Time": 3180,
+                        "Offline": 92601,
+                        "Dprice": 251,
+                        "Up": 135,
+                        "Reward": 245
+                    },
+                    {
+                        "Id": 16,
+                        "Lv": 16,
+                        "Name": "伍长",
+                        "Icon": "16.png",
+                        "Price": 2253223936,
+                        "Produce": 819200,
+                        "Time": 3150,
+                        "Offline": 189831,
+                        "Dprice": 296,
+                        "Up": 159,
+                        "Reward": 260
+                    },
+                    {
+                        "Id": 17,
+                        "Lv": 17,
+                        "Name": "衙内",
+                        "Icon": "17.png",
+                        "Price": 5993635328,
+                        "Produce": 1638400,
+                        "Time": 3120,
+                        "Offline": 389154,
+                        "Dprice": 350,
+                        "Up": 185,
+                        "Reward": 275
+                    },
+                    {
+                        "Id": 18,
+                        "Lv": 18,
+                        "Name": "捕快",
+                        "Icon": "18.png",
+                        "Price": 15943229440,
+                        "Produce": 3276800,
+                        "Time": 3090,
+                        "Offline": 797766,
+                        "Dprice": 413,
+                        "Up": 213,
+                        "Reward": 290
+                    },
+                    {
+                        "Id": 19,
+                        "Lv": 19,
+                        "Name": "捕头",
+                        "Icon": "19.png",
+                        "Price": 42409414656,
+                        "Produce": 6553600,
+                        "Time": 3060,
+                        "Offline": 1635421,
+                        "Dprice": 485,
+                        "Up": 243,
+                        "Reward": 305
+                    },
+                    {
+                        "Id": 20,
+                        "Lv": 20,
+                        "Name": "千夫长",
+                        "Icon": "20.png",
+                        "Price": 112810172416,
+                        "Produce": 13107200,
+                        "Time": 3030,
+                        "Offline": 3352612,
+                        "Dprice": 566,
+                        "Up": 275,
+                        "Reward": 320
+                    },
+                    {
+                        "Id": 21,
+                        "Lv": 21,
+                        "Name": "步军副尉",
+                        "Icon": "21.png",
+                        "Price": 300078039040,
+                        "Produce": 26214400,
+                        "Time": 3000,
+                        "Offline": 6872855,
+                        "Dprice": 656,
+                        "Up": 309,
+                        "Reward": 335
+                    },
+                    {
+                        "Id": 22,
+                        "Lv": 22,
+                        "Name": "防守尉",
+                        "Icon": "22.png",
+                        "Price": 798215569408,
+                        "Produce": 52428800,
+                        "Time": 2970,
+                        "Offline": 14089354,
+                        "Dprice": 755,
+                        "Up": 345,
+                        "Reward": 350
+                    },
+                    {
+                        "Id": 23,
+                        "Lv": 23,
+                        "Name": "知县",
+                        "Icon": "23.png",
+                        "Price": 2123274649600,
+                        "Produce": 104857600,
+                        "Time": 2940,
+                        "Offline": 28883176,
+                        "Dprice": 863,
+                        "Up": 383,
+                        "Reward": 365
+                    },
+                    {
+                        "Id": 24,
+                        "Lv": 24,
+                        "Name": "知府",
+                        "Icon": "24.png",
+                        "Price": 5647966928896,
+                        "Produce": 209715200,
+                        "Time": 2910,
+                        "Offline": 59210508,
+                        "Dprice": 980,
+                        "Up": 423,
+                        "Reward": 380
+                    },
+                    {
+                        "Id": 25,
+                        "Lv": 25,
+                        "Name": "巡抚",
+                        "Icon": "25.png",
+                        "Price": 15023742124032,
+                        "Produce": 419430400,
+                        "Time": 2880,
+                        "Offline": 121381544,
+                        "Dprice": 1106,
+                        "Up": 465,
+                        "Reward": 395
+                    },
+                    {
+                        "Id": 26,
+                        "Lv": 26,
+                        "Name": "骁骑参领",
+                        "Icon": "26.png",
+                        "Price": 39963550810112,
+                        "Produce": 838860800,
+                        "Time": 2850,
+                        "Offline": 248832160,
+                        "Dprice": 1241,
+                        "Up": 509,
+                        "Reward": 410
+                    },
+                    {
+                        "Id": 27,
+                        "Lv": 27,
+                        "Name": "副将",
+                        "Icon": "27.png",
+                        "Price": 106304114786304,
+                        "Produce": 1677721600,
+                        "Time": 2820,
+                        "Offline": 510105952,
+                        "Dprice": 1385,
+                        "Up": 555,
+                        "Reward": 425
+                    },
+                    {
+                        "Id": 28,
+                        "Lv": 28,
+                        "Name": "将军",
+                        "Icon": "28.png",
+                        "Price": 282771754844160,
+                        "Produce": 3355443200,
+                        "Time": 2790,
+                        "Offline": 1045717184,
+                        "Dprice": 1538,
+                        "Up": 603,
+                        "Reward": 440
+                    },
+                    {
+                        "Id": 29,
+                        "Lv": 29,
+                        "Name": "总督",
+                        "Icon": "29.png",
+                        "Price": 752180374011904,
+                        "Produce": 6710886400,
+                        "Time": 2760,
+                        "Offline": 2143720192,
+                        "Dprice": 1700,
+                        "Up": 653,
+                        "Reward": 455
+                    },
+                    {
+                        "Id": 30,
+                        "Lv": 30,
+                        "Name": "尚书",
+                        "Icon": "30.png",
+                        "Price": 2000819775864832,
+                        "Produce": 13421772800,
+                        "Time": 2730,
+                        "Offline": 4394626560,
+                        "Dprice": 1871,
+                        "Up": 705,
+                        "Reward": 470
+                    },
+                    {
+                        "Id": 31,
+                        "Lv": 31,
+                        "Name": "内阁大学士",
+                        "Icon": "31.png",
+                        "Price": 5322233815760896,
+                        "Produce": 26843545600,
+                        "Time": 2700,
+                        "Offline": 9008984064,
+                        "Dprice": 2051,
+                        "Up": 759,
+                        "Reward": 485
+                    },
+                    {
+                        "Id": 32,
+                        "Lv": 32,
+                        "Name": "宰相",
+                        "Icon": "32.png",
+                        "Price": 14157283801956352,
+                        "Produce": 53687091200,
+                        "Time": 2670,
+                        "Offline": 18468417536,
+                        "Dprice": 2240,
+                        "Up": 815,
+                        "Reward": 500
+                    },
+                    {
+                        "Id": 33,
+                        "Lv": 33,
+                        "Name": "侯爷",
+                        "Icon": "33.png",
+                        "Price": 37658749992697860,
+                        "Produce": 107374182400,
+                        "Time": 2640,
+                        "Offline": 37860257792,
+                        "Dprice": 2438,
+                        "Up": 873,
+                        "Reward": 515
+                    },
+                    {
+                        "Id": 34,
+                        "Lv": 34,
+                        "Name": "亲王",
+                        "Icon": "34.png",
+                        "Price": 100173274591264770,
+                        "Produce": 214748364800,
+                        "Time": 2610,
+                        "Offline": 75720515584,
+                        "Dprice": 2645,
+                        "Up": 933,
+                        "Reward": 530
+                    },
+                    {
+                        "Id": 35,
+                        "Lv": 35,
+                        "Name": "皇上",
+                        "Icon": "35.png",
+                        "Price": 266463567794929660,
+                        "Produce": 429496729600,
+                        "Time": 2580,
+                        "Offline": 151441031168,
+                        "Dprice": 2861,
+                        "Up": 995,
+                        "Reward": 545
+                    },
+                    {
+                        "Id": 36,
+                        "Lv": 36,
+                        "Name": "太上皇",
+                        "Icon": "36.png",
+                        "Price": 708800170845798400,
+                        "Produce": 858993459200,
+                        "Time": 2550,
+                        "Offline": 302882062336,
+                        "Dprice": 3086,
+                        "Up": 1059,
+                        "Reward": 560
+                    },
+                    {
+                        "Id": 37,
+                        "Lv": 37,
+                        "Name": "无上皇",
+                        "Icon": "37.png",
+                        "Price": 1885427283586449400,
+                        "Produce": 1717986918400,
+                        "Time": 2520,
+                        "Offline": 605764124672,
+                        "Dprice": 3320,
+                        "Up": 1125,
+                        "Reward": 575
+                    }
+                ],
+                "_keys": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                ]
+            },
+            "_dataList": [
+                {
+                    "Id": 1,
+                    "Lv": 1,
+                    "Name": "小乞丐",
+                    "Icon": "01.png",
+                    "Price": 100,
+                    "Produce": 25,
+                    "Time": 3600,
+                    "Offline": 4,
+                    "Dprice": 0,
+                    "Up": 0,
+                    "Reward": 0
+                },
+                {
+                    "Id": 2,
+                    "Lv": 2,
+                    "Name": "包身工",
+                    "Icon": "02.png",
+                    "Price": 1500,
+                    "Produce": 50,
+                    "Time": 3570,
+                    "Offline": 8,
+                    "Dprice": 0,
+                    "Up": 0,
+                    "Reward": 50
+                },
+                {
+                    "Id": 3,
+                    "Lv": 3,
+                    "Name": "短工",
+                    "Icon": "03.png",
+                    "Price": 6750,
+                    "Produce": 100,
+                    "Time": 3540,
+                    "Offline": 17,
+                    "Dprice": 0,
+                    "Up": 2,
+                    "Reward": 65
+                },
+                {
+                    "Id": 4,
+                    "Lv": 4,
+                    "Name": "长工",
+                    "Icon": "04.png",
+                    "Price": 17955,
+                    "Produce": 200,
+                    "Time": 3510,
+                    "Offline": 34,
+                    "Dprice": 20,
+                    "Up": 3,
+                    "Reward": 80
+                },
+                {
+                    "Id": 5,
+                    "Lv": 5,
+                    "Name": "佃户",
+                    "Icon": "05.png",
+                    "Price": 47760,
+                    "Produce": 400,
+                    "Time": 3480,
+                    "Offline": 71,
+                    "Dprice": 26,
+                    "Up": 5,
+                    "Reward": 95
+                },
+                {
+                    "Id": 6,
+                    "Lv": 6,
+                    "Name": "贫农",
+                    "Icon": "06.png",
+                    "Price": 127042,
+                    "Produce": 800,
+                    "Time": 3450,
+                    "Offline": 145,
+                    "Dprice": 35,
+                    "Up": 9,
+                    "Reward": 110
+                },
+                {
+                    "Id": 7,
+                    "Lv": 7,
+                    "Name": "渔夫",
+                    "Icon": "07.png",
+                    "Price": 337933,
+                    "Produce": 1600,
+                    "Time": 3420,
+                    "Offline": 297,
+                    "Dprice": 47,
+                    "Up": 15,
+                    "Reward": 125
+                },
+                {
+                    "Id": 8,
+                    "Lv": 8,
+                    "Name": "猎人",
+                    "Icon": "08.png",
+                    "Price": 898910.75,
+                    "Produce": 3200,
+                    "Time": 3390,
+                    "Offline": 609,
+                    "Dprice": 62,
+                    "Up": 23,
+                    "Reward": 140
+                },
+                {
+                    "Id": 9,
+                    "Lv": 9,
+                    "Name": "中农",
+                    "Icon": "09.png",
+                    "Price": 2391126.5,
+                    "Produce": 6400,
+                    "Time": 3360,
+                    "Offline": 1248,
+                    "Dprice": 80,
+                    "Up": 33,
+                    "Reward": 155
+                },
+                {
+                    "Id": 10,
+                    "Lv": 10,
+                    "Name": "富农",
+                    "Icon": "10.png",
+                    "Price": 6360460,
+                    "Produce": 12800,
+                    "Time": 3330,
+                    "Offline": 2558,
+                    "Dprice": 101,
+                    "Up": 45,
+                    "Reward": 170
+                },
+                {
+                    "Id": 11,
+                    "Lv": 11,
+                    "Name": "掌柜",
+                    "Icon": "11.png",
+                    "Price": 16918992,
+                    "Produce": 25600,
+                    "Time": 3300,
+                    "Offline": 5243,
+                    "Dprice": 125,
+                    "Up": 59,
+                    "Reward": 185
+                },
+                {
+                    "Id": 12,
+                    "Lv": 12,
+                    "Name": "商人",
+                    "Icon": "12.png",
+                    "Price": 45004968,
+                    "Produce": 51200,
+                    "Time": 3270,
+                    "Offline": 10749,
+                    "Dprice": 152,
+                    "Up": 75,
+                    "Reward": 200
+                },
+                {
+                    "Id": 13,
+                    "Lv": 13,
+                    "Name": "财主",
+                    "Icon": "13.png",
+                    "Price": 119714416,
+                    "Produce": 102400,
+                    "Time": 3240,
+                    "Offline": 22035,
+                    "Dprice": 182,
+                    "Up": 93,
+                    "Reward": 215
+                },
+                {
+                    "Id": 14,
+                    "Lv": 14,
+                    "Name": "兵卒",
+                    "Icon": "14.png",
+                    "Price": 318443520,
+                    "Produce": 204800,
+                    "Time": 3210,
+                    "Offline": 45171,
+                    "Dprice": 215,
+                    "Up": 113,
+                    "Reward": 230
+                },
+                {
+                    "Id": 15,
+                    "Lv": 15,
+                    "Name": "武卒",
+                    "Icon": "15.png",
+                    "Price": 847068224,
+                    "Produce": 409600,
+                    "Time": 3180,
+                    "Offline": 92601,
+                    "Dprice": 251,
+                    "Up": 135,
+                    "Reward": 245
+                },
+                {
+                    "Id": 16,
+                    "Lv": 16,
+                    "Name": "伍长",
+                    "Icon": "16.png",
+                    "Price": 2253223936,
+                    "Produce": 819200,
+                    "Time": 3150,
+                    "Offline": 189831,
+                    "Dprice": 296,
+                    "Up": 159,
+                    "Reward": 260
+                },
+                {
+                    "Id": 17,
+                    "Lv": 17,
+                    "Name": "衙内",
+                    "Icon": "17.png",
+                    "Price": 5993635328,
+                    "Produce": 1638400,
+                    "Time": 3120,
+                    "Offline": 389154,
+                    "Dprice": 350,
+                    "Up": 185,
+                    "Reward": 275
+                },
+                {
+                    "Id": 18,
+                    "Lv": 18,
+                    "Name": "捕快",
+                    "Icon": "18.png",
+                    "Price": 15943229440,
+                    "Produce": 3276800,
+                    "Time": 3090,
+                    "Offline": 797766,
+                    "Dprice": 413,
+                    "Up": 213,
+                    "Reward": 290
+                },
+                {
+                    "Id": 19,
+                    "Lv": 19,
+                    "Name": "捕头",
+                    "Icon": "19.png",
+                    "Price": 42409414656,
+                    "Produce": 6553600,
+                    "Time": 3060,
+                    "Offline": 1635421,
+                    "Dprice": 485,
+                    "Up": 243,
+                    "Reward": 305
+                },
+                {
+                    "Id": 20,
+                    "Lv": 20,
+                    "Name": "千夫长",
+                    "Icon": "20.png",
+                    "Price": 112810172416,
+                    "Produce": 13107200,
+                    "Time": 3030,
+                    "Offline": 3352612,
+                    "Dprice": 566,
+                    "Up": 275,
+                    "Reward": 320
+                },
+                {
+                    "Id": 21,
+                    "Lv": 21,
+                    "Name": "步军副尉",
+                    "Icon": "21.png",
+                    "Price": 300078039040,
+                    "Produce": 26214400,
+                    "Time": 3000,
+                    "Offline": 6872855,
+                    "Dprice": 656,
+                    "Up": 309,
+                    "Reward": 335
+                },
+                {
+                    "Id": 22,
+                    "Lv": 22,
+                    "Name": "防守尉",
+                    "Icon": "22.png",
+                    "Price": 798215569408,
+                    "Produce": 52428800,
+                    "Time": 2970,
+                    "Offline": 14089354,
+                    "Dprice": 755,
+                    "Up": 345,
+                    "Reward": 350
+                },
+                {
+                    "Id": 23,
+                    "Lv": 23,
+                    "Name": "知县",
+                    "Icon": "23.png",
+                    "Price": 2123274649600,
+                    "Produce": 104857600,
+                    "Time": 2940,
+                    "Offline": 28883176,
+                    "Dprice": 863,
+                    "Up": 383,
+                    "Reward": 365
+                },
+                {
+                    "Id": 24,
+                    "Lv": 24,
+                    "Name": "知府",
+                    "Icon": "24.png",
+                    "Price": 5647966928896,
+                    "Produce": 209715200,
+                    "Time": 2910,
+                    "Offline": 59210508,
+                    "Dprice": 980,
+                    "Up": 423,
+                    "Reward": 380
+                },
+                {
+                    "Id": 25,
+                    "Lv": 25,
+                    "Name": "巡抚",
+                    "Icon": "25.png",
+                    "Price": 15023742124032,
+                    "Produce": 419430400,
+                    "Time": 2880,
+                    "Offline": 121381544,
+                    "Dprice": 1106,
+                    "Up": 465,
+                    "Reward": 395
+                },
+                {
+                    "Id": 26,
+                    "Lv": 26,
+                    "Name": "骁骑参领",
+                    "Icon": "26.png",
+                    "Price": 39963550810112,
+                    "Produce": 838860800,
+                    "Time": 2850,
+                    "Offline": 248832160,
+                    "Dprice": 1241,
+                    "Up": 509,
+                    "Reward": 410
+                },
+                {
+                    "Id": 27,
+                    "Lv": 27,
+                    "Name": "副将",
+                    "Icon": "27.png",
+                    "Price": 106304114786304,
+                    "Produce": 1677721600,
+                    "Time": 2820,
+                    "Offline": 510105952,
+                    "Dprice": 1385,
+                    "Up": 555,
+                    "Reward": 425
+                },
+                {
+                    "Id": 28,
+                    "Lv": 28,
+                    "Name": "将军",
+                    "Icon": "28.png",
+                    "Price": 282771754844160,
+                    "Produce": 3355443200,
+                    "Time": 2790,
+                    "Offline": 1045717184,
+                    "Dprice": 1538,
+                    "Up": 603,
+                    "Reward": 440
+                },
+                {
+                    "Id": 29,
+                    "Lv": 29,
+                    "Name": "总督",
+                    "Icon": "29.png",
+                    "Price": 752180374011904,
+                    "Produce": 6710886400,
+                    "Time": 2760,
+                    "Offline": 2143720192,
+                    "Dprice": 1700,
+                    "Up": 653,
+                    "Reward": 455
+                },
+                {
+                    "Id": 30,
+                    "Lv": 30,
+                    "Name": "尚书",
+                    "Icon": "30.png",
+                    "Price": 2000819775864832,
+                    "Produce": 13421772800,
+                    "Time": 2730,
+                    "Offline": 4394626560,
+                    "Dprice": 1871,
+                    "Up": 705,
+                    "Reward": 470
+                },
+                {
+                    "Id": 31,
+                    "Lv": 31,
+                    "Name": "内阁大学士",
+                    "Icon": "31.png",
+                    "Price": 5322233815760896,
+                    "Produce": 26843545600,
+                    "Time": 2700,
+                    "Offline": 9008984064,
+                    "Dprice": 2051,
+                    "Up": 759,
+                    "Reward": 485
+                },
+                {
+                    "Id": 32,
+                    "Lv": 32,
+                    "Name": "宰相",
+                    "Icon": "32.png",
+                    "Price": 14157283801956352,
+                    "Produce": 53687091200,
+                    "Time": 2670,
+                    "Offline": 18468417536,
+                    "Dprice": 2240,
+                    "Up": 815,
+                    "Reward": 500
+                },
+                {
+                    "Id": 33,
+                    "Lv": 33,
+                    "Name": "侯爷",
+                    "Icon": "33.png",
+                    "Price": 37658749992697860,
+                    "Produce": 107374182400,
+                    "Time": 2640,
+                    "Offline": 37860257792,
+                    "Dprice": 2438,
+                    "Up": 873,
+                    "Reward": 515
+                },
+                {
+                    "Id": 34,
+                    "Lv": 34,
+                    "Name": "亲王",
+                    "Icon": "34.png",
+                    "Price": 100173274591264770,
+                    "Produce": 214748364800,
+                    "Time": 2610,
+                    "Offline": 75720515584,
+                    "Dprice": 2645,
+                    "Up": 933,
+                    "Reward": 530
+                },
+                {
+                    "Id": 35,
+                    "Lv": 35,
+                    "Name": "皇上",
+                    "Icon": "35.png",
+                    "Price": 266463567794929660,
+                    "Produce": 429496729600,
+                    "Time": 2580,
+                    "Offline": 151441031168,
+                    "Dprice": 2861,
+                    "Up": 995,
+                    "Reward": 545
+                },
+                {
+                    "Id": 36,
+                    "Lv": 36,
+                    "Name": "太上皇",
+                    "Icon": "36.png",
+                    "Price": 708800170845798400,
+                    "Produce": 858993459200,
+                    "Time": 2550,
+                    "Offline": 302882062336,
+                    "Dprice": 3086,
+                    "Up": 1059,
+                    "Reward": 560
+                },
+                {
+                    "Id": 37,
+                    "Lv": 37,
+                    "Name": "无上皇",
+                    "Icon": "37.png",
+                    "Price": 1885427283586449400,
+                    "Produce": 1717986918400,
+                    "Time": 2520,
+                    "Offline": 605764124672,
+                    "Dprice": 3320,
+                    "Up": 1125,
+                    "Reward": 575
+                }
+            ],
+            "_dataFactory": {}
+        },
+        {
+            "_sheetId": 2,
+            "_sheetName": "ShareElement",
+            "_containsReferenceField": false,
+            "_containsTextBlockField": false,
+            "_dataMap": {
+                "_values": [
+                    {
+                        "Id": 101,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 102,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 103,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 104,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 105,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 106,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 107,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 108,
+                        "Type": 1,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 201,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 202,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 203,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 204,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 205,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 206,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 207,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 208,
+                        "Type": 2,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 301,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 302,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 303,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 304,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 305,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 306,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 307,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 308,
+                        "Type": 3,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 401,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 402,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 403,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 404,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 405,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 406,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 407,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 408,
+                        "Type": 4,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 501,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 502,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 503,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 504,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 505,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 506,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 507,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 508,
+                        "Type": 5,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 601,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 602,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 603,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 604,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 605,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 606,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 607,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 608,
+                        "Type": 6,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 701,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 702,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 703,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 704,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 705,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 706,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 707,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 708,
+                        "Type": 7,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 801,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 802,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 803,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 804,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 805,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 806,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 807,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 808,
+                        "Type": 8,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 901,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 902,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 903,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 904,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 905,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 906,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 907,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 908,
+                        "Type": 9,
+                        "Group": 1,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1001,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1002,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1003,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1004,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "想体验一把与众不同的人生吗?",
+                        "Img": "img/kaishi.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1005,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                        "Img": "img/kaijugou.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1006,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                        "Img": "img/danghuangshang.jpg",
+                        "Weights": 1
+                    },
+                    {
+                        "Id": 1007,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "中秋群主不发月饼，这个游戏免费领！",
+                        "Img": "img/yuebing.jpg",
+                        "Weights": 3
+                    },
+                    {
+                        "Id": 1008,
+                        "Type": 10,
+                        "Group": 0,
+                        "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                        "Img": "img/maofang.jpg",
+                        "Weights": 1
+                    }
+                ],
+                "_keys": [
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    401,
+                    402,
+                    403,
+                    404,
+                    405,
+                    406,
+                    407,
+                    408,
+                    501,
+                    502,
+                    503,
+                    504,
+                    505,
+                    506,
+                    507,
+                    508,
+                    601,
+                    602,
+                    603,
+                    604,
+                    605,
+                    606,
+                    607,
+                    608,
+                    701,
+                    702,
+                    703,
+                    704,
+                    705,
+                    706,
+                    707,
+                    708,
+                    801,
+                    802,
+                    803,
+                    804,
+                    805,
+                    806,
+                    807,
+                    808,
+                    901,
+                    902,
+                    903,
+                    904,
+                    905,
+                    906,
+                    907,
+                    908,
+                    1001,
+                    1002,
+                    1003,
+                    1004,
+                    1005,
+                    1006,
+                    1007,
+                    1008
+                ]
+            },
+            "_dataList": [
+                {
+                    "Id": 101,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 102,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 103,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 104,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 105,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 106,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 107,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 108,
+                    "Type": 1,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 201,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 202,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 203,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 204,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 205,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 206,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 207,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 208,
+                    "Type": 2,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 301,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 302,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 303,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 304,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 305,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 306,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 307,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 308,
+                    "Type": 3,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 401,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 402,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 403,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 404,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 405,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 406,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 407,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 408,
+                    "Type": 4,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 501,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 502,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 503,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 504,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 505,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 506,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 507,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 508,
+                    "Type": 5,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 601,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 602,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 603,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 604,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 605,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 606,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 607,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 608,
+                    "Type": 6,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 701,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 702,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 703,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 704,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 705,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 706,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 707,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 708,
+                    "Type": 7,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 801,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 802,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 803,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 804,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 805,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 806,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 807,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 808,
+                    "Type": 8,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 901,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 902,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 903,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 904,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 905,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 906,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 907,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 908,
+                    "Type": 9,
+                    "Group": 1,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1001,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1002,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1003,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1004,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "想体验一把与众不同的人生吗?",
+                    "Img": "img/kaishi.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1005,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "开局只是个乞丐,全部财产一条狗,升官发财自己说了算！",
+                    "Img": "img/kaijugou.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1006,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "推荐一个好玩的游戏，在这里你也可以当皇上",
+                    "Img": "img/danghuangshang.jpg",
+                    "Weights": 1
+                },
+                {
+                    "Id": 1007,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "中秋群主不发月饼，这个游戏免费领！",
+                    "Img": "img/yuebing.jpg",
+                    "Weights": 3
+                },
+                {
+                    "Id": 1008,
+                    "Type": 10,
+                    "Group": 0,
+                    "Title": "住茅草房还是皇宫，在这个游戏里，你说了算！",
+                    "Img": "img/maofang.jpg",
+                    "Weights": 1
+                }
+            ],
+            "_dataFactory": {}
+        },
+        {
+            "_sheetId": 3,
+            "_sheetName": "LuckWhreel",
+            "_containsReferenceField": false,
+            "_containsTextBlockField": false,
+            "_dataMap": {
+                "_values": [
+                    {
+                        "Id": 7,
+                        "Type": 1,
+                        "Name": "少量金币",
+                        "Num": 0.10000000149011612,
+                        "Value": 10,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 2,
+                        "Type": 3,
+                        "Name": "转盘券*2",
+                        "Num": 10,
+                        "Value": 5,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 3,
+                        "Type": 1,
+                        "Name": "中量金币",
+                        "Num": 0.20000000298023224,
+                        "Value": 20,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 8,
+                        "Type": 2,
+                        "Name": "钻石200",
+                        "Num": 200,
+                        "Value": 10,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 5,
+                        "Type": 3,
+                        "Name": "转盘券*1",
+                        "Num": 5,
+                        "Value": 15,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 1,
+                        "Type": 1,
+                        "Name": "海量金币",
+                        "Num": 0.6000000238418579,
+                        "Value": 10,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 6,
+                        "Type": 1,
+                        "Name": "大量金币",
+                        "Num": 0.4000000059604645,
+                        "Value": 20,
+                        "SuperValue": 30
+                    },
+                    {
+                        "Id": 4,
+                        "Type": 2,
+                        "Name": "钻石100",
+                        "Num": 100,
+                        "Value": 10,
+                        "SuperValue": 30
+                    }
+                ],
+                "_keys": [
+                    7,
+                    2,
+                    3,
+                    8,
+                    5,
+                    1,
+                    6,
+                    4
+                ]
+            },
+            "_dataList": [
+                {
+                    "Id": 7,
+                    "Type": 1,
+                    "Name": "少量金币",
+                    "Num": 0.10000000149011612,
+                    "Value": 10,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 2,
+                    "Type": 3,
+                    "Name": "转盘券*2",
+                    "Num": 10,
+                    "Value": 5,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 3,
+                    "Type": 1,
+                    "Name": "中量金币",
+                    "Num": 0.20000000298023224,
+                    "Value": 20,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 8,
+                    "Type": 2,
+                    "Name": "钻石200",
+                    "Num": 200,
+                    "Value": 10,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 5,
+                    "Type": 3,
+                    "Name": "转盘券*1",
+                    "Num": 5,
+                    "Value": 15,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 1,
+                    "Type": 1,
+                    "Name": "海量金币",
+                    "Num": 0.6000000238418579,
+                    "Value": 10,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 6,
+                    "Type": 1,
+                    "Name": "大量金币",
+                    "Num": 0.4000000059604645,
+                    "Value": 20,
+                    "SuperValue": 30
+                },
+                {
+                    "Id": 4,
+                    "Type": 2,
+                    "Name": "钻石100",
+                    "Num": 100,
+                    "Value": 10,
+                    "SuperValue": 30
+                }
+            ],
+            "_dataFactory": {}
+        },
+        {
+            "_sheetId": 4,
+            "_sheetName": "Global",
+            "_containsReferenceField": false,
+            "_containsTextBlockField": false,
+            "_dataMap": {
+                "_values": [],
+                "_keys": []
+            },
+            "_dataList": [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "_dataFactory": {}
+        }
+    ],
+    "_keys": [
+        1,
+        2,
+        3,
+        4
+    ]
+}
