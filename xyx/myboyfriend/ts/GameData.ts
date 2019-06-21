@@ -1,5 +1,5 @@
 module logic {
-    class GameData {
+    export class GameData {
         private _initLocal = false;
         private tempDbVersion = 0;
         private isVideoAdCanPlay = true;
@@ -123,6 +123,7 @@ module logic {
                 var shopItems = null;
                 var slots = null;
                 try {
+                    // 服务器下发的数据
                     serverdata = JSON.parse(e);
                     serverdata.timestamp = Number(serverdata.timestamp); // 当前服务器的时间
                     serverdata.offlineTime = Number(serverdata.offlineTime); // 用户上次离线的时间
@@ -141,34 +142,37 @@ module logic {
                     serverdata.shopLevel = Number(serverdata.shopLevel); // 商城等级
                     serverdata.isNewPlayer = "false" != serverdata.isNewPlayer; // 是否是新玩家
                     serverdata.isFly = Number(serverdata.isFly); // 是否飞升
-                    //serverdata.itemArray // 商品列表
+                    serverdata.itemArray; // 商品列表
+                    serverdata.luckyCount; // 幸运大转盘次数
+                    serverdata.luckyShareCount; // 幸运大转盘分享次数
+                    serverdata.luckyUpTime; // 幸运提升时间？
+                    serverdata.slots; //格子
 
-                    /*
-
+                    /* 上传的数据
                     return {
-                        saveTime: logic.Utils.getTimestamp(),
-                        coin: coin,
-                        diamon: this._playerModule.Player.Diamon,
-                        shopLevel: shopLevel,
-                        isNewPlayer: this._playerModule.isNewPlayer,
-                        speedup: this._playerModule.Player.Speed,
-                        upStartTime: logic.Utils.getTimestamp() + 1e3 * this._playerModule.Player.LeftTime,
-                        loginDays: this._playerModule.Player.loginDays,
-                        loginRewardDays: this._playerModule.Player.loginRewardDays,
-                        lastLoginTime: this._playerModule.Player.lastLoginTime,
-                        guideStep: this._playerModule.guideStep,
-                        friendDraw: this._socialModule.inviteLoginDraw,
-                        shareCoinNum: this._playerModule.Player.shareCoinCount,
-                        shareDiamonNum: this._playerModule.Player.shareDiamonCount,
-                        luckyCount: this._playerModule.Player.luckyCount,
-                        luckyShareCount: this._playerModule.Player.luckyShareCount,
-                        luckyUpTime: this._playerModule.Player.luckyUpTime,
-                        dbVersion: this._playerModule.dbVersion,
-                        version: logic.GameConst.VERSION,
-                        slots: slots,
-                        items: shopItems,
-                        shareGrop: shares,
-                        isFly: this._playerModule.Player.turnRound
+                        saveTime: logic.Utils.getTimestamp(), // 存储的时间
+                        coin: coin, // 钱币数量
+                        diamon: this._playerModule.Player.Diamon, // 钻石数量
+                        shopLevel: shopLevel, // 商城等级
+                        isNewPlayer: this._playerModule.isNewPlayer, // 是否是新玩家
+                        speedup: this._playerModule.Player.Speed, // 当前速度
+                        upStartTime: logic.Utils.getTimestamp() + 1e3 * this._playerModule.Player.LeftTime, // 开始加速的时间
+                        loginDays: this._playerModule.Player.loginDays, // 登录天数
+                        loginRewardDays: this._playerModule.Player.loginRewardDays, // 登录奖励的天数
+                        lastLoginTime: this._playerModule.Player.lastLoginTime, // 最近登录时间
+                        guideStep: this._playerModule.guideStep, // 引导步数
+                        friendDraw: this._socialModule.inviteLoginDraw, // 邀请好友今日领奖
+                        shareCoinNum: this._playerModule.Player.shareCoinCount,  // 分享钱的数量
+                        shareDiamonNum: this._playerModule.Player.shareDiamonCount, // 分享钻石的数量
+                        luckyCount: this._playerModule.Player.luckyCount, // 幸运大转盘次数
+                        luckyShareCount: this._playerModule.Player.luckyShareCount, // 幸运大转盘分享次数
+                        luckyUpTime: this._playerModule.Player.luckyUpTime, // 幸运提升时间？
+                        dbVersion: this._playerModule.dbVersion, // db版本
+                        version: logic.GameConst.VERSION, // 游戏数据版本号
+                        slots: slots, // 格子
+                        items: shopItems, // 商品列表
+                        shareGrop: shares, // 分享的列表
+                        isFly: this._playerModule.Player.turnRound // 是否飞升
                     };
                     */
 
@@ -246,10 +250,10 @@ module logic {
             } else console.log("netData error ");
         };
 
-        postGameData(e) {
+        postGameData(callback?: Laya.Handler) {
             if (this.gameDataReady) {
                 var i = this.getPlayerBaseInfo(true);
-                i.shopLevel <= 1 && 0 == i.isFly || "0" == i.coin || i.dbVersion <= 0 || (i.shareGrop = null, logic.HttpServer.Instance().saveUserData(i, e));
+                i.shopLevel <= 1 && 0 == i.isFly || "0" == i.coin || i.dbVersion <= 0 || (i.shareGrop = null, logic.HttpServer.Instance().saveUserData(i, callback));
             }
         };
 
@@ -353,7 +357,9 @@ module logic {
         };
 
         isCanFly() {
-            if (this._itemListModule.currOpenLevel < logic.GameConst.MAX_LEVEL) return !1;
+            if (this._itemListModule.currOpenLevel < logic.GameConst.MAX_LEVEL)
+                return false;
+
             for (var e = 0, i = this._slotModule.AllSlot, n = 0; n < i.length; n++) {
                 var s = i[n];
                 s && s.Post.Lv == logic.GameConst.MAX_LEVEL && e++;

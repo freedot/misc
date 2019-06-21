@@ -1,5 +1,5 @@
 module logic {
-    class PlayerModule extends asgard.module.BaseModule {
+    export class PlayerModule extends asgard.module.BaseModule {
         private _isModify: boolean;
         private _moduleId: number;
         private _player: PlayerInfo;
@@ -16,8 +16,8 @@ module logic {
             this._moduleId = logic.MODULE_PLAYER;
             this._player = new logic.PlayerInfo();
             this._reset();
-            asgard.events.EventsDispatcher.registerEventListener(logic.GameEvents.EVENT_GAME_ONHIDE, this, this._reset),
-                this.testData();
+            asgard.events.EventsDispatcher.registerEventListener(logic.GameEvents.EVENT_GAME_ONHIDE, this, this._reset);
+            this.testData();
         }
 
         get dbVersion() {
@@ -90,7 +90,7 @@ module logic {
         getLoginReward(e) {
             this._player.loginRewardDays += 1;
             this._player.showReward(logic.PlayerInfo.REWARD_TYPE_DIAMON, e, logic.UIPanelID.LOGINDAY),
-            asgard.events.EventsDispatcher.eventNotify(logic.GameEvents.EVENT_UPDATE_LOGIN_REWARD);
+                asgard.events.EventsDispatcher.eventNotify(logic.GameEvents.EVENT_UPDATE_LOGIN_REWARD);
         }
 
         openLuckWheel() {
@@ -100,9 +100,12 @@ module logic {
         _onLuckWheelData(e) {
             var i = new Date(this._player.luckyUpTime);
             var n = new Date(Number(e.luckUpTime));
-            i.toDateString() != n.toDateString() && (this._player.luckyCount = Number(e.luckCount),
-                this._player.luckyShareCount = Number(e.luckShareCount), this._player.luckyUpTime = Number(e.luckUpTime)),
-                console.log("_onLuckWheelData", e), asgard.ui.UIManager.openView(logic.UIPanelID.LUCKYWHEEL);
+            if (i.toDateString() != n.toDateString()) {
+                this._player.luckyCount = Number(e.luckCount);
+                this._player.luckyShareCount = Number(e.luckShareCount), this._player.luckyUpTime = Number(e.luckUpTime);
+            }
+            console.log("_onLuckWheelData", e);
+            asgard.ui.UIManager.openView(logic.UIPanelID.LUCKYWHEEL);
         }
 
         addLuckyTickets() {
