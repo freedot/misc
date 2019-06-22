@@ -8,13 +8,9 @@ exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
 
   return {
-    userInfo: {
-      avatarUrl:'',
-      city:'',
-      province:'',
-      country: '',
-      nickName: ''
-    }
-    //openid: wxContext.OPENID,
+    event,
+    openid: wxContext.OPENID,
+    appid: wxContext.APPID,
+    unionid: wxContext.UNIONID,
   }
 }

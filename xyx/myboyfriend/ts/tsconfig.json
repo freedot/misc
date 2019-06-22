@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "project": ".",
+    "target": "ES5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": ".dist",
+    "moduleResolution": "classic",
+    "newLine": "LF",
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "exclude": [
+  ]
+}

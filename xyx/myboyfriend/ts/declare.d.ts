@@ -3,6 +3,13 @@ declare function WxGetFriendRankList(): void;
 declare function WxUpdateFriendRank(rank: { level: number, turnRound: number, coin: number, openId: string }): void;
 declare function HttpPost(url: string, data: any, onSuccess: Laya.Handler, onFailed: Laya.Handler): void;
 
+declare module wx {
+    export class cloud {
+        static init(): void;
+        static callFunction(args: { name: string, data?:Object, success: (res: any) => void, fail: (err: any) => void }): void;
+    }
+}
+
 declare module Laya {
     export class Handler {
         static create(o: Object, caller: (...args: any) => any): Handler;
