@@ -43,34 +43,43 @@ exports.main = async (event, context) => {
     isNewPlayer = (playerInfo == null);
   }
 
+  let curtime = new Date().getTime();
+
   let result = {
     isNewPlayer: isNewPlayer,
 
     sessionid: '100001',
     openId: wxContext.OPENID,
-    wxSessionkey: '',
+    wxSessionkey: '455abcf9458924234343256080afea23',
 
-    timestamp: Math.floor(new Date().getTime()/1000),
-    offlineTime: 0,
-    dbVersion: -1,
-    shareCoinNum: 0,
-    shareDiamonNum: 0,
-    upStartTime: 0,
-    friendDraw: 0,
-    loginDays: 1,
-    loginRewardDays: 0,
-    lastLoginTime: 0,
-    coin: 0,
-    diamon: 0,
-    speed: 0,
-    guideStep: 0,
-    shopLevel: 0,
-    isFly: false,
     luckyCount: 5,
     luckyShareCount: 5,
     luckyUpTime: 0,
-    itemArray: [],
-    slots: []
+
+    diamonCount1: 0,
+    diamonCount2: 0,
+    strShop: [0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    itemArray: [{id:1, buyUnlock:1, coinUnlock:1, diamonUnlock:0, diamonCount:0,coinCount:0}],
+    strSlot: [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+    slots: [],
+    coin: 4000,
+    diamon: 0,
+    shopLevel: 1,
+    speed: 1,
+    guideStep: 0,
+    timestamp: curtime,
+    upStartTime: curtime,
+    isNewPlayer: true,
+    loginDays: 1,
+    loginRewardDays: 0,
+    lastLoginTime: curtime,
+    friendDraw: 0,
+    friendNum: 0,
+    shareCoinNum: 0,
+    shareDiamonNum: 0,
+    offlineTime: curtime,
+    dbVersion: 1,
+    isFly: false
   };
 
   if (playerInfo != null) {

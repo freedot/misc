@@ -6,7 +6,7 @@ declare function HttpPost(url: string, data: any, onSuccess: Laya.Handler, onFai
 declare module wx {
     export class cloud {
         static init(): void;
-        static callFunction(args: { name: string, data?:Object, success: (res: any) => void, fail: (err: any) => void }): void;
+        static callFunction(args: { name: string, data?: Object, success: (res: any) => void, fail: (err: any) => void }): void;
     }
 }
 
@@ -52,6 +52,13 @@ declare module data {
     }
 }
 
+declare module ui {
+    export class View {
+        createChildren(): void;
+        createView(uicfg: any):void;
+    }
+}
+
 declare module asgard {
     export module module {
         export class BaseModule {
@@ -81,8 +88,8 @@ declare module asgard {
 
     export module ui {
         export class UIManager {
-            static findUIPanel(panelId: number): any;
-            static openView(panelId: number): any;
+            static findUIPanel(panelId: string): any;
+            static openView(panelId: string): any;
         }
     }
 
@@ -100,17 +107,16 @@ declare module logic {
     export let MODULE_SOCIAL: number;
     export let STAGE_ARENA: number;
 
+    export class AddSlotType {
+        static COIN: number;
+        static DIAMON: number;
+    }
+
     export class WeChat {
         static onShowQuery: {
             shareuser: string;
             prop: string;
         }
-    }
-
-    export class UIPanelID {
-        static OFFLINETIP: number;
-        static LOGINDAY: number;
-        static LUCKYWHEEL: number;
     }
 
     export class PlayerInfo {
@@ -132,7 +138,7 @@ declare module logic {
         avatarUrl: string;
         reset(flag?: boolean): void;
         addSpeedTime(t: number): void;
-        showReward(diamon: number, e: any, loginday: number): void;
+        showReward(diamon: number, e: any, logindayPanelId: string): void;
     }
 
     export class GameConst {
@@ -152,6 +158,9 @@ declare module logic {
         static EVENT_UPDATE_LOGIN_REWARD: number;
         static EVENT_HIDE_BOX: number;
         static EVENT_UPDATE_LUCKY_TICKETS: number;
+        static EVENT_GET_SHOP_LIST: number;
+        static EVENT_COMBINE_NEW: number;
+        static EVENT_UPDATE_ITEM_BUY_COUNT: number;
     }
 
     export class Utils {

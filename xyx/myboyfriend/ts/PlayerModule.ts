@@ -58,16 +58,21 @@ module logic {
         }
 
         onGameInit(serverData) {
-            console.error("player dbVersion", serverData.dbVersion);
+            console.log("player dbVersion", serverData.dbVersion);
             this.ConnectTime = serverData.timestamp;
             this.offLineTime = serverData.offlineTime;
-            var e = 0;
-            var i = 0;
-            if (this._dbVersion = serverData.dbVersion, e = Number(serverData.coin), i = Number(serverData.diamon), this._player.Coin = e,
-                this._player.Diamon = i, this._player.luckyCount = serverData.luckyCount ? serverData.luckyCount : 0,
-                this._player.luckyShareCount = serverData.luckyShareCount ? serverData.luckyShareCount : 0, this._player.luckyUpTime = serverData.luckyUpTime ? serverData.luckyShareCount : 0,
-                this._player.Speed = serverData.speed, this.isNewPlayer = serverData.isNewPlayer, this.SpeedUpEndTime = serverData.upStartTime,
-                this.ConnectTime > serverData.upStartTime) {
+
+            this._dbVersion = serverData.dbVersion;
+            this._player.Coin = serverData.coin;
+            this._player.Diamon = serverData.diamon;
+            this._player.luckyCount = serverData.luckyCount ? serverData.luckyCount : 0;
+            this._player.luckyShareCount = serverData.luckyShareCount ? serverData.luckyShareCount : 0;
+            this._player.luckyUpTime = serverData.luckyUpTime ? serverData.luckyUpTime : 0;
+            this._player.Speed = serverData.speed;
+            this.isNewPlayer = serverData.isNewPlayer;
+            this.SpeedUpEndTime = serverData.upStartTime;
+
+            if (this.ConnectTime > serverData.upStartTime) {
                 this._player.addSpeedTime(-1);
             } else {
                 var n = Math.floor(.001 * (serverData.upStartTime - this.ConnectTime));

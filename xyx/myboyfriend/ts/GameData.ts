@@ -118,8 +118,7 @@ module logic {
         };
 
         CheckData(serverdata) {
-            if (void 0 != serverdata && "" != serverdata) {
-                var serverdata = null;
+            if (serverdata != null) {
                 var shopItems = null;
                 var slots = null;
                 try {

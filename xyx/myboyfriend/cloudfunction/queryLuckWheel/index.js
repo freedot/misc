@@ -7,10 +7,10 @@ cloud.init()
 exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
 
+  let curtime = new Date().getTime();
   return {
-    event,
-    openid: wxContext.OPENID,
-    appid: wxContext.APPID,
-    unionid: wxContext.UNIONID,
+    luckCount:5,
+    luckShareCount:0,
+    luckUpTime: curtime
   }
 }
