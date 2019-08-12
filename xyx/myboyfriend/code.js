@@ -23111,7 +23111,7 @@ var logic;
         configurable: !0
       }), Object.defineProperty(t, "STATIC_DATA", {
         get: function() {
-          return "data/Post.bin";
+          return "data/data.json";
         },
         enumerable: !0,
         configurable: !0
