@@ -8555,7 +8555,7 @@ function(t, e, i) {
                 I.__init__(), _._baseClass = I;
             }
           }, e.getUrlEncode = function(t, e) {
-            return -1 != t.indexOf(".fnt") ? "utf8" : "arraybuffer" == e ? "" : "ascii";
+            return (-1 != t.indexOf(".fnt") || -1 != t.indexOf("gameres.json")) ? "utf8" : "arraybuffer" == e ? "" : "ascii";
           }, e.downLoadFile = function(t, e, i, n) {
             void 0 === e && (e = ""), void 0 === n && (n = "ascii");
             x.getFileInfo(t) ? null != i && i.runWith([0]) : x.downLoadFile(t, e, i, n);
@@ -19984,6 +19984,7 @@ function(t, e, i) {
   }(t.ui || (t.ui = {}));
 }(asgard || (asgard = {}));
 
+
 ! function(t) {
   ! function(e) {
     var i = t.utils.DataUtil,
@@ -20017,125 +20018,32 @@ function(t, e, i) {
           }, e;
       }();
     e.BaseStaticData = n;
-    var s = function() {
-      function t(t) {
-        this._textSource = t;
-      }
-      return t.prototype.initData = function() {}, Object.defineProperty(t.prototype, "textSource", {
-        get: function() {
-          return this.textSource;
-        },
-        enumerable: !0,
-        configurable: !0
-      }), t;
-    }();
-    e.BaseTextBlockData = s;
+
     var r = function() {
       function t() {}
-      t.getSheet = function(e) {
-        return t._dataMap.get(e);
-      };
-
       t.getSheetDatas = function(e) {
-        var i = t._dataMap.get(e);
-        return i ? i.getSheetDatas() : null;
-      };
-
-      t.appendSheet = function(e) {
-        var i = t._dataMap.get(e);
-        if (i) return i;
-        var n = new a();
-        return t._dataMap.set(e, n), n;
+        return t._gameres[e];
       };
 
       t.findData = function(e, i) {
-        var n = t._dataMap.get(e);
+        var n = t._gameres[e];
         return null != n ? n.getData(i) : null;
       };
 
-      //add by qjb 表格加载，需要修改为msgpack
-      t.loadStaticData = function(e, n) {
-        var s, r = i.readShort(e),
-          o = new Array(r),
-          h = new Array(r);
-        for (s = 0; s < r; s++) o[s] = i.readInt(e), h[s] = i.readInt(e);
-        var l, u = new Array(r);
-        for (s = 0; s < r; s++)
-          (l = new a()).initDataFactory(n),
-          l.loadSheetData(e), u[s] = l,
-          t._dataMap.set(l.SheetId, l);
-        for (s = 0; s < r; s++) u[s].loadReferenceData();
-        for (s = 0; s < r; s++) u[s].loadTextBlockData();
+      //add by qjb 表格加载
+      t.loadStaticData = function(gameres) {
+        t._gameres = gameres;
       };
-
-      t._dataMap = new Laya.Dictionary();
-
       return t;
     }();
+
     e.StaticDataManager = r;
-    var a = function() {
-      function t() {
-        this._sheetId = 0, this._sheetName = null, this._containsReferenceField = !1, this._containsTextBlockField = !1,
-          this._dataMap = new Laya.Dictionary(), this._dataList = null;
-      }
-      return t.prototype.initDataFactory = function(t) {
-        this._dataFactory = t;
-      }, Object.defineProperty(t.prototype, "SheetId", {
-        get: function() {
-          return this._sheetId;
-        },
-        enumerable: !0,
-        configurable: !0
-      }), Object.defineProperty(t.prototype, "SheetName", {
-        get: function() {
-          return this._sheetName;
-        },
-        enumerable: !0,
-        configurable: !0
-      }), t.prototype.getData = function(t) {
-        return this._dataMap.get(t);
-      }, t.prototype.getSheetDatas = function() {
-        if (null != this._dataList) {
-          var t = this._dataList.length;
-          if (t > 0) {
-            for (var e = new Array(t), i = 0; i < t; i++) e[i] = this._dataList[i];
-            return e;
-          }
-        }
-        return null;
-      }, t.prototype.loadSheetData = function(t) {
-        try {
-          this._sheetName = i.readString(t), this._sheetId = i.readShort(t), i.readString(t);
-          var e = void 0,
-            n = i.readShort(t),
-            s = i.readShort(t);
-          for (e = 0; e < s; e++) i.readString(t), i.readShort(t) > 0 && (this._containsReferenceField = !0),
-            i.readString(t), 7 == i.readByte(t) && (this._containsTextBlockField = !0), i.readByte(t);
-          var r = void 0;
-          for (this._dataList = new Array(n), e = 0; e < n; e++)
-            if (null != (r = this._dataFactory.createStaticData(this._sheetId))) try {
-              r.initialize(t), this._dataList[e] = r, this._dataMap.set(r.Id, r);
-            } catch (t) {}
-        } catch (t) {}
-      }, t.prototype.loadReferenceData = function() {
-        if (null != this._dataList && this._containsReferenceField)
-          for (var t = this._dataList.length, e = 0; e < t; e++) this._dataList[e].initReference();
-      }, t.prototype.loadTextBlockData = function() {
-        if (null != this._dataList && this._containsTextBlockField)
-          for (var t = this._dataList.length, e = 0; e < t; e++) this._dataList[e].initTextBlock();
-      }, Object.defineProperty(t.prototype, "Count", {
-        get: function() {
-          return this._dataList ? this._dataList.length : 0;
-        },
-        enumerable: !0,
-        configurable: !0
-      }), t.prototype.getDataAt = function(t) {
-        return t >= 0 && t < this._dataList.length ? this._dataList[t] : null;
-      }, t;
-    }();
-    e.StaticDataSheet = a;
   }(t.data || (t.data = {}));
 }(asgard || (asgard = {}));
+
+
+
+
 
 ! function(t) {
   ! function(t) {
@@ -23111,7 +23019,7 @@ var logic;
         configurable: !0
       }), Object.defineProperty(t, "STATIC_DATA", {
         get: function() {
-          return "data/data.json";
+          return "res/data/gameres.json";
         },
         enumerable: !0,
         configurable: !0
@@ -23139,7 +23047,7 @@ var logic;
           type: Laya.Loader.ATLAS
         }, {
           url: t.STATIC_DATA,
-          type: Laya.Loader.BUFFER
+          type: Laya.Loader.JSON
         }];
       }, t.getMainPreLoadList = function() {
         return [{
@@ -23260,7 +23168,7 @@ __extends = this && this.__extends || function() {
         this.FloatValue = this.readFloat(t), this.StrValue = this.readString(t), !0;
     }, e.prototype.toString = function() {
       return "Id=" + this.Id + ",Name=" + this.Name + ",IntValue=" + this.IntValue + ",FloatValue=" + this.FloatValue + ",StrValue=" + this.StrValue;
-    }, e.DATA_TYPE = 4, e;
+      }, e.DATA_TYPE = "global", e;
   }(asgard.data.BaseStaticData);
   t.Global = e;
 }(data || (data = {}));
@@ -23301,7 +23209,7 @@ __extends = this && this.__extends || function() {
         this.Num = this.readFloat(t), this.Value = this.readInt(t), this.SuperValue = this.readInt(t), !0;
     }, e.prototype.toString = function() {
       return "Id=" + this.Id + ",Type=" + this.Type + ",Name=" + this.Name + ",Num=" + this.Num + ",Value=" + this.Value + ",SuperValue=" + this.SuperValue;
-    }, e.DATA_TYPE = 3, e;
+    }, e.DATA_TYPE = "luckWheel", e;
   }(asgard.data.BaseStaticData);
   t.LuckWhreel = e;
 }(data || (data = {}));
@@ -23344,7 +23252,7 @@ __extends = this && this.__extends || function() {
         this.Up = this.readInt(t), this.Reward = this.readInt(t), !0;
     }, e.prototype.toString = function() {
       return "Id=" + this.Id + ",Lv=" + this.Lv + ",Name=" + this.Name + ",Icon=" + this.Icon + ",Price=" + this.Price + ",Produce=" + this.Produce + ",Time=" + this.Time + ",Offline=" + this.Offline + ",Dprice=" + this.Dprice + ",Up=" + this.Up + ",Reward=" + this.Reward;
-    }, e.DATA_TYPE = 1, e;
+    }, e.DATA_TYPE = "pets", e;
   }(asgard.data.BaseStaticData);
   t.Post = e;
 }(data || (data = {}));
@@ -23385,7 +23293,7 @@ __extends = this && this.__extends || function() {
         this.Title = this.readString(t), this.Img = this.readString(t), this.Weights = this.readInt(t), !0;
     }, e.prototype.toString = function() {
       return "Id=" + this.Id + ",Type=" + this.Type + ",Group=" + this.Group + ",Title=" + this.Title + ",Img=" + this.Img + ",Weights=" + this.Weights;
-    }, e.DATA_TYPE = 2, e;
+      }, e.DATA_TYPE = "shares", e;
   }(asgard.data.BaseStaticData);
   t.ShareElement = e;
 }(data || (data = {}));
@@ -23718,26 +23626,38 @@ __extends = this && this.__extends || function() {
       }
       return null;
     }, i.prototype.getBuyItemInfo = function() {
-      var t = [],
-        e = this.getCurrUnlockItem();
+      var t = [];
+      var e = this.getCurrUnlockItem();
       e && t.push({
         value: 1,
         item: e
-      }), e.Post.Id - 1 > 0 && t.push({
+      });
+
+      if (e.Post.Id - 1 > 0) {
+        
+      }
+      
+      e.Post.Id - 1 > 0 && t.push({
         value: 1,
         item: this.findItem(e.Post.Id - 1)
-      }), e.Post.Id - 2 > 0 && t.push({
+      });
+      
+      e.Post.Id - 2 > 0 && t.push({
         value: 1,
         item: this.findItem(e.Post.Id - 2)
-      }), e.Post.Id - 3 > 0 && t.push({
+      });
+      
+      e.Post.Id - 3 > 0 && t.push({
         value: 1,
         item: this.findItem(e.Post.Id - 3)
       });
+
       for (var i = t.length - 1; i >= 0; i--) {
         var n = t[i],
           s = 1 << t.length - i - 1;
         n.value = n.item.Price / s;
       }
+
       return t.sort(function(t, e) {
         return t.value - e.value;
       }), t[0].item;
@@ -24756,12 +24676,8 @@ __extends = this && this.__extends || function() {
       //add by qjb 资源加载 游戏表格 分享表格
       i.prototype._onLoadRes = function() {
         this._isLoadCommonRes = !0, t.CommonUI.init();
-        var e = Laya.loader.getRes(t.CommonRes.STATIC_DATA);
-        var i = new Laya.Byte();
-        i.endian = Laya.Byte.LITTLE_ENDIAN;
-        i.writeArrayBuffer(e);
-        i.pos = 0;
-        asgard.data.StaticDataManager.loadStaticData(i, new data.StaticDataFactory());
+        var gameres = Laya.loader.getRes(t.CommonRes.STATIC_DATA);
+        asgard.data.StaticDataManager.loadStaticData(gameres);
         WxPostRankConfig();
         t.ShareInfo.Instance().initShareGroup();
         this._doLoadConfig(t.CommonRes.SHARE_DATA_URL);
