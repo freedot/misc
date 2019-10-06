@@ -20025,9 +20025,9 @@ function(t, e, i) {
         return t._gameres[e];
       };
 
-      t.findData = function(e, i) {
-        var n = t._gameres[e];
-        return null != n ? n.getData(i) : null;
+      t.findData = function(name, index) {
+        var n = t._gameres[name];
+        return null != n ? n[index-1] : null;
       };
 
       //add by qjb 表格加载
@@ -23316,11 +23316,11 @@ var data;
       }
       return null;
     }, e.findPost = function(t) {
-      return asgard.data.StaticDataManager.findData(1, t);
+      return asgard.data.StaticDataManager.findData('pets', t);
     }, e.findShareElement = function(t) {
-      return asgard.data.StaticDataManager.findData(2, t);
+      return asgard.data.StaticDataManager.findData('shares', t);
     }, e.findLuckWhreel = function(t) {
-      return asgard.data.StaticDataManager.findData(3, t);
+      return asgard.data.StaticDataManager.findData('luckWheel', t);
     }, e;
   }();
   t.StaticDataFactory = e;
